@@ -108,15 +108,13 @@ def api_matches():
     partits = _load_partits()
     gent = _load_gent()
     resultats = load_resultats()
-    from team_names import catalan_to_espn
-    from scraper import build_match_key
+    from scraper import get_match_result
 
     rows = []
     for _, row in partits.iterrows():
         parts = row["partit"].split(" - ", 1)
         home, away = parts[0].strip(), parts[1].strip()
-        key = build_match_key(catalan_to_espn(home), catalan_to_espn(away))
-        result = resultats.get(key)
+        result = get_match_result(home, away, resultats)
         match_gent = gent[gent["partit"] == row["partit"]]
         clavats = int((match_gent["punts"] == 15).sum())
         rows.append({
