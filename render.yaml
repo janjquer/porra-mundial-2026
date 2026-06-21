@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: porra-mundial-2026
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: REFRESH_TOKEN
+        generateValue: true
+    disk:
+      name: data
+      mountPath: /opt/render/project/src/data
+      sizeGB: 1
