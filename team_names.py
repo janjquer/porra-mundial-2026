@@ -22,7 +22,8 @@ CATALAN_TO_ESPN = {
     "Curaçao": "Curaçao",
     "Països Baixos": "Netherlands",
     "Japó": "Japan",
-    "Costa d'Ivori": "Ivory Coast",
+    "Costa d'Ivori": "Ivory Coast",   # cometa normal '
+    "Costa d\u2019Ivori": "Ivory Coast",  # cometa tipogràfica '
     "Equador": "Ecuador",
     "Suècia": "Sweden",
     "Tunísia": "Tunisia",
@@ -58,7 +59,6 @@ CATALAN_TO_ESPN = {
 ESPN_TO_CATALAN = {v: k for k, v in CATALAN_TO_ESPN.items()}
 
 # Canonical Catalan name per team (used when writing back to CSV)
-# Picks the most-used variant from the CSVs
 CANONICAL_CATALAN = {
     "Paraguay": "Paraguay",
     "Uruguay": "Uruguay",
