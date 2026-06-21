@@ -1,4 +1,6 @@
 import os
+from datetime import datetime, timezone
+
 import pandas as pd
 
 from scraper import get_match_result, scrape_all
@@ -17,24 +19,39 @@ def _calc_points(pred_home, pred_away, real_home, real_away) -> int:
 
 
 def run(resultats=None) -> pd.DataFrame:
-    """Compute gent DataFrame with updated points. Optionally pass pre-loaded resultats."""
+    """
+    Compute gent DataFrame with updated points.
+
+    Priority logic per row:
+      1. If 'punts' is already set in gent.csv → keep it as-is (manual override).
+      2. If 'punts' is null AND the match has already started/finished → scrape and score.
+      3. If 'punts' is null AND match is in the future → leave as null.
+    """
     if resultats is None:
         resultats = scrape_all()
 
-    partits = pd.read_csv(os.path.join(DATA_DIR, "partits.csv"))
-    pronostics = pd.read_csv(os.path.join(DATA_DIR, "pronostics.csv"))
+    # Read current gent.csv (source of truth for manual punts)
+    gent_path = os.path.join(DATA_DIR, "gent.csv")
+    gent = pd.read_csv(gent_path, parse_dates=["dia"])
 
-    # Join pronostics with match info
-    gent = pronostics.merge(partits, on="n_partit")
+    now = datetime.now(timezone.utc).replace(tzinfo=None)
 
-    # Parse home/away from 'partit' column (format: "TeamA - TeamB")
-    split = gent["partit"].str.split(" - ", n=1, expand=True)
-    gent["home_team"] = split[0].str.strip()
-    gent["away_team"] = split[1].str.strip()
-
-    # Calculate points for each prediction
     def score_row(row):
-        result = get_match_result(row["home_team"], row["away_team"], resultats)
+        # 1. Manual override: punts already set → keep it
+        if pd.notna(row["punts"]):
+            return row["punts"]
+
+        # 2. Match not yet started → don't score
+        match_time = row["dia"]
+        if pd.isna(match_time) or match_time > now:
+            return None
+
+        # 3. punts is null + match has started/finished → try scraping
+        parts = row["partit"].split(" - ", 1)
+        if len(parts) != 2:
+            return None
+        home_catalan, away_catalan = parts[0].strip(), parts[1].strip()
+        result = get_match_result(home_catalan, away_catalan, resultats)
         if result is None:
             return None
         return _calc_points(
@@ -44,12 +61,11 @@ def run(resultats=None) -> pd.DataFrame:
 
     gent["punts"] = gent.apply(score_row, axis=1)
 
-    # Add derived boolean columns
+    # Recompute boolean columns from predictions (not from result)
     gent["victoria_local"] = gent["local"] > gent["visitant"]
     gent["victoria_visitant"] = gent["local"] < gent["visitant"]
     gent["empat"] = gent["local"] == gent["visitant"]
 
-    # Reorder to match original gent.csv schema
     cols = ["nom", "dia", "grup", "partit", "local", "visitant",
             "victoria_local", "victoria_visitant", "empat", "punts"]
     return gent[cols]
@@ -61,7 +77,7 @@ def save(df: pd.DataFrame):
 
 
 def refresh():
-    """Scrape latest scores and recompute all points."""
+    """Scrape latest scores and fill in missing points (respecting manual overrides)."""
     resultats = scrape_all()
     df = run(resultats)
     save(df)
