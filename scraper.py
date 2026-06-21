@@ -86,10 +86,26 @@ def scrape_all() -> dict:
 
 
 def get_match_result(home_catalan: str, away_catalan: str, resultats: dict) -> Optional[dict]:
-    """Look up a match result by Catalan team names."""
     home_espn = catalan_to_espn(home_catalan)
     away_espn = catalan_to_espn(away_catalan)
-    return resultats.get(build_match_key(home_espn, away_espn))
+
+    # Ordre normal
+    result = resultats.get(build_match_key(home_espn, away_espn))
+    if result:
+        return result
+
+    # Ordre invertit — intercanvia els marcadors
+    result = resultats.get(build_match_key(away_espn, home_espn))
+    if result:
+        return {
+            "home_espn": home_espn,
+            "away_espn": away_espn,
+            "home_score": result["away_score"],
+            "away_score": result["home_score"],
+            "date": result["date"],
+        }
+
+    return None
 
 
 if __name__ == "__main__":
