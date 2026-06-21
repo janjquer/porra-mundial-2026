@@ -13,6 +13,7 @@ HEADERS = {"User-Agent": "Mozilla/5.0"}
 
 TOURNAMENT_START = date(2026, 6, 11)
 TOURNAMENT_END = date(2026, 7, 19)
+RESCRAPE_DAYS = 2  # Re-scrapa sempre els últims N dies per agafar partits que acabaven tard
 
 
 def _fetch_day(d: date) -> list[dict]:
@@ -63,20 +64,40 @@ def build_match_key(home_espn: str, away_espn: str) -> str:
 
 
 def scrape_all() -> dict:
-    """Fetch all completed matches since tournament start. Returns {match_key: result}."""
+    """Fetch all completed matches since tournament start. Returns {match_key: result}.
+    
+    Always re-scrapes the last RESCRAPE_DAYS days to catch matches that finished
+    after the previous scrape run.
+    """
     existing = load_resultats()
     today = date.today()
     end = min(today, TOURNAMENT_END)
+    rescrape_from = today - timedelta(days=RESCRAPE_DAYS)
+
     d = TOURNAMENT_START
     new_count = 0
     while d <= end:
-        day_results = _fetch_day(d)
-        for r in day_results:
-            key = build_match_key(r["home_espn"], r["away_espn"])
-            if key not in existing:
-                existing[key] = r
-                new_count += 1
+        # Re-scrape recent days even if already cached
+        if d >= rescrape_from:
+            day_results = _fetch_day(d)
+            for r in day_results:
+                key = build_match_key(r["home_espn"], r["away_espn"])
+                if key not in existing:
+                    existing[key] = r
+                    new_count += 1
+        else:
+            # Older days: only fetch if we have no results for that date
+            date_str = d.isoformat()
+            already_have = any(v["date"] == date_str for v in existing.values())
+            if not already_have:
+                day_results = _fetch_day(d)
+                for r in day_results:
+                    key = build_match_key(r["home_espn"], r["away_espn"])
+                    if key not in existing:
+                        existing[key] = r
+                        new_count += 1
         d += timedelta(days=1)
+
     if new_count:
         save_resultats(existing)
         print(f"[scraper] Fetched {new_count} new results. Total: {len(existing)}")
@@ -86,6 +107,12 @@ def scrape_all() -> dict:
 
 
 def get_match_result(home_catalan: str, away_catalan: str, resultats: dict) -> Optional[dict]:
+    """Look up a match result by Catalan team names.
+    
+    Tries both home|away and away|home orders to handle cases where ESPN
+    has the teams in the opposite order to partits.csv.
+    When found in reverse order, swaps scores so they match the expected home/away.
+    """
     home_espn = catalan_to_espn(home_catalan)
     away_espn = catalan_to_espn(away_catalan)
 
