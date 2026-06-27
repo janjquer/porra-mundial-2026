@@ -1,23 +1,20 @@
+import functools
 import os
+
+from dotenv import load_dotenv
+load_dotenv()
 from datetime import datetime, timedelta, timezone
 
 import pandas as pd
-from flask import Flask, jsonify, render_template, request
+from flask import Flask, jsonify, redirect, render_template, request, session, url_for
 
-from scoring import refresh, run
-from scraper import load_resultats, scrape_all
+from scoring import load_real, refresh, run, save, save_real
 
 app = Flask(__name__)
-DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
+app.secret_key = os.environ.get("SECRET_KEY", "porra2026-secret")
 
-# APScheduler — only start when running as a server, not during imports
-try:
-    from apscheduler.schedulers.background import BackgroundScheduler
-    _scheduler = BackgroundScheduler()
-    _scheduler.add_job(refresh, "interval", minutes=10, id="auto_refresh")
-    _scheduler.start()
-except Exception:
-    _scheduler = None
+DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
+ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "")
 
 
 def _load_gent() -> pd.DataFrame:
@@ -38,6 +35,15 @@ def _standings_at(df: pd.DataFrame, before: datetime) -> pd.DataFrame:
         .sort_values(["puntuacio", "nom"], ascending=[False, True])
         .assign(posicio=lambda x: range(1, len(x) + 1))
     )
+
+
+def login_required(f):
+    @functools.wraps(f)
+    def wrapper(*args, **kwargs):
+        if not session.get("admin"):
+            return redirect(url_for("admin_login"))
+        return f(*args, **kwargs)
+    return wrapper
 
 
 # ── API ──────────────────────────────────────────────────────────────────────
@@ -90,7 +96,6 @@ def api_match(n_partit):
     preds["visitant"] = preds["visitant"].astype(int)
     preds["resultat"] = preds["local"].astype(str) + "-" + preds["visitant"].astype(str)
 
-    # Aggregate predictions
     agg = (
         preds.groupby("resultat")
         .agg(n=("nom", "count"), punts=("punts", "first"))
@@ -107,14 +112,11 @@ def api_match(n_partit):
 def api_matches():
     partits = _load_partits()
     gent = _load_gent()
-    resultats = load_resultats()
-    from scraper import get_match_result
+    real = load_real()
 
     rows = []
     for _, row in partits.iterrows():
-        parts = row["partit"].split(" - ", 1)
-        home, away = parts[0].strip(), parts[1].strip()
-        result = get_match_result(home, away, resultats)
+        result = real.get(row["partit"])
         match_gent = gent[gent["partit"] == row["partit"]]
         clavats = int((match_gent["punts"] == 15).sum())
         rows.append({
@@ -157,26 +159,84 @@ def api_match_clavats():
     return jsonify(mc.to_dict(orient="records"))
 
 
-@app.route("/api/refresh", methods=["POST"])
-def api_refresh():
-    token = request.headers.get("X-Token", "")
-    if token != os.environ.get("REFRESH_TOKEN", "porra2026"):
-        return jsonify({"error": "unauthorized"}), 401
-    df = refresh()
-    scored = int(df["punts"].notna().sum())
-    return jsonify({"ok": True, "scored": scored})
-
-
 @app.route("/api/last-update")
 def api_last_update():
-    resultats = load_resultats()
-    if not resultats:
-        return jsonify({"last_update": None, "n_matches": 0})
-    dates = [v["date"] for v in resultats.values()]
-    return jsonify({"last_update": max(dates), "n_matches": len(resultats)})
+    real = load_real()
+    return jsonify({"n_matches": len(real)})
 
 
-# ── Frontend ─────────────────────────────────────────────────────────────────
+# ── Admin ─────────────────────────────────────────────────────────────────────
+
+@app.route("/admin/login", methods=["GET", "POST"])
+def admin_login():
+    error = None
+    if request.method == "POST":
+        if request.form.get("password") == ADMIN_PASSWORD:
+            session["admin"] = True
+            return redirect(url_for("admin"))
+        error = "Contrasenya incorrecta"
+    return render_template("admin_login.html", error=error)
+
+
+@app.route("/admin/logout")
+def admin_logout():
+    session.pop("admin", None)
+    return redirect(url_for("index"))
+
+
+@app.route("/admin")
+@login_required
+def admin():
+    partits = _load_partits()
+    real = load_real()
+    return render_template("admin.html",
+                           partits=partits.to_dict(orient="records"),
+                           real=real)
+
+
+@app.route("/api/admin/result", methods=["POST"])
+@login_required
+def api_admin_result():
+    data = request.json
+    n_partit = int(data["n_partit"])
+    home_score = int(data["home_score"])
+    away_score = int(data["away_score"])
+
+    partits = _load_partits()
+    row = partits[partits["n_partit"] == n_partit]
+    if row.empty:
+        return jsonify({"error": "Match not found"}), 404
+
+    partit_name = row.iloc[0]["partit"]
+    real = load_real()
+    real[partit_name] = {"home_score": home_score, "away_score": away_score}
+    save_real(real)
+
+    df = run(real)
+    save(df)
+
+    return jsonify({"ok": True, "partit": partit_name})
+
+
+@app.route("/api/admin/result/<int:n_partit>", methods=["DELETE"])
+@login_required
+def api_admin_delete_result(n_partit):
+    partits = _load_partits()
+    row = partits[partits["n_partit"] == n_partit]
+    if row.empty:
+        return jsonify({"error": "Match not found"}), 404
+
+    partit_name = row.iloc[0]["partit"]
+    real = load_real()
+    if partit_name in real:
+        del real[partit_name]
+        save_real(real)
+        df = run(real)
+        save(df)
+    return jsonify({"ok": True})
+
+
+# ── Frontend ──────────────────────────────────────────────────────────────────
 
 @app.route("/")
 def index():
