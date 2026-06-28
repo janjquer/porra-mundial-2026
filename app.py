@@ -120,6 +120,7 @@ def api_match(n_partit):
         .reset_index()
         .sort_values("n", ascending=False)
     )
+    agg["punts"] = agg["punts"].apply(lambda x: None if pd.isna(x) else int(x))
     return jsonify({
         "partit": partit_name,
         "predictions": agg.to_dict(orient="records"),
