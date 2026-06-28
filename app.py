@@ -178,6 +178,40 @@ def api_match_clavats():
     return jsonify(mc.to_dict(orient="records"))
 
 
+JORNADA_RANGES = {1: (1, 24), 2: (25, 48), 3: (49, 72)}
+
+
+@app.route("/api/ranking")
+def api_ranking():
+    grup = request.args.get("grup")
+    jornada = request.args.get("jornada", type=int)
+
+    df = _load_gent()
+
+    if grup:
+        df = df[df["grup"] == grup]
+
+    if jornada and jornada in JORNADA_RANGES:
+        lo, hi = JORNADA_RANGES[jornada]
+        partits = _load_partits()
+        valid = partits[(partits["n_partit"] >= lo) & (partits["n_partit"] <= hi)]["partit"].tolist()
+        df = df[df["partit"].isin(valid)]
+
+    scored = df.dropna(subset=["punts"])
+    if scored.empty:
+        return jsonify([])
+
+    result = (
+        scored.groupby("nom")["punts"]
+        .sum()
+        .reset_index()
+        .rename(columns={"punts": "puntuacio"})
+        .sort_values(["puntuacio", "nom"], ascending=[False, True])
+        .assign(posicio=lambda x: range(1, len(x) + 1))
+    )
+    return jsonify(result.to_dict(orient="records"))
+
+
 @app.route("/api/last-update")
 def api_last_update():
     real = load_real()
