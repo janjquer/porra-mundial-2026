@@ -2,7 +2,7 @@
 Ignacio Giménez,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Ignacio Giménez,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
 Ignacio Giménez,2026-06-12 21:00:00.000,B,Canadà - Bosnia,2.0,1.0,true,false,false,0,3
-Ignacio Giménez,2026-06-13 03:00:00.000,D,EUA - Paraguay,2.0,1.0,true,false,false,8,4
+Ignacio Giménez,2026-06-13 03:00:00.000,D,EUA - Paraguai,2.0,1.0,true,false,false,8,4
 Ignacio Giménez,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,2.0,false,true,false,0,5
 Ignacio Giménez,2026-06-14 00:00:00.000,C,Brasil - Marroc,1.0,1.0,false,false,true,15,6
 Ignacio Giménez,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,3.0,false,true,false,8,7
@@ -30,7 +30,7 @@ Ignacio Giménez,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,2.0,1.0,true,false
 Ignacio Giménez,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,0.0,true,false,false,15,29
 Ignacio Giménez,2026-06-20 00:00:00.000,C,Escòcia - Marroc,1.0,2.0,false,true,false,8,30
 Ignacio Giménez,2026-06-20 02:30:00.000,C,Brasil - Haití,4.0,0.0,true,false,false,9,31
-Ignacio Giménez,2026-06-20 05:00:00.000,D,Turquia - Paraguay,1.0,1.0,false,false,true,0,32
+Ignacio Giménez,2026-06-20 05:00:00.000,D,Turquia - Paraguai,1.0,1.0,false,false,true,0,32
 Ignacio Giménez,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,2.0,0.0,true,false,false,6,33
 Ignacio Giménez,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,3.0,0.0,true,false,false,8,34
 Ignacio Giménez,2026-06-21 02:00:00.000,E,Equador - Curaçao,3.0,0.0,true,false,false,0,35
@@ -69,12 +69,12 @@ Ignacio Giménez,2026-06-27 23:00:00.000,L,Croàcia - Ghana,2.0,1.0,true,false,f
 Ignacio Giménez,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,0.0,3.0,false,true,false,9,68
 Ignacio Giménez,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,1.0,2.0,false,true,false,0,69
 Ignacio Giménez,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,1.0,0.0,true,false,false,7,70
-Ignacio Giménez,2026-06-28 04:00:00.000,J,Algèria - Austria,0.0,2.0,false,true,false,,71
-Ignacio Giménez,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,,72
+Ignacio Giménez,2026-06-28 04:00:00.000,J,Algèria - Austria,0.0,2.0,false,true,false,0,71
+Ignacio Giménez,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,9,72
 Enric Vilalta,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,3.0,1.0,true,false,false,8,1
 Enric Vilalta,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,0.0,2.0,false,true,false,0,2
 Enric Vilalta,2026-06-12 21:00:00.000,B,Canadà - Bosnia,1.0,3.0,false,true,false,0,3
-Enric Vilalta,2026-06-13 03:00:00.000,D,EUA - Paraguay,1.0,1.0,false,false,true,0,4
+Enric Vilalta,2026-06-13 03:00:00.000,D,EUA - Paraguai,1.0,1.0,false,false,true,0,4
 Enric Vilalta,2026-06-13 21:00:00.000,B,Qatar - Suïssa,1.0,2.0,false,true,false,0,5
 Enric Vilalta,2026-06-14 00:00:00.000,C,Brasil - Marroc,2.0,1.0,true,false,false,0,6
 Enric Vilalta,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,2.0,false,true,false,9,7
@@ -102,7 +102,7 @@ Enric Vilalta,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,2.0,0.0,true,false,fa
 Enric Vilalta,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,1.0,true,false,false,9,29
 Enric Vilalta,2026-06-20 00:00:00.000,C,Escòcia - Marroc,1.0,3.0,false,true,false,7,30
 Enric Vilalta,2026-06-20 02:30:00.000,C,Brasil - Haití,4.0,0.0,true,false,false,9,31
-Enric Vilalta,2026-06-20 05:00:00.000,D,Turquia - Paraguay,1.0,0.0,true,false,false,0,32
+Enric Vilalta,2026-06-20 05:00:00.000,D,Turquia - Paraguai,1.0,0.0,true,false,false,0,32
 Enric Vilalta,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,2.0,1.0,true,false,false,7,33
 Enric Vilalta,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,3.0,0.0,true,false,false,8,34
 Enric Vilalta,2026-06-21 02:00:00.000,E,Equador - Curaçao,4.0,0.0,true,false,false,0,35
@@ -141,12 +141,12 @@ Enric Vilalta,2026-06-27 23:00:00.000,L,Croàcia - Ghana,2.0,1.0,true,false,fals
 Enric Vilalta,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,1.0,3.0,false,true,false,8,68
 Enric Vilalta,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,2.0,3.0,false,true,false,0,69
 Enric Vilalta,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,2.0,0.0,true,false,false,8,70
-Enric Vilalta,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,,71
-Enric Vilalta,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,,72
+Enric Vilalta,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,6,71
+Enric Vilalta,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,9,72
 Johan,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Johan,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,2.0,false,true,false,0,2
 Johan,2026-06-12 21:00:00.000,B,Canadà - Bosnia,0.0,2.0,false,true,false,0,3
-Johan,2026-06-13 03:00:00.000,D,EUA - Paraguay,2.0,2.0,false,false,true,0,4
+Johan,2026-06-13 03:00:00.000,D,EUA - Paraguai,2.0,2.0,false,false,true,0,4
 Johan,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,2.0,false,true,false,0,5
 Johan,2026-06-14 00:00:00.000,C,Brasil - Marroc,1.0,2.0,false,true,false,0,6
 Johan,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,2.0,false,true,false,9,7
@@ -174,7 +174,7 @@ Johan,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,1.0,1.0,false,false,true,0,28
 Johan,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,1.0,true,false,false,9,29
 Johan,2026-06-20 00:00:00.000,C,Escòcia - Marroc,1.0,3.0,false,true,false,7,30
 Johan,2026-06-20 02:30:00.000,C,Brasil - Haití,3.0,1.0,true,false,false,9,31
-Johan,2026-06-20 05:00:00.000,D,Turquia - Paraguay,2.0,1.0,true,false,false,0,32
+Johan,2026-06-20 05:00:00.000,D,Turquia - Paraguai,2.0,1.0,true,false,false,0,32
 Johan,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,2.0,2.0,false,false,true,0,33
 Johan,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,4.0,0.0,true,false,false,7,34
 Johan,2026-06-21 02:00:00.000,E,Equador - Curaçao,1.0,0.0,true,false,false,0,35
@@ -213,12 +213,12 @@ Johan,2026-06-27 23:00:00.000,L,Croàcia - Ghana,3.0,1.0,true,false,false,9,67
 Johan,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,0.0,3.0,false,true,false,9,68
 Johan,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,1.0,3.0,false,true,false,0,69
 Johan,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,2.0,2.0,false,false,true,0,70
-Johan,2026-06-28 04:00:00.000,J,Algèria - Austria,2.0,1.0,true,false,false,,71
-Johan,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,,72
+Johan,2026-06-28 04:00:00.000,J,Algèria - Austria,2.0,1.0,true,false,false,0,71
+Johan,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,9,72
 Ignacio Pons Echevarria,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,3.0,1.0,true,false,false,8,1
 Ignacio Pons Echevarria,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,3.0,false,true,false,0,2
 Ignacio Pons Echevarria,2026-06-12 21:00:00.000,B,Canadà - Bosnia,2.0,2.0,false,false,true,8,3
-Ignacio Pons Echevarria,2026-06-13 03:00:00.000,D,EUA - Paraguay,2.0,1.0,true,false,false,8,4
+Ignacio Pons Echevarria,2026-06-13 03:00:00.000,D,EUA - Paraguai,2.0,1.0,true,false,false,8,4
 Ignacio Pons Echevarria,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,3.0,false,true,false,0,5
 Ignacio Pons Echevarria,2026-06-14 00:00:00.000,C,Brasil - Marroc,2.0,2.0,false,false,true,8,6
 Ignacio Pons Echevarria,2026-06-14 03:00:00.000,C,Haití - Escòcia,1.0,3.0,false,true,false,7,7
@@ -246,7 +246,7 @@ Ignacio Pons Echevarria,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,2.0,1.0,tru
 Ignacio Pons Echevarria,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,1.0,true,false,false,9,29
 Ignacio Pons Echevarria,2026-06-20 00:00:00.000,C,Escòcia - Marroc,0.0,2.0,false,true,false,9,30
 Ignacio Pons Echevarria,2026-06-20 02:30:00.000,C,Brasil - Haití,3.0,0.0,true,false,false,15,31
-Ignacio Pons Echevarria,2026-06-20 05:00:00.000,D,Turquia - Paraguay,2.0,0.0,true,false,false,0,32
+Ignacio Pons Echevarria,2026-06-20 05:00:00.000,D,Turquia - Paraguai,2.0,0.0,true,false,false,0,32
 Ignacio Pons Echevarria,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,3.0,1.0,true,false,false,8,33
 Ignacio Pons Echevarria,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,2.0,0.0,true,false,false,9,34
 Ignacio Pons Echevarria,2026-06-21 02:00:00.000,E,Equador - Curaçao,1.0,1.0,false,false,true,8,35
@@ -285,12 +285,12 @@ Ignacio Pons Echevarria,2026-06-27 23:00:00.000,L,Croàcia - Ghana,2.0,1.0,true,
 Ignacio Pons Echevarria,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,0.0,3.0,false,true,false,9,68
 Ignacio Pons Echevarria,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,1.0,3.0,false,true,false,0,69
 Ignacio Pons Echevarria,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,1.0,1.0,false,false,true,0,70
-Ignacio Pons Echevarria,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,2.0,false,true,false,,71
-Ignacio Pons Echevarria,2026-06-28 04:00:00.000,J,Jordània - Argentina,1.0,2.0,false,true,false,,72
+Ignacio Pons Echevarria,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,2.0,false,true,false,0,71
+Ignacio Pons Echevarria,2026-06-28 04:00:00.000,J,Jordània - Argentina,1.0,2.0,false,true,false,9,72
 Ruth Hoya,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Ruth Hoya,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,2.0,4.0,false,true,false,0,2
 Ruth Hoya,2026-06-12 21:00:00.000,B,Canadà - Bosnia,1.0,3.0,false,true,false,0,3
-Ruth Hoya,2026-06-13 03:00:00.000,D,EUA - Paraguay,2.0,2.0,false,false,true,0,4
+Ruth Hoya,2026-06-13 03:00:00.000,D,EUA - Paraguai,2.0,2.0,false,false,true,0,4
 Ruth Hoya,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,2.0,false,true,false,0,5
 Ruth Hoya,2026-06-14 00:00:00.000,C,Brasil - Marroc,3.0,2.0,true,false,false,0,6
 Ruth Hoya,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,1.0,false,true,false,15,7
@@ -318,7 +318,7 @@ Ruth Hoya,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,2.0,1.0,true,false,false,
 Ruth Hoya,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,2.0,false,false,true,0,29
 Ruth Hoya,2026-06-20 00:00:00.000,C,Escòcia - Marroc,1.0,3.0,false,true,false,7,30
 Ruth Hoya,2026-06-20 02:30:00.000,C,Brasil - Haití,5.0,0.0,true,false,false,8,31
-Ruth Hoya,2026-06-20 05:00:00.000,D,Turquia - Paraguay,3.0,2.0,true,false,false,0,32
+Ruth Hoya,2026-06-20 05:00:00.000,D,Turquia - Paraguai,3.0,2.0,true,false,false,0,32
 Ruth Hoya,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,3.0,1.0,true,false,false,8,33
 Ruth Hoya,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,3.0,0.0,true,false,false,8,34
 Ruth Hoya,2026-06-21 02:00:00.000,E,Equador - Curaçao,3.0,0.0,true,false,false,0,35
@@ -357,12 +357,12 @@ Ruth Hoya,2026-06-27 23:00:00.000,L,Croàcia - Ghana,2.0,1.0,true,false,false,15
 Ruth Hoya,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,0.0,3.0,false,true,false,9,68
 Ruth Hoya,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,1.0,3.0,false,true,false,0,69
 Ruth Hoya,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,3.0,0.0,true,false,false,9,70
-Ruth Hoya,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,,71
-Ruth Hoya,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,4.0,false,true,false,,72
+Ruth Hoya,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,6,71
+Ruth Hoya,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,4.0,false,true,false,8,72
 Pablo Ayo De Diego,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Pablo Ayo De Diego,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
 Pablo Ayo De Diego,2026-06-12 21:00:00.000,B,Canadà - Bosnia,1.0,1.0,false,false,true,15,3
-Pablo Ayo De Diego,2026-06-13 03:00:00.000,D,EUA - Paraguay,1.0,1.0,false,false,true,0,4
+Pablo Ayo De Diego,2026-06-13 03:00:00.000,D,EUA - Paraguai,1.0,1.0,false,false,true,0,4
 Pablo Ayo De Diego,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,2.0,false,true,false,0,5
 Pablo Ayo De Diego,2026-06-14 00:00:00.000,C,Brasil - Marroc,2.0,1.0,true,false,false,0,6
 Pablo Ayo De Diego,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,2.0,false,true,false,9,7
@@ -390,7 +390,7 @@ Pablo Ayo De Diego,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,1.0,1.0,false,fa
 Pablo Ayo De Diego,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,1.0,true,false,false,9,29
 Pablo Ayo De Diego,2026-06-20 00:00:00.000,C,Escòcia - Marroc,1.0,2.0,false,true,false,8,30
 Pablo Ayo De Diego,2026-06-20 02:30:00.000,C,Brasil - Haití,4.0,0.0,true,false,false,9,31
-Pablo Ayo De Diego,2026-06-20 05:00:00.000,D,Turquia - Paraguay,1.0,1.0,false,false,true,0,32
+Pablo Ayo De Diego,2026-06-20 05:00:00.000,D,Turquia - Paraguai,1.0,1.0,false,false,true,0,32
 Pablo Ayo De Diego,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,2.0,0.0,true,false,false,6,33
 Pablo Ayo De Diego,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,2.0,1.0,true,false,false,15,34
 Pablo Ayo De Diego,2026-06-21 02:00:00.000,E,Equador - Curaçao,2.0,0.0,true,false,false,0,35
@@ -429,12 +429,12 @@ Pablo Ayo De Diego,2026-06-27 23:00:00.000,L,Croàcia - Ghana,1.0,1.0,false,fals
 Pablo Ayo De Diego,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,0.0,2.0,false,true,false,15,68
 Pablo Ayo De Diego,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,1.0,3.0,false,true,false,0,69
 Pablo Ayo De Diego,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,2.0,2.0,false,false,true,0,70
-Pablo Ayo De Diego,2026-06-28 04:00:00.000,J,Algèria - Austria,0.0,1.0,false,true,false,,71
-Pablo Ayo De Diego,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,,72
+Pablo Ayo De Diego,2026-06-28 04:00:00.000,J,Algèria - Austria,0.0,1.0,false,true,false,0,71
+Pablo Ayo De Diego,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,9,72
 Quimi,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Quimi,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,2.0,1.0,true,false,false,15,2
 Quimi,2026-06-12 21:00:00.000,B,Canadà - Bosnia,2.0,0.0,true,false,false,0,3
-Quimi,2026-06-13 03:00:00.000,D,EUA - Paraguay,2.0,1.0,true,false,false,8,4
+Quimi,2026-06-13 03:00:00.000,D,EUA - Paraguai,2.0,1.0,true,false,false,8,4
 Quimi,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,1.0,false,true,false,0,5
 Quimi,2026-06-14 00:00:00.000,C,Brasil - Marroc,4.0,1.0,true,false,false,0,6
 Quimi,2026-06-14 03:00:00.000,C,Haití - Escòcia,1.0,4.0,false,true,false,6,7
@@ -462,7 +462,7 @@ Quimi,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,2.0,1.0,true,false,false,8,28
 Quimi,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,0.0,true,false,false,15,29
 Quimi,2026-06-20 00:00:00.000,C,Escòcia - Marroc,1.0,3.0,false,true,false,7,30
 Quimi,2026-06-20 02:30:00.000,C,Brasil - Haití,7.0,0.0,true,false,false,6,31
-Quimi,2026-06-20 05:00:00.000,D,Turquia - Paraguay,1.0,1.0,false,false,true,0,32
+Quimi,2026-06-20 05:00:00.000,D,Turquia - Paraguai,1.0,1.0,false,false,true,0,32
 Quimi,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,2.0,1.0,true,false,false,7,33
 Quimi,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,2.0,1.0,true,false,false,15,34
 Quimi,2026-06-21 02:00:00.000,E,Equador - Curaçao,4.0,0.0,true,false,false,0,35
@@ -501,12 +501,12 @@ Quimi,2026-06-27 23:00:00.000,L,Croàcia - Ghana,1.0,1.0,false,false,true,0,67
 Quimi,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,1.0,3.0,false,true,false,8,68
 Quimi,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,2.0,2.0,false,false,true,6,69
 Quimi,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,2.0,1.0,true,false,false,9,70
-Quimi,2026-06-28 04:00:00.000,J,Algèria - Austria,0.0,2.0,false,true,false,,71
-Quimi,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,5.0,false,true,false,,72
+Quimi,2026-06-28 04:00:00.000,J,Algèria - Austria,0.0,2.0,false,true,false,0,71
+Quimi,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,5.0,false,true,false,7,72
 Lluc Farrés I Lansac,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Lluc Farrés I Lansac,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
 Lluc Farrés I Lansac,2026-06-12 21:00:00.000,B,Canadà - Bosnia,3.0,1.0,true,false,false,0,3
-Lluc Farrés I Lansac,2026-06-13 03:00:00.000,D,EUA - Paraguay,1.0,0.0,true,false,false,6,4
+Lluc Farrés I Lansac,2026-06-13 03:00:00.000,D,EUA - Paraguai,1.0,0.0,true,false,false,6,4
 Lluc Farrés I Lansac,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,3.0,false,true,false,0,5
 Lluc Farrés I Lansac,2026-06-14 00:00:00.000,C,Brasil - Marroc,2.0,1.0,true,false,false,0,6
 Lluc Farrés I Lansac,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,1.0,false,true,false,15,7
@@ -534,7 +534,7 @@ Lluc Farrés I Lansac,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,3.0,3.0,false
 Lluc Farrés I Lansac,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,1.0,true,false,false,9,29
 Lluc Farrés I Lansac,2026-06-20 00:00:00.000,C,Escòcia - Marroc,0.0,1.0,false,true,false,15,30
 Lluc Farrés I Lansac,2026-06-20 02:30:00.000,C,Brasil - Haití,4.0,0.0,true,false,false,9,31
-Lluc Farrés I Lansac,2026-06-20 05:00:00.000,D,Turquia - Paraguay,1.0,0.0,true,false,false,0,32
+Lluc Farrés I Lansac,2026-06-20 05:00:00.000,D,Turquia - Paraguai,1.0,0.0,true,false,false,0,32
 Lluc Farrés I Lansac,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,2.0,1.0,true,false,false,7,33
 Lluc Farrés I Lansac,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,3.0,1.0,true,false,false,9,34
 Lluc Farrés I Lansac,2026-06-21 02:00:00.000,E,Equador - Curaçao,3.0,0.0,true,false,false,0,35
@@ -573,12 +573,12 @@ Lluc Farrés I Lansac,2026-06-27 23:00:00.000,L,Croàcia - Ghana,1.0,1.0,false,f
 Lluc Farrés I Lansac,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,0.0,3.0,false,true,false,9,68
 Lluc Farrés I Lansac,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,1.0,2.0,false,true,false,0,69
 Lluc Farrés I Lansac,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,1.0,1.0,false,false,true,0,70
-Lluc Farrés I Lansac,2026-06-28 04:00:00.000,J,Algèria - Austria,0.0,1.0,false,true,false,,71
-Lluc Farrés I Lansac,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,2.0,false,true,false,,72
+Lluc Farrés I Lansac,2026-06-28 04:00:00.000,J,Algèria - Austria,0.0,1.0,false,true,false,0,71
+Lluc Farrés I Lansac,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,2.0,false,true,false,8,72
 Mª Àngels Amigó,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Mª Àngels Amigó,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,0.0,3.0,false,true,false,0,2
 Mª Àngels Amigó,2026-06-12 21:00:00.000,B,Canadà - Bosnia,0.0,2.0,false,true,false,0,3
-Mª Àngels Amigó,2026-06-13 03:00:00.000,D,EUA - Paraguay,1.0,2.0,false,true,false,0,4
+Mª Àngels Amigó,2026-06-13 03:00:00.000,D,EUA - Paraguai,1.0,2.0,false,true,false,0,4
 Mª Àngels Amigó,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,1.0,false,true,false,0,5
 Mª Àngels Amigó,2026-06-14 00:00:00.000,C,Brasil - Marroc,2.0,0.0,true,false,false,0,6
 Mª Àngels Amigó,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,2.0,false,true,false,9,7
@@ -606,7 +606,7 @@ Mª Àngels Amigó,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,2.0,1.0,true,fal
 Mª Àngels Amigó,2026-06-19 21:00:00.000,D,EUA - Australia,0.0,0.0,false,false,true,0,29
 Mª Àngels Amigó,2026-06-20 00:00:00.000,C,Escòcia - Marroc,1.0,0.0,true,false,false,0,30
 Mª Àngels Amigó,2026-06-20 02:30:00.000,C,Brasil - Haití,3.0,0.0,true,false,false,15,31
-Mª Àngels Amigó,2026-06-20 05:00:00.000,D,Turquia - Paraguay,0.0,1.0,false,true,false,15,32
+Mª Àngels Amigó,2026-06-20 05:00:00.000,D,Turquia - Paraguai,0.0,1.0,false,true,false,15,32
 Mª Àngels Amigó,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,1.0,0.0,true,false,false,5,33
 Mª Àngels Amigó,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,2.0,0.0,true,false,false,9,34
 Mª Àngels Amigó,2026-06-21 02:00:00.000,E,Equador - Curaçao,1.0,0.0,true,false,false,0,35
@@ -645,12 +645,12 @@ Mª Àngels Amigó,2026-06-27 23:00:00.000,L,Croàcia - Ghana,2.0,0.0,true,false
 Mª Àngels Amigó,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,0.0,2.0,false,true,false,15,68
 Mª Àngels Amigó,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,1.0,0.0,true,false,false,0,69
 Mª Àngels Amigó,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,1.0,1.0,false,false,true,0,70
-Mª Àngels Amigó,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,0.0,true,false,false,,71
-Mª Àngels Amigó,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,4.0,false,true,false,,72
+Mª Àngels Amigó,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,0.0,true,false,false,0,71
+Mª Àngels Amigó,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,4.0,false,true,false,8,72
 Pepe Andres Gil,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Pepe Andres Gil,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,0.0,1.0,false,true,false,0,2
 Pepe Andres Gil,2026-06-12 21:00:00.000,B,Canadà - Bosnia,1.0,1.0,false,false,true,15,3
-Pepe Andres Gil,2026-06-13 03:00:00.000,D,EUA - Paraguay,3.0,0.0,true,false,false,8,4
+Pepe Andres Gil,2026-06-13 03:00:00.000,D,EUA - Paraguai,3.0,0.0,true,false,false,8,4
 Pepe Andres Gil,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,2.0,false,true,false,0,5
 Pepe Andres Gil,2026-06-14 00:00:00.000,C,Brasil - Marroc,3.0,2.0,true,false,false,0,6
 Pepe Andres Gil,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,0.0,false,false,true,0,7
@@ -678,7 +678,7 @@ Pepe Andres Gil,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,1.0,1.0,false,false
 Pepe Andres Gil,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,1.0,true,false,false,9,29
 Pepe Andres Gil,2026-06-20 00:00:00.000,C,Escòcia - Marroc,1.0,3.0,false,true,false,7,30
 Pepe Andres Gil,2026-06-20 02:30:00.000,C,Brasil - Haití,4.0,0.0,true,false,false,9,31
-Pepe Andres Gil,2026-06-20 05:00:00.000,D,Turquia - Paraguay,1.0,1.0,false,false,true,0,32
+Pepe Andres Gil,2026-06-20 05:00:00.000,D,Turquia - Paraguai,1.0,1.0,false,false,true,0,32
 Pepe Andres Gil,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,3.0,0.0,true,false,false,7,33
 Pepe Andres Gil,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,2.0,0.0,true,false,false,9,34
 Pepe Andres Gil,2026-06-21 02:00:00.000,E,Equador - Curaçao,1.0,1.0,false,false,true,8,35
@@ -717,12 +717,12 @@ Pepe Andres Gil,2026-06-27 23:00:00.000,L,Croàcia - Ghana,1.0,1.0,false,false,t
 Pepe Andres Gil,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,0.0,3.0,false,true,false,9,68
 Pepe Andres Gil,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,0.0,2.0,false,true,false,0,69
 Pepe Andres Gil,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,1.0,1.0,false,false,true,0,70
-Pepe Andres Gil,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,,71
-Pepe Andres Gil,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,,72
+Pepe Andres Gil,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,6,71
+Pepe Andres Gil,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,9,72
 Josep Coll Sanchez,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Josep Coll Sanchez,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
 Josep Coll Sanchez,2026-06-12 21:00:00.000,B,Canadà - Bosnia,2.0,1.0,true,false,false,0,3
-Josep Coll Sanchez,2026-06-13 03:00:00.000,D,EUA - Paraguay,1.0,1.0,false,false,true,0,4
+Josep Coll Sanchez,2026-06-13 03:00:00.000,D,EUA - Paraguai,1.0,1.0,false,false,true,0,4
 Josep Coll Sanchez,2026-06-13 21:00:00.000,B,Qatar - Suïssa,1.0,2.0,false,true,false,0,5
 Josep Coll Sanchez,2026-06-14 00:00:00.000,C,Brasil - Marroc,1.0,1.0,false,false,true,15,6
 Josep Coll Sanchez,2026-06-14 03:00:00.000,C,Haití - Escòcia,1.0,2.0,false,true,false,8,7
@@ -750,7 +750,7 @@ Josep Coll Sanchez,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,2.0,1.0,true,fal
 Josep Coll Sanchez,2026-06-19 21:00:00.000,D,EUA - Australia,1.0,1.0,false,false,true,0,29
 Josep Coll Sanchez,2026-06-20 00:00:00.000,C,Escòcia - Marroc,1.0,2.0,false,true,false,8,30
 Josep Coll Sanchez,2026-06-20 02:30:00.000,C,Brasil - Haití,2.0,0.0,true,false,false,9,31
-Josep Coll Sanchez,2026-06-20 05:00:00.000,D,Turquia - Paraguay,3.0,1.0,true,false,false,0,32
+Josep Coll Sanchez,2026-06-20 05:00:00.000,D,Turquia - Paraguai,3.0,1.0,true,false,false,0,32
 Josep Coll Sanchez,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,2.0,1.0,true,false,false,7,33
 Josep Coll Sanchez,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,2.0,1.0,true,false,false,15,34
 Josep Coll Sanchez,2026-06-21 02:00:00.000,E,Equador - Curaçao,2.0,0.0,true,false,false,0,35
@@ -789,12 +789,12 @@ Josep Coll Sanchez,2026-06-27 23:00:00.000,L,Croàcia - Ghana,2.0,0.0,true,false
 Josep Coll Sanchez,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,1.0,2.0,false,true,false,9,68
 Josep Coll Sanchez,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,1.0,1.0,false,false,true,8,69
 Josep Coll Sanchez,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,1.0,1.0,false,false,true,0,70
-Josep Coll Sanchez,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,,71
-Josep Coll Sanchez,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,2.0,false,true,false,,72
+Josep Coll Sanchez,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,6,71
+Josep Coll Sanchez,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,2.0,false,true,false,8,72
 Quico,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Quico,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
 Quico,2026-06-12 21:00:00.000,B,Canadà - Bosnia,1.0,0.0,true,false,false,0,3
-Quico,2026-06-13 03:00:00.000,D,EUA - Paraguay,3.0,1.0,true,false,false,9,4
+Quico,2026-06-13 03:00:00.000,D,EUA - Paraguai,3.0,1.0,true,false,false,9,4
 Quico,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,2.0,false,true,false,0,5
 Quico,2026-06-14 00:00:00.000,C,Brasil - Marroc,1.0,1.0,false,false,true,15,6
 Quico,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,4.0,false,true,false,7,7
@@ -822,7 +822,7 @@ Quico,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,3.0,1.0,true,false,false,7,28
 Quico,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,1.0,true,false,false,9,29
 Quico,2026-06-20 00:00:00.000,C,Escòcia - Marroc,1.0,2.0,false,true,false,8,30
 Quico,2026-06-20 02:30:00.000,C,Brasil - Haití,6.0,0.0,true,false,false,7,31
-Quico,2026-06-20 05:00:00.000,D,Turquia - Paraguay,0.0,0.0,false,false,true,0,32
+Quico,2026-06-20 05:00:00.000,D,Turquia - Paraguai,0.0,0.0,false,false,true,0,32
 Quico,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,2.0,1.0,true,false,false,7,33
 Quico,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,3.0,1.0,true,false,false,9,34
 Quico,2026-06-21 02:00:00.000,E,Equador - Curaçao,3.0,0.0,true,false,false,0,35
@@ -861,12 +861,12 @@ Quico,2026-06-27 23:00:00.000,L,Croàcia - Ghana,3.0,1.0,true,false,false,9,67
 Quico,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,1.0,2.0,false,true,false,9,68
 Quico,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,2.0,3.0,false,true,false,0,69
 Quico,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,1.0,1.0,false,false,true,0,70
-Quico,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,0.0,true,false,false,,71
-Quico,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,,72
+Quico,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,0.0,true,false,false,0,71
+Quico,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,9,72
 Pau Serracanta Perarnau,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Pau Serracanta Perarnau,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
 Pau Serracanta Perarnau,2026-06-12 21:00:00.000,B,Canadà - Bosnia,1.0,2.0,false,true,false,0,3
-Pau Serracanta Perarnau,2026-06-13 03:00:00.000,D,EUA - Paraguay,1.0,0.0,true,false,false,6,4
+Pau Serracanta Perarnau,2026-06-13 03:00:00.000,D,EUA - Paraguai,1.0,0.0,true,false,false,6,4
 Pau Serracanta Perarnau,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,3.0,false,true,false,0,5
 Pau Serracanta Perarnau,2026-06-14 00:00:00.000,C,Brasil - Marroc,3.0,2.0,true,false,false,0,6
 Pau Serracanta Perarnau,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,2.0,false,true,false,9,7
@@ -894,7 +894,7 @@ Pau Serracanta Perarnau,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,1.0,1.0,fal
 Pau Serracanta Perarnau,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,0.0,true,false,false,15,29
 Pau Serracanta Perarnau,2026-06-20 00:00:00.000,C,Escòcia - Marroc,1.0,2.0,false,true,false,8,30
 Pau Serracanta Perarnau,2026-06-20 02:30:00.000,C,Brasil - Haití,4.0,0.0,true,false,false,9,31
-Pau Serracanta Perarnau,2026-06-20 05:00:00.000,D,Turquia - Paraguay,2.0,1.0,true,false,false,0,32
+Pau Serracanta Perarnau,2026-06-20 05:00:00.000,D,Turquia - Paraguai,2.0,1.0,true,false,false,0,32
 Pau Serracanta Perarnau,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,3.0,1.0,true,false,false,8,33
 Pau Serracanta Perarnau,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,3.0,1.0,true,false,false,9,34
 Pau Serracanta Perarnau,2026-06-21 02:00:00.000,E,Equador - Curaçao,2.0,0.0,true,false,false,0,35
@@ -933,12 +933,12 @@ Pau Serracanta Perarnau,2026-06-27 23:00:00.000,L,Croàcia - Ghana,2.0,1.0,true,
 Pau Serracanta Perarnau,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,1.0,4.0,false,true,false,7,68
 Pau Serracanta Perarnau,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,2.0,3.0,false,true,false,0,69
 Pau Serracanta Perarnau,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,1.0,0.0,true,false,false,7,70
-Pau Serracanta Perarnau,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,3.0,false,true,false,,71
-Pau Serracanta Perarnau,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,2.0,false,true,false,,72
+Pau Serracanta Perarnau,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,3.0,false,true,false,0,71
+Pau Serracanta Perarnau,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,2.0,false,true,false,8,72
 Ferran,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Ferran,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
 Ferran,2026-06-12 21:00:00.000,B,Canadà - Bosnia,1.0,0.0,true,false,false,0,3
-Ferran,2026-06-13 03:00:00.000,D,EUA - Paraguay,3.0,1.0,true,false,false,9,4
+Ferran,2026-06-13 03:00:00.000,D,EUA - Paraguai,3.0,1.0,true,false,false,9,4
 Ferran,2026-06-13 21:00:00.000,B,Qatar - Suïssa,1.0,3.0,false,true,false,0,5
 Ferran,2026-06-14 00:00:00.000,C,Brasil - Marroc,3.0,2.0,true,false,false,0,6
 Ferran,2026-06-14 03:00:00.000,C,Haití - Escòcia,2.0,1.0,true,false,false,0,7
@@ -966,7 +966,7 @@ Ferran,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,1.0,1.0,false,false,true,0,2
 Ferran,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,1.0,true,false,false,9,29
 Ferran,2026-06-20 00:00:00.000,C,Escòcia - Marroc,0.0,3.0,false,true,false,8,30
 Ferran,2026-06-20 02:30:00.000,C,Brasil - Haití,4.0,1.0,true,false,false,8,31
-Ferran,2026-06-20 05:00:00.000,D,Turquia - Paraguay,1.0,1.0,false,false,true,0,32
+Ferran,2026-06-20 05:00:00.000,D,Turquia - Paraguai,1.0,1.0,false,false,true,0,32
 Ferran,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,2.0,1.0,true,false,false,7,33
 Ferran,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,3.0,1.0,true,false,false,9,34
 Ferran,2026-06-21 02:00:00.000,E,Equador - Curaçao,2.0,0.0,true,false,false,0,35
@@ -1005,12 +1005,12 @@ Ferran,2026-06-27 23:00:00.000,L,Croàcia - Ghana,2.0,2.0,false,false,true,0,67
 Ferran,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,0.0,3.0,false,true,false,9,68
 Ferran,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,2.0,2.0,false,false,true,6,69
 Ferran,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,2.0,0.0,true,false,false,8,70
-Ferran,2026-06-28 04:00:00.000,J,Algèria - Austria,0.0,0.0,false,false,true,,71
-Ferran,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,4.0,false,true,false,,72
+Ferran,2026-06-28 04:00:00.000,J,Algèria - Austria,0.0,0.0,false,false,true,4,71
+Ferran,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,4.0,false,true,false,8,72
 Jordi Amigó Salvatella,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Jordi Amigó Salvatella,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
 Jordi Amigó Salvatella,2026-06-12 21:00:00.000,B,Canadà - Bosnia,2.0,0.0,true,false,false,0,3
-Jordi Amigó Salvatella,2026-06-13 03:00:00.000,D,EUA - Paraguay,0.0,1.0,false,true,false,0,4
+Jordi Amigó Salvatella,2026-06-13 03:00:00.000,D,EUA - Paraguai,0.0,1.0,false,true,false,0,4
 Jordi Amigó Salvatella,2026-06-13 21:00:00.000,B,Qatar - Suïssa,2.0,2.0,false,false,true,8,5
 Jordi Amigó Salvatella,2026-06-14 00:00:00.000,C,Brasil - Marroc,3.0,1.0,true,false,false,0,6
 Jordi Amigó Salvatella,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,4.0,false,true,false,7,7
@@ -1038,7 +1038,7 @@ Jordi Amigó Salvatella,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,3.0,0.0,tru
 Jordi Amigó Salvatella,2026-06-19 21:00:00.000,D,EUA - Australia,1.0,1.0,false,false,true,0,29
 Jordi Amigó Salvatella,2026-06-20 00:00:00.000,C,Escòcia - Marroc,0.0,2.0,false,true,false,9,30
 Jordi Amigó Salvatella,2026-06-20 02:30:00.000,C,Brasil - Haití,4.0,0.0,true,false,false,9,31
-Jordi Amigó Salvatella,2026-06-20 05:00:00.000,D,Turquia - Paraguay,2.0,2.0,false,false,true,0,32
+Jordi Amigó Salvatella,2026-06-20 05:00:00.000,D,Turquia - Paraguai,2.0,2.0,false,false,true,0,32
 Jordi Amigó Salvatella,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,2.0,0.0,true,false,false,6,33
 Jordi Amigó Salvatella,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,5.0,0.0,true,false,false,6,34
 Jordi Amigó Salvatella,2026-06-21 02:00:00.000,E,Equador - Curaçao,2.0,0.0,true,false,false,0,35
@@ -1077,12 +1077,12 @@ Jordi Amigó Salvatella,2026-06-27 23:00:00.000,L,Croàcia - Ghana,1.0,0.0,true,
 Jordi Amigó Salvatella,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,0.0,3.0,false,true,false,9,68
 Jordi Amigó Salvatella,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,1.0,2.0,false,true,false,0,69
 Jordi Amigó Salvatella,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,0.0,0.0,false,false,true,0,70
-Jordi Amigó Salvatella,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,,71
-Jordi Amigó Salvatella,2026-06-28 04:00:00.000,J,Jordània - Argentina,1.0,2.0,false,true,false,,72
+Jordi Amigó Salvatella,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,6,71
+Jordi Amigó Salvatella,2026-06-28 04:00:00.000,J,Jordània - Argentina,1.0,2.0,false,true,false,9,72
 Oscar Bernal Rosa,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Oscar Bernal Rosa,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
 Oscar Bernal Rosa,2026-06-12 21:00:00.000,B,Canadà - Bosnia,1.0,1.0,false,false,true,15,3
-Oscar Bernal Rosa,2026-06-13 03:00:00.000,D,EUA - Paraguay,2.0,1.0,true,false,false,8,4
+Oscar Bernal Rosa,2026-06-13 03:00:00.000,D,EUA - Paraguai,2.0,1.0,true,false,false,8,4
 Oscar Bernal Rosa,2026-06-13 21:00:00.000,B,Qatar - Suïssa,1.0,3.0,false,true,false,0,5
 Oscar Bernal Rosa,2026-06-14 00:00:00.000,C,Brasil - Marroc,2.0,3.0,false,true,false,0,6
 Oscar Bernal Rosa,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,4.0,false,true,false,7,7
@@ -1110,7 +1110,7 @@ Oscar Bernal Rosa,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,2.0,1.0,true,fals
 Oscar Bernal Rosa,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,0.0,true,false,false,15,29
 Oscar Bernal Rosa,2026-06-20 00:00:00.000,C,Escòcia - Marroc,1.0,3.0,false,true,false,7,30
 Oscar Bernal Rosa,2026-06-20 02:30:00.000,C,Brasil - Haití,4.0,0.0,true,false,false,9,31
-Oscar Bernal Rosa,2026-06-20 05:00:00.000,D,Turquia - Paraguay,2.0,1.0,true,false,false,0,32
+Oscar Bernal Rosa,2026-06-20 05:00:00.000,D,Turquia - Paraguai,2.0,1.0,true,false,false,0,32
 Oscar Bernal Rosa,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,3.0,1.0,true,false,false,8,33
 Oscar Bernal Rosa,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,5.0,0.0,true,false,false,6,34
 Oscar Bernal Rosa,2026-06-21 02:00:00.000,E,Equador - Curaçao,1.0,0.0,true,false,false,0,35
@@ -1149,12 +1149,12 @@ Oscar Bernal Rosa,2026-06-27 23:00:00.000,L,Croàcia - Ghana,4.0,2.0,true,false,
 Oscar Bernal Rosa,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,2.0,4.0,false,true,false,6,68
 Oscar Bernal Rosa,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,0.0,1.0,false,true,false,0,69
 Oscar Bernal Rosa,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,1.0,2.0,false,true,false,0,70
-Oscar Bernal Rosa,2026-06-28 04:00:00.000,J,Algèria - Austria,2.0,2.0,false,false,true,,71
-Oscar Bernal Rosa,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,2.0,false,true,false,,72
+Oscar Bernal Rosa,2026-06-28 04:00:00.000,J,Algèria - Austria,2.0,2.0,false,false,true,8,71
+Oscar Bernal Rosa,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,2.0,false,true,false,8,72
 Jordi Barbal Camats,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Jordi Barbal Camats,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,2.0,2.0,false,false,true,0,2
 Jordi Barbal Camats,2026-06-12 21:00:00.000,B,Canadà - Bosnia,1.0,2.0,false,true,false,0,3
-Jordi Barbal Camats,2026-06-13 03:00:00.000,D,EUA - Paraguay,1.0,1.0,false,false,true,0,4
+Jordi Barbal Camats,2026-06-13 03:00:00.000,D,EUA - Paraguai,1.0,1.0,false,false,true,0,4
 Jordi Barbal Camats,2026-06-13 21:00:00.000,B,Qatar - Suïssa,2.0,3.0,false,true,false,0,5
 Jordi Barbal Camats,2026-06-14 00:00:00.000,C,Brasil - Marroc,4.0,3.0,true,false,false,0,6
 Jordi Barbal Camats,2026-06-14 03:00:00.000,C,Haití - Escòcia,1.0,3.0,false,true,false,7,7
@@ -1182,7 +1182,7 @@ Jordi Barbal Camats,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,2.0,1.0,true,fa
 Jordi Barbal Camats,2026-06-19 21:00:00.000,D,EUA - Australia,1.0,2.0,false,true,false,0,29
 Jordi Barbal Camats,2026-06-20 00:00:00.000,C,Escòcia - Marroc,2.0,3.0,false,true,false,6,30
 Jordi Barbal Camats,2026-06-20 02:30:00.000,C,Brasil - Haití,3.0,2.0,true,false,false,8,31
-Jordi Barbal Camats,2026-06-20 05:00:00.000,D,Turquia - Paraguay,1.0,2.0,false,true,false,8,32
+Jordi Barbal Camats,2026-06-20 05:00:00.000,D,Turquia - Paraguai,1.0,2.0,false,true,false,8,32
 Jordi Barbal Camats,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,2.0,2.0,false,false,true,0,33
 Jordi Barbal Camats,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,3.0,2.0,true,false,false,8,34
 Jordi Barbal Camats,2026-06-21 02:00:00.000,E,Equador - Curaçao,1.0,2.0,false,true,false,0,35
@@ -1221,12 +1221,12 @@ Jordi Barbal Camats,2026-06-27 23:00:00.000,L,Croàcia - Ghana,1.0,1.0,false,fal
 Jordi Barbal Camats,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,1.0,3.0,false,true,false,8,68
 Jordi Barbal Camats,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,3.0,3.0,false,false,true,4,69
 Jordi Barbal Camats,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,1.0,1.0,false,false,true,0,70
-Jordi Barbal Camats,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,0.0,true,false,false,,71
-Jordi Barbal Camats,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,4.0,false,true,false,,72
+Jordi Barbal Camats,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,0.0,true,false,false,0,71
+Jordi Barbal Camats,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,4.0,false,true,false,8,72
 Tommy Bridges,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Tommy Bridges,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,2.0,false,true,false,0,2
 Tommy Bridges,2026-06-12 21:00:00.000,B,Canadà - Bosnia,1.0,1.0,false,false,true,15,3
-Tommy Bridges,2026-06-13 03:00:00.000,D,EUA - Paraguay,3.0,1.0,true,false,false,9,4
+Tommy Bridges,2026-06-13 03:00:00.000,D,EUA - Paraguai,3.0,1.0,true,false,false,9,4
 Tommy Bridges,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,2.0,false,true,false,0,5
 Tommy Bridges,2026-06-14 00:00:00.000,C,Brasil - Marroc,2.0,1.0,true,false,false,0,6
 Tommy Bridges,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,2.0,false,true,false,9,7
@@ -1254,7 +1254,7 @@ Tommy Bridges,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,1.0,2.0,false,true,fa
 Tommy Bridges,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,0.0,true,false,false,15,29
 Tommy Bridges,2026-06-20 00:00:00.000,C,Escòcia - Marroc,1.0,2.0,false,true,false,8,30
 Tommy Bridges,2026-06-20 02:30:00.000,C,Brasil - Haití,3.0,1.0,true,false,false,9,31
-Tommy Bridges,2026-06-20 05:00:00.000,D,Turquia - Paraguay,2.0,0.0,true,false,false,0,32
+Tommy Bridges,2026-06-20 05:00:00.000,D,Turquia - Paraguai,2.0,0.0,true,false,false,0,32
 Tommy Bridges,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,2.0,2.0,false,false,true,0,33
 Tommy Bridges,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,2.0,2.0,false,false,true,0,34
 Tommy Bridges,2026-06-21 02:00:00.000,E,Equador - Curaçao,2.0,0.0,true,false,false,0,35
@@ -1293,12 +1293,12 @@ Tommy Bridges,2026-06-27 23:00:00.000,L,Croàcia - Ghana,1.0,1.0,false,false,tru
 Tommy Bridges,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,0.0,2.0,false,true,false,15,68
 Tommy Bridges,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,1.0,3.0,false,true,false,0,69
 Tommy Bridges,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,1.0,2.0,false,true,false,0,70
-Tommy Bridges,2026-06-28 04:00:00.000,J,Algèria - Austria,2.0,1.0,true,false,false,,71
-Tommy Bridges,2026-06-28 04:00:00.000,J,Jordània - Argentina,1.0,3.0,false,true,false,,72
+Tommy Bridges,2026-06-28 04:00:00.000,J,Algèria - Austria,2.0,1.0,true,false,false,0,71
+Tommy Bridges,2026-06-28 04:00:00.000,J,Jordània - Argentina,1.0,3.0,false,true,false,15,72
 Marc Janer Ferrer,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Marc Janer Ferrer,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
 Marc Janer Ferrer,2026-06-12 21:00:00.000,B,Canadà - Bosnia,2.0,0.0,true,false,false,0,3
-Marc Janer Ferrer,2026-06-13 03:00:00.000,D,EUA - Paraguay,2.0,0.0,true,false,false,7,4
+Marc Janer Ferrer,2026-06-13 03:00:00.000,D,EUA - Paraguai,2.0,0.0,true,false,false,7,4
 Marc Janer Ferrer,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,2.0,false,true,false,0,5
 Marc Janer Ferrer,2026-06-14 00:00:00.000,C,Brasil - Marroc,2.0,1.0,true,false,false,0,6
 Marc Janer Ferrer,2026-06-14 03:00:00.000,C,Haití - Escòcia,1.0,1.0,false,false,true,0,7
@@ -1326,7 +1326,7 @@ Marc Janer Ferrer,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,2.0,1.0,true,fals
 Marc Janer Ferrer,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,0.0,true,false,false,15,29
 Marc Janer Ferrer,2026-06-20 00:00:00.000,C,Escòcia - Marroc,0.0,2.0,false,true,false,9,30
 Marc Janer Ferrer,2026-06-20 02:30:00.000,C,Brasil - Haití,3.0,0.0,true,false,false,15,31
-Marc Janer Ferrer,2026-06-20 05:00:00.000,D,Turquia - Paraguay,2.0,1.0,true,false,false,0,32
+Marc Janer Ferrer,2026-06-20 05:00:00.000,D,Turquia - Paraguai,2.0,1.0,true,false,false,0,32
 Marc Janer Ferrer,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,2.0,1.0,true,false,false,7,33
 Marc Janer Ferrer,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,2.0,1.0,true,false,false,15,34
 Marc Janer Ferrer,2026-06-21 02:00:00.000,E,Equador - Curaçao,2.0,0.0,true,false,false,0,35
@@ -1365,12 +1365,12 @@ Marc Janer Ferrer,2026-06-27 23:00:00.000,L,Croàcia - Ghana,2.0,1.0,true,false,
 Marc Janer Ferrer,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,0.0,2.0,false,true,false,15,68
 Marc Janer Ferrer,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,3.0,0.0,true,false,false,0,69
 Marc Janer Ferrer,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,0.0,2.0,false,true,false,0,70
-Marc Janer Ferrer,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,,71
-Marc Janer Ferrer,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,2.0,false,true,false,,72
+Marc Janer Ferrer,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,6,71
+Marc Janer Ferrer,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,2.0,false,true,false,8,72
 Manuel De Vega,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Manuel De Vega,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
 Manuel De Vega,2026-06-12 21:00:00.000,B,Canadà - Bosnia,1.0,0.0,true,false,false,0,3
-Manuel De Vega,2026-06-13 03:00:00.000,D,EUA - Paraguay,1.0,0.0,true,false,false,6,4
+Manuel De Vega,2026-06-13 03:00:00.000,D,EUA - Paraguai,1.0,0.0,true,false,false,6,4
 Manuel De Vega,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,3.0,false,true,false,0,5
 Manuel De Vega,2026-06-14 00:00:00.000,C,Brasil - Marroc,0.0,2.0,false,true,false,0,6
 Manuel De Vega,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,4.0,false,true,false,7,7
@@ -1398,7 +1398,7 @@ Manuel De Vega,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,1.0,2.0,false,true,f
 Manuel De Vega,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,1.0,true,false,false,9,29
 Manuel De Vega,2026-06-20 00:00:00.000,C,Escòcia - Marroc,1.0,2.0,false,true,false,8,30
 Manuel De Vega,2026-06-20 02:30:00.000,C,Brasil - Haití,5.0,1.0,true,false,false,7,31
-Manuel De Vega,2026-06-20 05:00:00.000,D,Turquia - Paraguay,2.0,0.0,true,false,false,0,32
+Manuel De Vega,2026-06-20 05:00:00.000,D,Turquia - Paraguai,2.0,0.0,true,false,false,0,32
 Manuel De Vega,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,1.0,1.0,false,false,true,0,33
 Manuel De Vega,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,3.0,1.0,true,false,false,9,34
 Manuel De Vega,2026-06-21 02:00:00.000,E,Equador - Curaçao,3.0,0.0,true,false,false,0,35
@@ -1437,12 +1437,12 @@ Manuel De Vega,2026-06-27 23:00:00.000,L,Croàcia - Ghana,2.0,2.0,false,false,tr
 Manuel De Vega,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,0.0,3.0,false,true,false,9,68
 Manuel De Vega,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,0.0,1.0,false,true,false,0,69
 Manuel De Vega,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,1.0,0.0,true,false,false,7,70
-Manuel De Vega,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,2.0,false,true,false,,71
-Manuel De Vega,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,4.0,false,true,false,,72
+Manuel De Vega,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,2.0,false,true,false,0,71
+Manuel De Vega,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,4.0,false,true,false,8,72
 Nacho Gris,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,3.0,0.0,true,false,false,9,1
 Nacho Gris,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
 Nacho Gris,2026-06-12 21:00:00.000,B,Canadà - Bosnia,1.0,0.0,true,false,false,0,3
-Nacho Gris,2026-06-13 03:00:00.000,D,EUA - Paraguay,3.0,0.0,true,false,false,8,4
+Nacho Gris,2026-06-13 03:00:00.000,D,EUA - Paraguai,3.0,0.0,true,false,false,8,4
 Nacho Gris,2026-06-13 21:00:00.000,B,Qatar - Suïssa,1.0,3.0,false,true,false,0,5
 Nacho Gris,2026-06-14 00:00:00.000,C,Brasil - Marroc,3.0,2.0,true,false,false,0,6
 Nacho Gris,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,1.0,false,true,false,15,7
@@ -1470,7 +1470,7 @@ Nacho Gris,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,1.0,0.0,true,false,false
 Nacho Gris,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,1.0,true,false,false,9,29
 Nacho Gris,2026-06-20 00:00:00.000,C,Escòcia - Marroc,1.0,1.0,false,false,true,0,30
 Nacho Gris,2026-06-20 02:30:00.000,C,Brasil - Haití,4.0,0.0,true,false,false,9,31
-Nacho Gris,2026-06-20 05:00:00.000,D,Turquia - Paraguay,4.0,0.0,true,false,false,0,32
+Nacho Gris,2026-06-20 05:00:00.000,D,Turquia - Paraguai,4.0,0.0,true,false,false,0,32
 Nacho Gris,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,2.0,1.0,true,false,false,7,33
 Nacho Gris,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,3.0,1.0,true,false,false,9,34
 Nacho Gris,2026-06-21 02:00:00.000,E,Equador - Curaçao,2.0,0.0,true,false,false,0,35
@@ -1509,12 +1509,12 @@ Nacho Gris,2026-06-27 23:00:00.000,L,Croàcia - Ghana,1.0,0.0,true,false,false,8
 Nacho Gris,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,0.0,3.0,false,true,false,9,68
 Nacho Gris,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,1.0,3.0,false,true,false,0,69
 Nacho Gris,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,1.0,1.0,false,false,true,0,70
-Nacho Gris,2026-06-28 04:00:00.000,J,Algèria - Austria,0.0,1.0,false,true,false,,71
-Nacho Gris,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,,72
+Nacho Gris,2026-06-28 04:00:00.000,J,Algèria - Austria,0.0,1.0,false,true,false,0,71
+Nacho Gris,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,9,72
 Jan Galiot Pérez,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Jan Galiot Pérez,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
 Jan Galiot Pérez,2026-06-12 21:00:00.000,B,Canadà - Bosnia,1.0,0.0,true,false,false,0,3
-Jan Galiot Pérez,2026-06-13 03:00:00.000,D,EUA - Paraguay,2.0,1.0,true,false,false,8,4
+Jan Galiot Pérez,2026-06-13 03:00:00.000,D,EUA - Paraguai,2.0,1.0,true,false,false,8,4
 Jan Galiot Pérez,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,3.0,false,true,false,0,5
 Jan Galiot Pérez,2026-06-14 00:00:00.000,C,Brasil - Marroc,2.0,1.0,true,false,false,0,6
 Jan Galiot Pérez,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,2.0,false,true,false,9,7
@@ -1542,7 +1542,7 @@ Jan Galiot Pérez,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,2.0,1.0,true,fals
 Jan Galiot Pérez,2026-06-19 21:00:00.000,D,EUA - Australia,3.0,1.0,true,false,false,8,29
 Jan Galiot Pérez,2026-06-20 00:00:00.000,C,Escòcia - Marroc,0.0,2.0,false,true,false,9,30
 Jan Galiot Pérez,2026-06-20 02:30:00.000,C,Brasil - Haití,4.0,0.0,true,false,false,9,31
-Jan Galiot Pérez,2026-06-20 05:00:00.000,D,Turquia - Paraguay,2.0,0.0,true,false,false,0,32
+Jan Galiot Pérez,2026-06-20 05:00:00.000,D,Turquia - Paraguai,2.0,0.0,true,false,false,0,32
 Jan Galiot Pérez,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,2.0,0.0,true,false,false,6,33
 Jan Galiot Pérez,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,3.0,1.0,true,false,false,9,34
 Jan Galiot Pérez,2026-06-21 02:00:00.000,E,Equador - Curaçao,3.0,0.0,true,false,false,0,35
@@ -1581,12 +1581,12 @@ Jan Galiot Pérez,2026-06-27 23:00:00.000,L,Croàcia - Ghana,2.0,0.0,true,false,
 Jan Galiot Pérez,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,1.0,3.0,false,true,false,8,68
 Jan Galiot Pérez,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,1.0,2.0,false,true,false,0,69
 Jan Galiot Pérez,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,2.0,1.0,true,false,false,9,70
-Jan Galiot Pérez,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,,71
-Jan Galiot Pérez,2026-06-28 04:00:00.000,J,Jordània - Argentina,1.0,3.0,false,true,false,,72
+Jan Galiot Pérez,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,6,71
+Jan Galiot Pérez,2026-06-28 04:00:00.000,J,Jordània - Argentina,1.0,3.0,false,true,false,15,72
 Gombit6,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Gombit6,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
 Gombit6,2026-06-12 21:00:00.000,B,Canadà - Bosnia,2.0,1.0,true,false,false,0,3
-Gombit6,2026-06-13 03:00:00.000,D,EUA - Paraguay,3.0,1.0,true,false,false,9,4
+Gombit6,2026-06-13 03:00:00.000,D,EUA - Paraguai,3.0,1.0,true,false,false,9,4
 Gombit6,2026-06-13 21:00:00.000,B,Qatar - Suïssa,1.0,2.0,false,true,false,0,5
 Gombit6,2026-06-14 00:00:00.000,C,Brasil - Marroc,2.0,1.0,true,false,false,0,6
 Gombit6,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,2.0,false,true,false,9,7
@@ -1614,7 +1614,7 @@ Gombit6,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,2.0,1.0,true,false,false,8,
 Gombit6,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,0.0,true,false,false,15,29
 Gombit6,2026-06-20 00:00:00.000,C,Escòcia - Marroc,1.0,2.0,false,true,false,8,30
 Gombit6,2026-06-20 02:30:00.000,C,Brasil - Haití,4.0,1.0,true,false,false,8,31
-Gombit6,2026-06-20 05:00:00.000,D,Turquia - Paraguay,3.0,1.0,true,false,false,0,32
+Gombit6,2026-06-20 05:00:00.000,D,Turquia - Paraguai,3.0,1.0,true,false,false,0,32
 Gombit6,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,2.0,1.0,true,false,false,7,33
 Gombit6,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,3.0,1.0,true,false,false,9,34
 Gombit6,2026-06-21 02:00:00.000,E,Equador - Curaçao,2.0,0.0,true,false,false,0,35
@@ -1653,12 +1653,12 @@ Gombit6,2026-06-27 23:00:00.000,L,Croàcia - Ghana,2.0,1.0,true,false,false,15,6
 Gombit6,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,1.0,2.0,false,true,false,9,68
 Gombit6,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,1.0,2.0,false,true,false,0,69
 Gombit6,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,1.0,2.0,false,true,false,0,70
-Gombit6,2026-06-28 04:00:00.000,J,Algèria - Austria,0.0,2.0,false,true,false,,71
-Gombit6,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,,72
+Gombit6,2026-06-28 04:00:00.000,J,Algèria - Austria,0.0,2.0,false,true,false,0,71
+Gombit6,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,9,72
 Nicola Costa,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Nicola Costa,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
 Nicola Costa,2026-06-12 21:00:00.000,B,Canadà - Bosnia,2.0,1.0,true,false,false,0,3
-Nicola Costa,2026-06-13 03:00:00.000,D,EUA - Paraguay,1.0,0.0,true,false,false,6,4
+Nicola Costa,2026-06-13 03:00:00.000,D,EUA - Paraguai,1.0,0.0,true,false,false,6,4
 Nicola Costa,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,1.0,false,true,false,0,5
 Nicola Costa,2026-06-14 00:00:00.000,C,Brasil - Marroc,3.0,2.0,true,false,false,0,6
 Nicola Costa,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,2.0,false,true,false,9,7
@@ -1686,7 +1686,7 @@ Nicola Costa,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,2.0,1.0,true,false,fal
 Nicola Costa,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,1.0,true,false,false,9,29
 Nicola Costa,2026-06-20 00:00:00.000,C,Escòcia - Marroc,1.0,1.0,false,false,true,0,30
 Nicola Costa,2026-06-20 02:30:00.000,C,Brasil - Haití,3.0,0.0,true,false,false,15,31
-Nicola Costa,2026-06-20 05:00:00.000,D,Turquia - Paraguay,2.0,1.0,true,false,false,0,32
+Nicola Costa,2026-06-20 05:00:00.000,D,Turquia - Paraguai,2.0,1.0,true,false,false,0,32
 Nicola Costa,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,1.0,1.0,false,false,true,0,33
 Nicola Costa,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,3.0,2.0,true,false,false,8,34
 Nicola Costa,2026-06-21 02:00:00.000,E,Equador - Curaçao,2.0,0.0,true,false,false,0,35
@@ -1725,12 +1725,12 @@ Nicola Costa,2026-06-27 23:00:00.000,L,Croàcia - Ghana,2.0,1.0,true,false,false
 Nicola Costa,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,0.0,3.0,false,true,false,9,68
 Nicola Costa,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,1.0,2.0,false,true,false,0,69
 Nicola Costa,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,0.0,0.0,false,false,true,0,70
-Nicola Costa,2026-06-28 04:00:00.000,J,Algèria - Austria,0.0,1.0,false,true,false,,71
-Nicola Costa,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,2.0,false,true,false,,72
+Nicola Costa,2026-06-28 04:00:00.000,J,Algèria - Austria,0.0,1.0,false,true,false,0,71
+Nicola Costa,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,2.0,false,true,false,8,72
 Alex Soler,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Alex Soler,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,2.0,1.0,true,false,false,15,2
 Alex Soler,2026-06-12 21:00:00.000,B,Canadà - Bosnia,2.0,0.0,true,false,false,0,3
-Alex Soler,2026-06-13 03:00:00.000,D,EUA - Paraguay,2.0,1.0,true,false,false,8,4
+Alex Soler,2026-06-13 03:00:00.000,D,EUA - Paraguai,2.0,1.0,true,false,false,8,4
 Alex Soler,2026-06-13 21:00:00.000,B,Qatar - Suïssa,1.0,3.0,false,true,false,0,5
 Alex Soler,2026-06-14 00:00:00.000,C,Brasil - Marroc,2.0,1.0,true,false,false,0,6
 Alex Soler,2026-06-14 03:00:00.000,C,Haití - Escòcia,1.0,3.0,false,true,false,7,7
@@ -1758,7 +1758,7 @@ Alex Soler,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,2.0,1.0,true,false,false
 Alex Soler,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,0.0,true,false,false,15,29
 Alex Soler,2026-06-20 00:00:00.000,C,Escòcia - Marroc,1.0,3.0,false,true,false,7,30
 Alex Soler,2026-06-20 02:30:00.000,C,Brasil - Haití,5.0,0.0,true,false,false,8,31
-Alex Soler,2026-06-20 05:00:00.000,D,Turquia - Paraguay,2.0,1.0,true,false,false,0,32
+Alex Soler,2026-06-20 05:00:00.000,D,Turquia - Paraguai,2.0,1.0,true,false,false,0,32
 Alex Soler,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,3.0,1.0,true,false,false,8,33
 Alex Soler,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,2.0,1.0,true,false,false,15,34
 Alex Soler,2026-06-21 02:00:00.000,E,Equador - Curaçao,2.0,0.0,true,false,false,0,35
@@ -1797,12 +1797,12 @@ Alex Soler,2026-06-27 23:00:00.000,L,Croàcia - Ghana,2.0,1.0,true,false,false,1
 Alex Soler,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,0.0,3.0,false,true,false,9,68
 Alex Soler,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,1.0,2.0,false,true,false,0,69
 Alex Soler,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,1.0,0.0,true,false,false,7,70
-Alex Soler,2026-06-28 04:00:00.000,J,Algèria - Austria,2.0,1.0,true,false,false,,71
-Alex Soler,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,2.0,false,true,false,,72
+Alex Soler,2026-06-28 04:00:00.000,J,Algèria - Austria,2.0,1.0,true,false,false,0,71
+Alex Soler,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,2.0,false,true,false,8,72
 Lucas,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Lucas,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
 Lucas,2026-06-12 21:00:00.000,B,Canadà - Bosnia,2.0,1.0,true,false,false,0,3
-Lucas,2026-06-13 03:00:00.000,D,EUA - Paraguay,2.0,1.0,true,false,false,8,4
+Lucas,2026-06-13 03:00:00.000,D,EUA - Paraguai,2.0,1.0,true,false,false,8,4
 Lucas,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,3.0,false,true,false,0,5
 Lucas,2026-06-14 00:00:00.000,C,Brasil - Marroc,1.0,1.0,false,false,true,15,6
 Lucas,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,2.0,false,true,false,9,7
@@ -1830,7 +1830,7 @@ Lucas,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,1.0,0.0,true,false,false,15,2
 Lucas,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,0.0,true,false,false,15,29
 Lucas,2026-06-20 00:00:00.000,C,Escòcia - Marroc,1.0,1.0,false,false,true,0,30
 Lucas,2026-06-20 02:30:00.000,C,Brasil - Haití,2.0,1.0,true,false,false,8,31
-Lucas,2026-06-20 05:00:00.000,D,Turquia - Paraguay,1.0,1.0,false,false,true,0,32
+Lucas,2026-06-20 05:00:00.000,D,Turquia - Paraguai,1.0,1.0,false,false,true,0,32
 Lucas,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,3.0,0.0,true,false,false,7,33
 Lucas,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,3.0,1.0,true,false,false,9,34
 Lucas,2026-06-21 02:00:00.000,E,Equador - Curaçao,1.0,2.0,false,true,false,0,35
@@ -1869,12 +1869,12 @@ Lucas,2026-06-27 23:00:00.000,L,Croàcia - Ghana,2.0,0.0,true,false,false,9,67
 Lucas,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,1.0,2.0,false,true,false,9,68
 Lucas,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,1.0,2.0,false,true,false,0,69
 Lucas,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,1.0,2.0,false,true,false,0,70
-Lucas,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,,71
-Lucas,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,2.0,false,true,false,,72
+Lucas,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,6,71
+Lucas,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,2.0,false,true,false,8,72
 Xavi,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Xavi,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
 Xavi,2026-06-12 21:00:00.000,B,Canadà - Bosnia,2.0,1.0,true,false,false,0,3
-Xavi,2026-06-13 03:00:00.000,D,EUA - Paraguay,2.0,0.0,true,false,false,7,4
+Xavi,2026-06-13 03:00:00.000,D,EUA - Paraguai,2.0,0.0,true,false,false,7,4
 Xavi,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,2.0,false,true,false,0,5
 Xavi,2026-06-14 00:00:00.000,C,Brasil - Marroc,2.0,1.0,true,false,false,0,6
 Xavi,2026-06-14 03:00:00.000,C,Haití - Escòcia,1.0,2.0,false,true,false,8,7
@@ -1902,7 +1902,7 @@ Xavi,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,1.0,1.0,false,false,true,0,28
 Xavi,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,1.0,true,false,false,9,29
 Xavi,2026-06-20 00:00:00.000,C,Escòcia - Marroc,0.0,1.0,false,true,false,15,30
 Xavi,2026-06-20 02:30:00.000,C,Brasil - Haití,3.0,0.0,true,false,false,15,31
-Xavi,2026-06-20 05:00:00.000,D,Turquia - Paraguay,1.0,1.0,false,false,true,0,32
+Xavi,2026-06-20 05:00:00.000,D,Turquia - Paraguai,1.0,1.0,false,false,true,0,32
 Xavi,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,2.0,0.0,true,false,false,6,33
 Xavi,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,2.0,1.0,true,false,false,15,34
 Xavi,2026-06-21 02:00:00.000,E,Equador - Curaçao,2.0,0.0,true,false,false,0,35
@@ -1941,12 +1941,12 @@ Xavi,2026-06-27 23:00:00.000,L,Croàcia - Ghana,2.0,0.0,true,false,false,9,67
 Xavi,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,0.0,2.0,false,true,false,15,68
 Xavi,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,1.0,1.0,false,false,true,8,69
 Xavi,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,1.0,1.0,false,false,true,0,70
-Xavi,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,,71
-Xavi,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,,72
+Xavi,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,6,71
+Xavi,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,9,72
 Aleix Moreno Gimeno,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Aleix Moreno Gimeno,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
 Aleix Moreno Gimeno,2026-06-12 21:00:00.000,B,Canadà - Bosnia,2.0,1.0,true,false,false,0,3
-Aleix Moreno Gimeno,2026-06-13 03:00:00.000,D,EUA - Paraguay,2.0,1.0,true,false,false,8,4
+Aleix Moreno Gimeno,2026-06-13 03:00:00.000,D,EUA - Paraguai,2.0,1.0,true,false,false,8,4
 Aleix Moreno Gimeno,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,2.0,false,true,false,0,5
 Aleix Moreno Gimeno,2026-06-14 00:00:00.000,C,Brasil - Marroc,2.0,1.0,true,false,false,0,6
 Aleix Moreno Gimeno,2026-06-14 03:00:00.000,C,Haití - Escòcia,1.0,1.0,false,false,true,0,7
@@ -1974,7 +1974,7 @@ Aleix Moreno Gimeno,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,1.0,0.0,true,fa
 Aleix Moreno Gimeno,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,1.0,true,false,false,9,29
 Aleix Moreno Gimeno,2026-06-20 00:00:00.000,C,Escòcia - Marroc,0.0,2.0,false,true,false,9,30
 Aleix Moreno Gimeno,2026-06-20 02:30:00.000,C,Brasil - Haití,3.0,0.0,true,false,false,15,31
-Aleix Moreno Gimeno,2026-06-20 05:00:00.000,D,Turquia - Paraguay,1.0,1.0,false,false,true,0,32
+Aleix Moreno Gimeno,2026-06-20 05:00:00.000,D,Turquia - Paraguai,1.0,1.0,false,false,true,0,32
 Aleix Moreno Gimeno,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,2.0,0.0,true,false,false,6,33
 Aleix Moreno Gimeno,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,3.0,1.0,true,false,false,9,34
 Aleix Moreno Gimeno,2026-06-21 02:00:00.000,E,Equador - Curaçao,2.0,0.0,true,false,false,0,35
@@ -2013,12 +2013,12 @@ Aleix Moreno Gimeno,2026-06-27 23:00:00.000,L,Croàcia - Ghana,2.0,0.0,true,fals
 Aleix Moreno Gimeno,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,1.0,2.0,false,true,false,9,68
 Aleix Moreno Gimeno,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,1.0,2.0,false,true,false,0,69
 Aleix Moreno Gimeno,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,1.0,1.0,false,false,true,0,70
-Aleix Moreno Gimeno,2026-06-28 04:00:00.000,J,Algèria - Austria,0.0,0.0,false,false,true,,71
-Aleix Moreno Gimeno,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,2.0,false,true,false,,72
+Aleix Moreno Gimeno,2026-06-28 04:00:00.000,J,Algèria - Austria,0.0,0.0,false,false,true,4,71
+Aleix Moreno Gimeno,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,2.0,false,true,false,8,72
 Alex Espelt,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,3.0,1.0,true,false,false,8,1
 Alex Espelt,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
 Alex Espelt,2026-06-12 21:00:00.000,B,Canadà - Bosnia,2.0,1.0,true,false,false,0,3
-Alex Espelt,2026-06-13 03:00:00.000,D,EUA - Paraguay,2.0,0.0,true,false,false,7,4
+Alex Espelt,2026-06-13 03:00:00.000,D,EUA - Paraguai,2.0,0.0,true,false,false,7,4
 Alex Espelt,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,3.0,false,true,false,0,5
 Alex Espelt,2026-06-14 00:00:00.000,C,Brasil - Marroc,2.0,2.0,false,false,true,8,6
 Alex Espelt,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,2.0,false,true,false,9,7
@@ -2046,7 +2046,7 @@ Alex Espelt,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,1.0,0.0,true,false,fals
 Alex Espelt,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,1.0,true,false,false,9,29
 Alex Espelt,2026-06-20 00:00:00.000,C,Escòcia - Marroc,1.0,3.0,false,true,false,7,30
 Alex Espelt,2026-06-20 02:30:00.000,C,Brasil - Haití,4.0,1.0,true,false,false,8,31
-Alex Espelt,2026-06-20 05:00:00.000,D,Turquia - Paraguay,3.0,1.0,true,false,false,0,32
+Alex Espelt,2026-06-20 05:00:00.000,D,Turquia - Paraguai,3.0,1.0,true,false,false,0,32
 Alex Espelt,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,4.0,2.0,true,false,false,8,33
 Alex Espelt,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,1.0,2.0,false,true,false,0,34
 Alex Espelt,2026-06-21 02:00:00.000,E,Equador - Curaçao,2.0,0.0,true,false,false,0,35
@@ -2085,12 +2085,12 @@ Alex Espelt,2026-06-27 23:00:00.000,L,Croàcia - Ghana,3.0,1.0,true,false,false,
 Alex Espelt,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,1.0,5.0,false,true,false,6,68
 Alex Espelt,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,1.0,3.0,false,true,false,0,69
 Alex Espelt,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,2.0,1.0,true,false,false,9,70
-Alex Espelt,2026-06-28 04:00:00.000,J,Algèria - Austria,0.0,2.0,false,true,false,,71
-Alex Espelt,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,5.0,false,true,false,,72
+Alex Espelt,2026-06-28 04:00:00.000,J,Algèria - Austria,0.0,2.0,false,true,false,0,71
+Alex Espelt,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,5.0,false,true,false,7,72
 Txell Pujol,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Txell Pujol,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,2.0,false,true,false,0,2
 Txell Pujol,2026-06-12 21:00:00.000,B,Canadà - Bosnia,1.0,2.0,false,true,false,0,3
-Txell Pujol,2026-06-13 03:00:00.000,D,EUA - Paraguay,1.0,1.0,false,false,true,0,4
+Txell Pujol,2026-06-13 03:00:00.000,D,EUA - Paraguai,1.0,1.0,false,false,true,0,4
 Txell Pujol,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,2.0,false,true,false,0,5
 Txell Pujol,2026-06-14 00:00:00.000,C,Brasil - Marroc,2.0,1.0,true,false,false,0,6
 Txell Pujol,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,1.0,false,true,false,15,7
@@ -2118,7 +2118,7 @@ Txell Pujol,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,2.0,1.0,true,false,fals
 Txell Pujol,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,2.0,false,false,true,0,29
 Txell Pujol,2026-06-20 00:00:00.000,C,Escòcia - Marroc,1.0,1.0,false,false,true,0,30
 Txell Pujol,2026-06-20 02:30:00.000,C,Brasil - Haití,3.0,0.0,true,false,false,15,31
-Txell Pujol,2026-06-20 05:00:00.000,D,Turquia - Paraguay,1.0,1.0,false,false,true,0,32
+Txell Pujol,2026-06-20 05:00:00.000,D,Turquia - Paraguai,1.0,1.0,false,false,true,0,32
 Txell Pujol,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,1.0,1.0,false,false,true,0,33
 Txell Pujol,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,2.0,1.0,true,false,false,15,34
 Txell Pujol,2026-06-21 02:00:00.000,E,Equador - Curaçao,3.0,0.0,true,false,false,0,35
@@ -2157,12 +2157,12 @@ Txell Pujol,2026-06-27 23:00:00.000,L,Croàcia - Ghana,1.0,1.0,false,false,true,
 Txell Pujol,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,0.0,3.0,false,true,false,9,68
 Txell Pujol,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,1.0,1.0,false,false,true,8,69
 Txell Pujol,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,0.0,1.0,false,true,false,0,70
-Txell Pujol,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,,71
-Txell Pujol,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,,72
+Txell Pujol,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,6,71
+Txell Pujol,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,9,72
 Xavi González,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Xavi González,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,0.0,1.0,false,true,false,0,2
 Xavi González,2026-06-12 21:00:00.000,B,Canadà - Bosnia,1.0,0.0,true,false,false,0,3
-Xavi González,2026-06-13 03:00:00.000,D,EUA - Paraguay,3.0,1.0,true,false,false,9,4
+Xavi González,2026-06-13 03:00:00.000,D,EUA - Paraguai,3.0,1.0,true,false,false,9,4
 Xavi González,2026-06-13 21:00:00.000,B,Qatar - Suïssa,1.0,1.0,false,false,true,15,5
 Xavi González,2026-06-14 00:00:00.000,C,Brasil - Marroc,1.0,2.0,false,true,false,0,6
 Xavi González,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,2.0,false,true,false,9,7
@@ -2190,7 +2190,7 @@ Xavi González,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,2.0,0.0,true,false,f
 Xavi González,2026-06-19 21:00:00.000,D,EUA - Australia,1.0,0.0,true,false,false,9,29
 Xavi González,2026-06-20 00:00:00.000,C,Escòcia - Marroc,1.0,2.0,false,true,false,8,30
 Xavi González,2026-06-20 02:30:00.000,C,Brasil - Haití,3.0,0.0,true,false,false,15,31
-Xavi González,2026-06-20 05:00:00.000,D,Turquia - Paraguay,1.0,0.0,true,false,false,0,32
+Xavi González,2026-06-20 05:00:00.000,D,Turquia - Paraguai,1.0,0.0,true,false,false,0,32
 Xavi González,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,1.0,0.0,true,false,false,5,33
 Xavi González,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,2.0,1.0,true,false,false,15,34
 Xavi González,2026-06-21 02:00:00.000,E,Equador - Curaçao,2.0,0.0,true,false,false,0,35
@@ -2229,12 +2229,12 @@ Xavi González,2026-06-27 23:00:00.000,L,Croàcia - Ghana,2.0,1.0,true,false,fal
 Xavi González,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,0.0,2.0,false,true,false,15,68
 Xavi González,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,2.0,1.0,true,false,false,0,69
 Xavi González,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,1.0,0.0,true,false,false,7,70
-Xavi González,2026-06-28 04:00:00.000,J,Algèria - Austria,0.0,1.0,false,true,false,,71
-Xavi González,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,2.0,false,true,false,,72
+Xavi González,2026-06-28 04:00:00.000,J,Algèria - Austria,0.0,1.0,false,true,false,0,71
+Xavi González,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,2.0,false,true,false,8,72
 Daniel Rodriguez,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,1.0,1.0,false,false,true,0,1
 Daniel Rodriguez,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,3.0,false,true,false,0,2
 Daniel Rodriguez,2026-06-12 21:00:00.000,B,Canadà - Bosnia,0.0,0.0,false,false,true,8,3
-Daniel Rodriguez,2026-06-13 03:00:00.000,D,EUA - Paraguay,2.0,0.0,true,false,false,7,4
+Daniel Rodriguez,2026-06-13 03:00:00.000,D,EUA - Paraguai,2.0,0.0,true,false,false,7,4
 Daniel Rodriguez,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,1.0,false,true,false,0,5
 Daniel Rodriguez,2026-06-14 00:00:00.000,C,Brasil - Marroc,1.0,3.0,false,true,false,0,6
 Daniel Rodriguez,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,2.0,false,true,false,9,7
@@ -2262,7 +2262,7 @@ Daniel Rodriguez,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,0.0,0.0,false,fals
 Daniel Rodriguez,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,1.0,true,false,false,9,29
 Daniel Rodriguez,2026-06-20 00:00:00.000,C,Escòcia - Marroc,1.0,3.0,false,true,false,7,30
 Daniel Rodriguez,2026-06-20 02:30:00.000,C,Brasil - Haití,5.0,0.0,true,false,false,8,31
-Daniel Rodriguez,2026-06-20 05:00:00.000,D,Turquia - Paraguay,1.0,1.0,false,false,true,0,32
+Daniel Rodriguez,2026-06-20 05:00:00.000,D,Turquia - Paraguai,1.0,1.0,false,false,true,0,32
 Daniel Rodriguez,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,2.0,0.0,true,false,false,6,33
 Daniel Rodriguez,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,1.0,0.0,true,false,false,8,34
 Daniel Rodriguez,2026-06-21 02:00:00.000,E,Equador - Curaçao,4.0,0.0,true,false,false,0,35
@@ -2301,12 +2301,12 @@ Daniel Rodriguez,2026-06-27 23:00:00.000,L,Croàcia - Ghana,2.0,1.0,true,false,f
 Daniel Rodriguez,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,0.0,3.0,false,true,false,9,68
 Daniel Rodriguez,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,0.0,1.0,false,true,false,0,69
 Daniel Rodriguez,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,0.0,0.0,false,false,true,0,70
-Daniel Rodriguez,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,0.0,true,false,false,,71
-Daniel Rodriguez,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,5.0,false,true,false,,72
+Daniel Rodriguez,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,0.0,true,false,false,0,71
+Daniel Rodriguez,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,5.0,false,true,false,7,72
 Sergio Mérida Ceballos,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Sergio Mérida Ceballos,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,2.0,false,true,false,0,2
 Sergio Mérida Ceballos,2026-06-12 21:00:00.000,B,Canadà - Bosnia,1.0,1.0,false,false,true,15,3
-Sergio Mérida Ceballos,2026-06-13 03:00:00.000,D,EUA - Paraguay,3.0,1.0,true,false,false,9,4
+Sergio Mérida Ceballos,2026-06-13 03:00:00.000,D,EUA - Paraguai,3.0,1.0,true,false,false,9,4
 Sergio Mérida Ceballos,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,2.0,false,true,false,0,5
 Sergio Mérida Ceballos,2026-06-14 00:00:00.000,C,Brasil - Marroc,3.0,1.0,true,false,false,0,6
 Sergio Mérida Ceballos,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,1.0,false,true,false,15,7
@@ -2334,7 +2334,7 @@ Sergio Mérida Ceballos,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,1.0,1.0,fal
 Sergio Mérida Ceballos,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,0.0,true,false,false,15,29
 Sergio Mérida Ceballos,2026-06-20 00:00:00.000,C,Escòcia - Marroc,1.0,2.0,false,true,false,8,30
 Sergio Mérida Ceballos,2026-06-20 02:30:00.000,C,Brasil - Haití,3.0,0.0,true,false,false,15,31
-Sergio Mérida Ceballos,2026-06-20 05:00:00.000,D,Turquia - Paraguay,3.0,1.0,true,false,false,0,32
+Sergio Mérida Ceballos,2026-06-20 05:00:00.000,D,Turquia - Paraguai,3.0,1.0,true,false,false,0,32
 Sergio Mérida Ceballos,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,3.0,1.0,true,false,false,8,33
 Sergio Mérida Ceballos,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,2.0,1.0,true,false,false,15,34
 Sergio Mérida Ceballos,2026-06-21 02:00:00.000,E,Equador - Curaçao,3.0,0.0,true,false,false,0,35
@@ -2373,12 +2373,12 @@ Sergio Mérida Ceballos,2026-06-27 23:00:00.000,L,Croàcia - Ghana,2.0,1.0,true,
 Sergio Mérida Ceballos,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,0.0,2.0,false,true,false,15,68
 Sergio Mérida Ceballos,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,2.0,2.0,false,false,true,6,69
 Sergio Mérida Ceballos,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,0.0,1.0,false,true,false,0,70
-Sergio Mérida Ceballos,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,2.0,false,true,false,,71
-Sergio Mérida Ceballos,2026-06-28 04:00:00.000,J,Jordània - Argentina,1.0,3.0,false,true,false,,72
+Sergio Mérida Ceballos,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,2.0,false,true,false,0,71
+Sergio Mérida Ceballos,2026-06-28 04:00:00.000,J,Jordània - Argentina,1.0,3.0,false,true,false,15,72
 Arnau Pérez,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Arnau Pérez,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
 Arnau Pérez,2026-06-12 21:00:00.000,B,Canadà - Bosnia,2.0,1.0,true,false,false,0,3
-Arnau Pérez,2026-06-13 03:00:00.000,D,EUA - Paraguay,2.0,1.0,true,false,false,8,4
+Arnau Pérez,2026-06-13 03:00:00.000,D,EUA - Paraguai,2.0,1.0,true,false,false,8,4
 Arnau Pérez,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,2.0,false,true,false,0,5
 Arnau Pérez,2026-06-14 00:00:00.000,C,Brasil - Marroc,2.0,1.0,true,false,false,0,6
 Arnau Pérez,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,1.0,false,true,false,15,7
@@ -2406,7 +2406,7 @@ Arnau Pérez,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,2.0,1.0,true,false,fal
 Arnau Pérez,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,0.0,true,false,false,15,29
 Arnau Pérez,2026-06-20 00:00:00.000,C,Escòcia - Marroc,1.0,1.0,false,false,true,0,30
 Arnau Pérez,2026-06-20 02:30:00.000,C,Brasil - Haití,2.0,0.0,true,false,false,9,31
-Arnau Pérez,2026-06-20 05:00:00.000,D,Turquia - Paraguay,1.0,1.0,false,false,true,0,32
+Arnau Pérez,2026-06-20 05:00:00.000,D,Turquia - Paraguai,1.0,1.0,false,false,true,0,32
 Arnau Pérez,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,2.0,1.0,true,false,false,7,33
 Arnau Pérez,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,2.0,0.0,true,false,false,9,34
 Arnau Pérez,2026-06-21 02:00:00.000,E,Equador - Curaçao,2.0,0.0,true,false,false,0,35
@@ -2445,12 +2445,12 @@ Arnau Pérez,2026-06-27 23:00:00.000,L,Croàcia - Ghana,2.0,1.0,true,false,false
 Arnau Pérez,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,1.0,1.0,false,false,true,0,68
 Arnau Pérez,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,1.0,2.0,false,true,false,0,69
 Arnau Pérez,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,1.0,1.0,false,false,true,0,70
-Arnau Pérez,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,2.0,false,true,false,,71
-Arnau Pérez,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,2.0,false,true,false,,72
+Arnau Pérez,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,2.0,false,true,false,0,71
+Arnau Pérez,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,2.0,false,true,false,8,72
 Bruno Ferrero,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Bruno Ferrero,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
 Bruno Ferrero,2026-06-12 21:00:00.000,B,Canadà - Bosnia,2.0,1.0,true,false,false,0,3
-Bruno Ferrero,2026-06-13 03:00:00.000,D,EUA - Paraguay,2.0,0.0,true,false,false,7,4
+Bruno Ferrero,2026-06-13 03:00:00.000,D,EUA - Paraguai,2.0,0.0,true,false,false,7,4
 Bruno Ferrero,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,3.0,false,true,false,0,5
 Bruno Ferrero,2026-06-14 00:00:00.000,C,Brasil - Marroc,2.0,1.0,true,false,false,0,6
 Bruno Ferrero,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,2.0,false,true,false,9,7
@@ -2478,7 +2478,7 @@ Bruno Ferrero,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,2.0,0.0,true,false,fa
 Bruno Ferrero,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,1.0,true,false,false,9,29
 Bruno Ferrero,2026-06-20 00:00:00.000,C,Escòcia - Marroc,0.0,2.0,false,true,false,9,30
 Bruno Ferrero,2026-06-20 02:30:00.000,C,Brasil - Haití,3.0,0.0,true,false,false,15,31
-Bruno Ferrero,2026-06-20 05:00:00.000,D,Turquia - Paraguay,0.0,1.0,false,true,false,15,32
+Bruno Ferrero,2026-06-20 05:00:00.000,D,Turquia - Paraguai,0.0,1.0,false,true,false,15,32
 Bruno Ferrero,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,2.0,0.0,true,false,false,6,33
 Bruno Ferrero,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,2.0,0.0,true,false,false,9,34
 Bruno Ferrero,2026-06-21 02:00:00.000,E,Equador - Curaçao,2.0,0.0,true,false,false,0,35
@@ -2517,12 +2517,12 @@ Bruno Ferrero,2026-06-27 23:00:00.000,L,Croàcia - Ghana,1.0,0.0,true,false,fals
 Bruno Ferrero,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,0.0,2.0,false,true,false,15,68
 Bruno Ferrero,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,1.0,2.0,false,true,false,0,69
 Bruno Ferrero,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,1.0,0.0,true,false,false,7,70
-Bruno Ferrero,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,,71
-Bruno Ferrero,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,2.0,false,true,false,,72
+Bruno Ferrero,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,6,71
+Bruno Ferrero,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,2.0,false,true,false,8,72
 Ignasi Sanz,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Ignasi Sanz,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
 Ignasi Sanz,2026-06-12 21:00:00.000,B,Canadà - Bosnia,1.0,1.0,false,false,true,15,3
-Ignasi Sanz,2026-06-13 03:00:00.000,D,EUA - Paraguay,1.0,1.0,false,false,true,0,4
+Ignasi Sanz,2026-06-13 03:00:00.000,D,EUA - Paraguai,1.0,1.0,false,false,true,0,4
 Ignasi Sanz,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,2.0,false,true,false,0,5
 Ignasi Sanz,2026-06-14 00:00:00.000,C,Brasil - Marroc,2.0,1.0,true,false,false,0,6
 Ignasi Sanz,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,2.0,false,true,false,9,7
@@ -2550,7 +2550,7 @@ Ignasi Sanz,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,1.0,0.0,true,false,fals
 Ignasi Sanz,2026-06-19 21:00:00.000,D,EUA - Australia,1.0,1.0,false,false,true,0,29
 Ignasi Sanz,2026-06-20 00:00:00.000,C,Escòcia - Marroc,0.0,1.0,false,true,false,15,30
 Ignasi Sanz,2026-06-20 02:30:00.000,C,Brasil - Haití,3.0,0.0,true,false,false,15,31
-Ignasi Sanz,2026-06-20 05:00:00.000,D,Turquia - Paraguay,2.0,1.0,true,false,false,0,32
+Ignasi Sanz,2026-06-20 05:00:00.000,D,Turquia - Paraguai,2.0,1.0,true,false,false,0,32
 Ignasi Sanz,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,2.0,1.0,true,false,false,7,33
 Ignasi Sanz,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,3.0,1.0,true,false,false,9,34
 Ignasi Sanz,2026-06-21 02:00:00.000,E,Equador - Curaçao,2.0,0.0,true,false,false,0,35
@@ -2589,12 +2589,12 @@ Ignasi Sanz,2026-06-27 23:00:00.000,L,Croàcia - Ghana,1.0,0.0,true,false,false,
 Ignasi Sanz,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,0.0,2.0,false,true,false,15,68
 Ignasi Sanz,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,1.0,2.0,false,true,false,0,69
 Ignasi Sanz,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,1.0,1.0,false,false,true,0,70
-Ignasi Sanz,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,,71
-Ignasi Sanz,2026-06-28 04:00:00.000,J,Jordània - Argentina,1.0,3.0,false,true,false,,72
+Ignasi Sanz,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,6,71
+Ignasi Sanz,2026-06-28 04:00:00.000,J,Jordània - Argentina,1.0,3.0,false,true,false,15,72
 Ignacio Teixeira Izuzquiza,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Ignacio Teixeira Izuzquiza,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
 Ignacio Teixeira Izuzquiza,2026-06-12 21:00:00.000,B,Canadà - Bosnia,2.0,1.0,true,false,false,0,3
-Ignacio Teixeira Izuzquiza,2026-06-13 03:00:00.000,D,EUA - Paraguay,2.0,1.0,true,false,false,8,4
+Ignacio Teixeira Izuzquiza,2026-06-13 03:00:00.000,D,EUA - Paraguai,2.0,1.0,true,false,false,8,4
 Ignacio Teixeira Izuzquiza,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,2.0,false,true,false,0,5
 Ignacio Teixeira Izuzquiza,2026-06-14 00:00:00.000,C,Brasil - Marroc,2.0,1.0,true,false,false,0,6
 Ignacio Teixeira Izuzquiza,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,2.0,false,true,false,9,7
@@ -2622,7 +2622,7 @@ Ignacio Teixeira Izuzquiza,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,2.0,1.0,
 Ignacio Teixeira Izuzquiza,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,0.0,true,false,false,15,29
 Ignacio Teixeira Izuzquiza,2026-06-20 00:00:00.000,C,Escòcia - Marroc,1.0,1.0,false,false,true,0,30
 Ignacio Teixeira Izuzquiza,2026-06-20 02:30:00.000,C,Brasil - Haití,3.0,0.0,true,false,false,15,31
-Ignacio Teixeira Izuzquiza,2026-06-20 05:00:00.000,D,Turquia - Paraguay,1.0,1.0,false,false,true,0,32
+Ignacio Teixeira Izuzquiza,2026-06-20 05:00:00.000,D,Turquia - Paraguai,1.0,1.0,false,false,true,0,32
 Ignacio Teixeira Izuzquiza,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,1.0,1.0,false,false,true,0,33
 Ignacio Teixeira Izuzquiza,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,2.0,0.0,true,false,false,9,34
 Ignacio Teixeira Izuzquiza,2026-06-21 02:00:00.000,E,Equador - Curaçao,2.0,0.0,true,false,false,0,35
@@ -2661,12 +2661,12 @@ Ignacio Teixeira Izuzquiza,2026-06-27 23:00:00.000,L,Croàcia - Ghana,2.0,1.0,tr
 Ignacio Teixeira Izuzquiza,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,0.0,3.0,false,true,false,9,68
 Ignacio Teixeira Izuzquiza,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,1.0,1.0,false,false,true,8,69
 Ignacio Teixeira Izuzquiza,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,1.0,1.0,false,false,true,0,70
-Ignacio Teixeira Izuzquiza,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,,71
-Ignacio Teixeira Izuzquiza,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,,72
+Ignacio Teixeira Izuzquiza,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,6,71
+Ignacio Teixeira Izuzquiza,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,9,72
 Roger Calabuig,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,3.0,1.0,true,false,false,8,1
 Roger Calabuig,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,2.0,1.0,true,false,false,15,2
 Roger Calabuig,2026-06-12 21:00:00.000,B,Canadà - Bosnia,2.0,0.0,true,false,false,0,3
-Roger Calabuig,2026-06-13 03:00:00.000,D,EUA - Paraguay,2.0,1.0,true,false,false,8,4
+Roger Calabuig,2026-06-13 03:00:00.000,D,EUA - Paraguai,2.0,1.0,true,false,false,8,4
 Roger Calabuig,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,2.0,false,true,false,0,5
 Roger Calabuig,2026-06-14 00:00:00.000,C,Brasil - Marroc,3.0,1.0,true,false,false,0,6
 Roger Calabuig,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,1.0,false,true,false,15,7
@@ -2694,7 +2694,7 @@ Roger Calabuig,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,2.0,1.0,true,false,f
 Roger Calabuig,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,0.0,true,false,false,15,29
 Roger Calabuig,2026-06-20 00:00:00.000,C,Escòcia - Marroc,0.0,2.0,false,true,false,9,30
 Roger Calabuig,2026-06-20 02:30:00.000,C,Brasil - Haití,3.0,0.0,true,false,false,15,31
-Roger Calabuig,2026-06-20 05:00:00.000,D,Turquia - Paraguay,1.0,0.0,true,false,false,0,32
+Roger Calabuig,2026-06-20 05:00:00.000,D,Turquia - Paraguai,1.0,0.0,true,false,false,0,32
 Roger Calabuig,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,2.0,1.0,true,false,false,7,33
 Roger Calabuig,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,2.0,0.0,true,false,false,9,34
 Roger Calabuig,2026-06-21 02:00:00.000,E,Equador - Curaçao,1.0,0.0,true,false,false,0,35
@@ -2733,12 +2733,12 @@ Roger Calabuig,2026-06-27 23:00:00.000,L,Croàcia - Ghana,2.0,0.0,true,false,fal
 Roger Calabuig,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,0.0,3.0,false,true,false,9,68
 Roger Calabuig,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,1.0,2.0,false,true,false,0,69
 Roger Calabuig,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,1.0,0.0,true,false,false,7,70
-Roger Calabuig,2026-06-28 04:00:00.000,J,Algèria - Austria,0.0,1.0,false,true,false,,71
-Roger Calabuig,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,,72
+Roger Calabuig,2026-06-28 04:00:00.000,J,Algèria - Austria,0.0,1.0,false,true,false,0,71
+Roger Calabuig,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,9,72
 David Gallofré,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,1.0,1.0,false,false,true,0,1
 David Gallofré,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
 David Gallofré,2026-06-12 21:00:00.000,B,Canadà - Bosnia,0.0,1.0,false,true,false,0,3
-David Gallofré,2026-06-13 03:00:00.000,D,EUA - Paraguay,1.0,1.0,false,false,true,0,4
+David Gallofré,2026-06-13 03:00:00.000,D,EUA - Paraguai,1.0,1.0,false,false,true,0,4
 David Gallofré,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,2.0,false,true,false,0,5
 David Gallofré,2026-06-14 00:00:00.000,C,Brasil - Marroc,2.0,2.0,false,false,true,8,6
 David Gallofré,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,2.0,false,true,false,9,7
@@ -2766,7 +2766,7 @@ David Gallofré,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,1.0,1.0,false,false
 David Gallofré,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,1.0,true,false,false,9,29
 David Gallofré,2026-06-20 00:00:00.000,C,Escòcia - Marroc,0.0,2.0,false,true,false,9,30
 David Gallofré,2026-06-20 02:30:00.000,C,Brasil - Haití,5.0,0.0,true,false,false,8,31
-David Gallofré,2026-06-20 05:00:00.000,D,Turquia - Paraguay,0.0,1.0,false,true,false,15,32
+David Gallofré,2026-06-20 05:00:00.000,D,Turquia - Paraguai,0.0,1.0,false,true,false,15,32
 David Gallofré,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,2.0,1.0,true,false,false,7,33
 David Gallofré,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,3.0,1.0,true,false,false,9,34
 David Gallofré,2026-06-21 02:00:00.000,E,Equador - Curaçao,3.0,0.0,true,false,false,0,35
@@ -2805,12 +2805,12 @@ David Gallofré,2026-06-27 23:00:00.000,L,Croàcia - Ghana,2.0,1.0,true,false,fa
 David Gallofré,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,1.0,3.0,false,true,false,8,68
 David Gallofré,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,1.0,2.0,false,true,false,0,69
 David Gallofré,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,1.0,1.0,false,false,true,0,70
-David Gallofré,2026-06-28 04:00:00.000,J,Algèria - Austria,3.0,1.0,true,false,false,,71
-David Gallofré,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,,72
+David Gallofré,2026-06-28 04:00:00.000,J,Algèria - Austria,3.0,1.0,true,false,false,0,71
+David Gallofré,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,9,72
 Eric Llensa,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Eric Llensa,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,2.0,false,true,false,0,2
 Eric Llensa,2026-06-12 21:00:00.000,B,Canadà - Bosnia,2.0,0.0,true,false,false,0,3
-Eric Llensa,2026-06-13 03:00:00.000,D,EUA - Paraguay,1.0,0.0,true,false,false,6,4
+Eric Llensa,2026-06-13 03:00:00.000,D,EUA - Paraguai,1.0,0.0,true,false,false,6,4
 Eric Llensa,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,3.0,false,true,false,0,5
 Eric Llensa,2026-06-14 00:00:00.000,C,Brasil - Marroc,3.0,1.0,true,false,false,0,6
 Eric Llensa,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,2.0,false,true,false,9,7
@@ -2838,7 +2838,7 @@ Eric Llensa,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,1.0,1.0,false,false,tru
 Eric Llensa,2026-06-19 21:00:00.000,D,EUA - Australia,1.0,0.0,true,false,false,9,29
 Eric Llensa,2026-06-20 00:00:00.000,C,Escòcia - Marroc,1.0,2.0,false,true,false,8,30
 Eric Llensa,2026-06-20 02:30:00.000,C,Brasil - Haití,3.0,0.0,true,false,false,15,31
-Eric Llensa,2026-06-20 05:00:00.000,D,Turquia - Paraguay,3.0,1.0,true,false,false,0,32
+Eric Llensa,2026-06-20 05:00:00.000,D,Turquia - Paraguai,3.0,1.0,true,false,false,0,32
 Eric Llensa,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,2.0,2.0,false,false,true,0,33
 Eric Llensa,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,3.0,1.0,true,false,false,9,34
 Eric Llensa,2026-06-21 02:00:00.000,E,Equador - Curaçao,2.0,0.0,true,false,false,0,35
@@ -2877,12 +2877,12 @@ Eric Llensa,2026-06-27 23:00:00.000,L,Croàcia - Ghana,2.0,1.0,true,false,false,
 Eric Llensa,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,1.0,3.0,false,true,false,8,68
 Eric Llensa,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,1.0,2.0,false,true,false,0,69
 Eric Llensa,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,2.0,1.0,true,false,false,9,70
-Eric Llensa,2026-06-28 04:00:00.000,J,Algèria - Austria,0.0,2.0,false,true,false,,71
-Eric Llensa,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,2.0,false,true,false,,72
+Eric Llensa,2026-06-28 04:00:00.000,J,Algèria - Austria,0.0,2.0,false,true,false,0,71
+Eric Llensa,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,2.0,false,true,false,8,72
 Anna Jaile,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Anna Jaile,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,0.0,2.0,false,true,false,0,2
 Anna Jaile,2026-06-12 21:00:00.000,B,Canadà - Bosnia,2.0,1.0,true,false,false,0,3
-Anna Jaile,2026-06-13 03:00:00.000,D,EUA - Paraguay,3.0,2.0,true,false,false,8,4
+Anna Jaile,2026-06-13 03:00:00.000,D,EUA - Paraguai,3.0,2.0,true,false,false,8,4
 Anna Jaile,2026-06-13 21:00:00.000,B,Qatar - Suïssa,1.0,2.0,false,true,false,0,5
 Anna Jaile,2026-06-14 00:00:00.000,C,Brasil - Marroc,3.0,2.0,true,false,false,0,6
 Anna Jaile,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,4.0,false,true,false,7,7
@@ -2910,7 +2910,7 @@ Anna Jaile,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,3.0,0.0,true,false,false
 Anna Jaile,2026-06-19 21:00:00.000,D,EUA - Australia,3.0,1.0,true,false,false,8,29
 Anna Jaile,2026-06-20 00:00:00.000,C,Escòcia - Marroc,4.0,2.0,true,false,false,0,30
 Anna Jaile,2026-06-20 02:30:00.000,C,Brasil - Haití,4.0,0.0,true,false,false,9,31
-Anna Jaile,2026-06-20 05:00:00.000,D,Turquia - Paraguay,2.0,3.0,false,true,false,6,32
+Anna Jaile,2026-06-20 05:00:00.000,D,Turquia - Paraguai,2.0,3.0,false,true,false,6,32
 Anna Jaile,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,3.0,2.0,true,false,false,7,33
 Anna Jaile,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,3.0,0.0,true,false,false,8,34
 Anna Jaile,2026-06-21 02:00:00.000,E,Equador - Curaçao,2.0,0.0,true,false,false,0,35
@@ -2949,12 +2949,12 @@ Anna Jaile,2026-06-27 23:00:00.000,L,Croàcia - Ghana,3.0,0.0,true,false,false,8
 Anna Jaile,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,0.0,4.0,false,true,false,8,68
 Anna Jaile,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,1.0,3.0,false,true,false,0,69
 Anna Jaile,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,1.0,2.0,false,true,false,0,70
-Anna Jaile,2026-06-28 04:00:00.000,J,Algèria - Austria,0.0,1.0,false,true,false,,71
-Anna Jaile,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,,72
+Anna Jaile,2026-06-28 04:00:00.000,J,Algèria - Austria,0.0,1.0,false,true,false,0,71
+Anna Jaile,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,9,72
 Mercè Jaile,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,3.0,1.0,true,false,false,8,1
 Mercè Jaile,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,3.0,false,true,false,0,2
 Mercè Jaile,2026-06-12 21:00:00.000,B,Canadà - Bosnia,0.0,2.0,false,true,false,0,3
-Mercè Jaile,2026-06-13 03:00:00.000,D,EUA - Paraguay,2.0,2.0,false,false,true,0,4
+Mercè Jaile,2026-06-13 03:00:00.000,D,EUA - Paraguai,2.0,2.0,false,false,true,0,4
 Mercè Jaile,2026-06-13 21:00:00.000,B,Qatar - Suïssa,1.0,1.0,false,false,true,15,5
 Mercè Jaile,2026-06-14 00:00:00.000,C,Brasil - Marroc,3.0,2.0,true,false,false,0,6
 Mercè Jaile,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,3.0,false,true,false,8,7
@@ -2982,7 +2982,7 @@ Mercè Jaile,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,2.0,0.0,true,false,fal
 Mercè Jaile,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,1.0,true,false,false,9,29
 Mercè Jaile,2026-06-20 00:00:00.000,C,Escòcia - Marroc,3.0,2.0,true,false,false,0,30
 Mercè Jaile,2026-06-20 02:30:00.000,C,Brasil - Haití,3.0,0.0,true,false,false,15,31
-Mercè Jaile,2026-06-20 05:00:00.000,D,Turquia - Paraguay,1.0,2.0,false,true,false,8,32
+Mercè Jaile,2026-06-20 05:00:00.000,D,Turquia - Paraguai,1.0,2.0,false,true,false,8,32
 Mercè Jaile,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,3.0,0.0,true,false,false,7,33
 Mercè Jaile,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,3.0,0.0,true,false,false,8,34
 Mercè Jaile,2026-06-21 02:00:00.000,E,Equador - Curaçao,2.0,0.0,true,false,false,0,35
@@ -3021,12 +3021,12 @@ Mercè Jaile,2026-06-27 23:00:00.000,L,Croàcia - Ghana,3.0,1.0,true,false,false
 Mercè Jaile,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,1.0,3.0,false,true,false,8,68
 Mercè Jaile,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,2.0,3.0,false,true,false,0,69
 Mercè Jaile,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,1.0,1.0,false,false,true,0,70
-Mercè Jaile,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,,71
-Mercè Jaile,2026-06-28 04:00:00.000,J,Jordània - Argentina,1.0,4.0,false,true,false,,72
+Mercè Jaile,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,6,71
+Mercè Jaile,2026-06-28 04:00:00.000,J,Jordània - Argentina,1.0,4.0,false,true,false,9,72
 Patricia Miró Bruna,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,1.0,2.0,false,true,false,0,1
 Patricia Miró Bruna,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,2.0,2.0,false,false,true,0,2
 Patricia Miró Bruna,2026-06-12 21:00:00.000,B,Canadà - Bosnia,3.0,0.0,true,false,false,0,3
-Patricia Miró Bruna,2026-06-13 03:00:00.000,D,EUA - Paraguay,2.0,1.0,true,false,false,8,4
+Patricia Miró Bruna,2026-06-13 03:00:00.000,D,EUA - Paraguai,2.0,1.0,true,false,false,8,4
 Patricia Miró Bruna,2026-06-13 21:00:00.000,B,Qatar - Suïssa,1.0,3.0,false,true,false,0,5
 Patricia Miró Bruna,2026-06-14 00:00:00.000,C,Brasil - Marroc,3.0,2.0,true,false,false,0,6
 Patricia Miró Bruna,2026-06-14 03:00:00.000,C,Haití - Escòcia,1.0,3.0,false,true,false,7,7
@@ -3054,7 +3054,7 @@ Patricia Miró Bruna,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,3.0,2.0,true,f
 Patricia Miró Bruna,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,1.0,true,false,false,9,29
 Patricia Miró Bruna,2026-06-20 00:00:00.000,C,Escòcia - Marroc,1.0,3.0,false,true,false,7,30
 Patricia Miró Bruna,2026-06-20 02:30:00.000,C,Brasil - Haití,5.0,0.0,true,false,false,8,31
-Patricia Miró Bruna,2026-06-20 05:00:00.000,D,Turquia - Paraguay,2.0,1.0,true,false,false,0,32
+Patricia Miró Bruna,2026-06-20 05:00:00.000,D,Turquia - Paraguai,2.0,1.0,true,false,false,0,32
 Patricia Miró Bruna,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,3.0,1.0,true,false,false,8,33
 Patricia Miró Bruna,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,3.0,0.0,true,false,false,8,34
 Patricia Miró Bruna,2026-06-21 02:00:00.000,E,Equador - Curaçao,2.0,0.0,true,false,false,0,35
@@ -3093,12 +3093,12 @@ Patricia Miró Bruna,2026-06-27 23:00:00.000,L,Croàcia - Ghana,3.0,1.0,true,fal
 Patricia Miró Bruna,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,0.0,3.0,false,true,false,9,68
 Patricia Miró Bruna,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,1.0,2.0,false,true,false,0,69
 Patricia Miró Bruna,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,2.0,0.0,true,false,false,8,70
-Patricia Miró Bruna,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,2.0,false,true,false,,71
-Patricia Miró Bruna,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,,72
+Patricia Miró Bruna,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,2.0,false,true,false,0,71
+Patricia Miró Bruna,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,9,72
 Jesus Echevarria,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Jesus Echevarria,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,2.0,1.0,true,false,false,15,2
 Jesus Echevarria,2026-06-12 21:00:00.000,B,Canadà - Bosnia,1.0,1.0,false,false,true,15,3
-Jesus Echevarria,2026-06-13 03:00:00.000,D,EUA - Paraguay,2.0,1.0,true,false,false,8,4
+Jesus Echevarria,2026-06-13 03:00:00.000,D,EUA - Paraguai,2.0,1.0,true,false,false,8,4
 Jesus Echevarria,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,2.0,false,true,false,0,5
 Jesus Echevarria,2026-06-14 00:00:00.000,C,Brasil - Marroc,2.0,1.0,true,false,false,0,6
 Jesus Echevarria,2026-06-14 03:00:00.000,C,Haití - Escòcia,1.0,2.0,false,true,false,8,7
@@ -3126,7 +3126,7 @@ Jesus Echevarria,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,2.0,0.0,true,false
 Jesus Echevarria,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,1.0,true,false,false,9,29
 Jesus Echevarria,2026-06-20 00:00:00.000,C,Escòcia - Marroc,1.0,0.0,true,false,false,0,30
 Jesus Echevarria,2026-06-20 02:30:00.000,C,Brasil - Haití,5.0,0.0,true,false,false,8,31
-Jesus Echevarria,2026-06-20 05:00:00.000,D,Turquia - Paraguay,3.0,1.0,true,false,false,0,32
+Jesus Echevarria,2026-06-20 05:00:00.000,D,Turquia - Paraguai,3.0,1.0,true,false,false,0,32
 Jesus Echevarria,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,2.0,1.0,true,false,false,7,33
 Jesus Echevarria,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,4.0,0.0,true,false,false,7,34
 Jesus Echevarria,2026-06-21 02:00:00.000,E,Equador - Curaçao,2.0,0.0,true,false,false,0,35
@@ -3165,12 +3165,12 @@ Jesus Echevarria,2026-06-27 23:00:00.000,L,Croàcia - Ghana,2.0,0.0,true,false,f
 Jesus Echevarria,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,1.0,2.0,false,true,false,9,68
 Jesus Echevarria,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,1.0,3.0,false,true,false,0,69
 Jesus Echevarria,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,1.0,0.0,true,false,false,7,70
-Jesus Echevarria,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,,71
-Jesus Echevarria,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,,72
+Jesus Echevarria,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,6,71
+Jesus Echevarria,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,9,72
 Ricardo Luque Echevarria,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,3.0,0.0,true,false,false,9,1
 Ricardo Luque Echevarria,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,0.0,1.0,false,true,false,0,2
 Ricardo Luque Echevarria,2026-06-12 21:00:00.000,B,Canadà - Bosnia,1.0,0.0,true,false,false,0,3
-Ricardo Luque Echevarria,2026-06-13 03:00:00.000,D,EUA - Paraguay,2.0,1.0,true,false,false,8,4
+Ricardo Luque Echevarria,2026-06-13 03:00:00.000,D,EUA - Paraguai,2.0,1.0,true,false,false,8,4
 Ricardo Luque Echevarria,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,2.0,false,true,false,0,5
 Ricardo Luque Echevarria,2026-06-14 00:00:00.000,C,Brasil - Marroc,3.0,2.0,true,false,false,0,6
 Ricardo Luque Echevarria,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,2.0,false,true,false,9,7
@@ -3198,7 +3198,7 @@ Ricardo Luque Echevarria,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,2.0,0.0,tr
 Ricardo Luque Echevarria,2026-06-19 21:00:00.000,D,EUA - Australia,3.0,1.0,true,false,false,8,29
 Ricardo Luque Echevarria,2026-06-20 00:00:00.000,C,Escòcia - Marroc,0.0,1.0,false,true,false,15,30
 Ricardo Luque Echevarria,2026-06-20 02:30:00.000,C,Brasil - Haití,3.0,0.0,true,false,false,15,31
-Ricardo Luque Echevarria,2026-06-20 05:00:00.000,D,Turquia - Paraguay,2.0,1.0,true,false,false,0,32
+Ricardo Luque Echevarria,2026-06-20 05:00:00.000,D,Turquia - Paraguai,2.0,1.0,true,false,false,0,32
 Ricardo Luque Echevarria,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,2.0,0.0,true,false,false,6,33
 Ricardo Luque Echevarria,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,3.0,0.0,true,false,false,8,34
 Ricardo Luque Echevarria,2026-06-21 02:00:00.000,E,Equador - Curaçao,2.0,0.0,true,false,false,0,35
@@ -3237,12 +3237,12 @@ Ricardo Luque Echevarria,2026-06-27 23:00:00.000,L,Croàcia - Ghana,1.0,0.0,true
 Ricardo Luque Echevarria,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,1.0,4.0,false,true,false,7,68
 Ricardo Luque Echevarria,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,2.0,2.0,false,false,true,6,69
 Ricardo Luque Echevarria,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,0.0,0.0,false,false,true,0,70
-Ricardo Luque Echevarria,2026-06-28 04:00:00.000,J,Algèria - Austria,0.0,2.0,false,true,false,,71
-Ricardo Luque Echevarria,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,5.0,false,true,false,,72
+Ricardo Luque Echevarria,2026-06-28 04:00:00.000,J,Algèria - Austria,0.0,2.0,false,true,false,0,71
+Ricardo Luque Echevarria,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,5.0,false,true,false,7,72
 Jan Quer,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,1.0,0.0,true,false,false,9,1
 Jan Quer,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
 Jan Quer,2026-06-12 21:00:00.000,B,Canadà - Bosnia,2.0,0.0,true,false,false,0,3
-Jan Quer,2026-06-13 03:00:00.000,D,EUA - Paraguay,2.0,1.0,true,false,false,8,4
+Jan Quer,2026-06-13 03:00:00.000,D,EUA - Paraguai,2.0,1.0,true,false,false,8,4
 Jan Quer,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,1.0,false,true,false,0,5
 Jan Quer,2026-06-14 00:00:00.000,C,Brasil - Marroc,2.0,2.0,false,false,true,8,6
 Jan Quer,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,1.0,false,true,false,15,7
@@ -3270,7 +3270,7 @@ Jan Quer,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,2.0,1.0,true,false,false,8
 Jan Quer,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,0.0,true,false,false,15,29
 Jan Quer,2026-06-20 00:00:00.000,C,Escòcia - Marroc,1.0,2.0,false,true,false,8,30
 Jan Quer,2026-06-20 02:30:00.000,C,Brasil - Haití,3.0,0.0,true,false,false,15,31
-Jan Quer,2026-06-20 05:00:00.000,D,Turquia - Paraguay,0.0,0.0,false,false,true,0,32
+Jan Quer,2026-06-20 05:00:00.000,D,Turquia - Paraguai,0.0,0.0,false,false,true,0,32
 Jan Quer,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,2.0,1.0,true,false,false,7,33
 Jan Quer,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,2.0,1.0,true,false,false,15,34
 Jan Quer,2026-06-21 02:00:00.000,E,Equador - Curaçao,2.0,0.0,true,false,false,0,35
@@ -3309,12 +3309,12 @@ Jan Quer,2026-06-27 23:00:00.000,L,Croàcia - Ghana,1.0,1.0,false,false,true,0,6
 Jan Quer,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,0.0,3.0,false,true,false,9,68
 Jan Quer,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,1.0,1.0,false,false,true,8,69
 Jan Quer,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,1.0,1.0,false,false,true,0,70
-Jan Quer,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,,71
-Jan Quer,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,,72
+Jan Quer,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,6,71
+Jan Quer,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,9,72
 Ricard Segura Trias,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Ricard Segura Trias,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
 Ricard Segura Trias,2026-06-12 21:00:00.000,B,Canadà - Bosnia,1.0,0.0,true,false,false,0,3
-Ricard Segura Trias,2026-06-13 03:00:00.000,D,EUA - Paraguay,2.0,1.0,true,false,false,8,4
+Ricard Segura Trias,2026-06-13 03:00:00.000,D,EUA - Paraguai,2.0,1.0,true,false,false,8,4
 Ricard Segura Trias,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,3.0,false,true,false,0,5
 Ricard Segura Trias,2026-06-14 00:00:00.000,C,Brasil - Marroc,2.0,1.0,true,false,false,0,6
 Ricard Segura Trias,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,2.0,false,true,false,9,7
@@ -3342,7 +3342,7 @@ Ricard Segura Trias,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,2.0,1.0,true,fa
 Ricard Segura Trias,2026-06-19 21:00:00.000,D,EUA - Australia,3.0,1.0,true,false,false,8,29
 Ricard Segura Trias,2026-06-20 00:00:00.000,C,Escòcia - Marroc,1.0,2.0,false,true,false,8,30
 Ricard Segura Trias,2026-06-20 02:30:00.000,C,Brasil - Haití,4.0,0.0,true,false,false,9,31
-Ricard Segura Trias,2026-06-20 05:00:00.000,D,Turquia - Paraguay,2.0,1.0,true,false,false,0,32
+Ricard Segura Trias,2026-06-20 05:00:00.000,D,Turquia - Paraguai,2.0,1.0,true,false,false,0,32
 Ricard Segura Trias,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,2.0,1.0,true,false,false,7,33
 Ricard Segura Trias,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,3.0,1.0,true,false,false,9,34
 Ricard Segura Trias,2026-06-21 02:00:00.000,E,Equador - Curaçao,3.0,0.0,true,false,false,0,35
@@ -3381,12 +3381,12 @@ Ricard Segura Trias,2026-06-27 23:00:00.000,L,Croàcia - Ghana,2.0,1.0,true,fals
 Ricard Segura Trias,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,0.0,3.0,false,true,false,9,68
 Ricard Segura Trias,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,2.0,2.0,false,false,true,6,69
 Ricard Segura Trias,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,1.0,2.0,false,true,false,0,70
-Ricard Segura Trias,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,2.0,false,true,false,,71
-Ricard Segura Trias,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,4.0,false,true,false,,72
+Ricard Segura Trias,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,2.0,false,true,false,0,71
+Ricard Segura Trias,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,4.0,false,true,false,8,72
 Carlos Soler Duffo,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Carlos Soler Duffo,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
 Carlos Soler Duffo,2026-06-12 21:00:00.000,B,Canadà - Bosnia,1.0,1.0,false,false,true,15,3
-Carlos Soler Duffo,2026-06-13 03:00:00.000,D,EUA - Paraguay,2.0,1.0,true,false,false,8,4
+Carlos Soler Duffo,2026-06-13 03:00:00.000,D,EUA - Paraguai,2.0,1.0,true,false,false,8,4
 Carlos Soler Duffo,2026-06-13 21:00:00.000,B,Qatar - Suïssa,0.0,2.0,false,true,false,0,5
 Carlos Soler Duffo,2026-06-14 00:00:00.000,C,Brasil - Marroc,2.0,1.0,true,false,false,0,6
 Carlos Soler Duffo,2026-06-14 03:00:00.000,C,Haití - Escòcia,0.0,2.0,false,true,false,9,7
@@ -3414,7 +3414,7 @@ Carlos Soler Duffo,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,2.0,1.0,true,fal
 Carlos Soler Duffo,2026-06-19 21:00:00.000,D,EUA - Australia,2.0,1.0,true,false,false,9,29
 Carlos Soler Duffo,2026-06-20 00:00:00.000,C,Escòcia - Marroc,1.0,1.0,false,false,true,0,30
 Carlos Soler Duffo,2026-06-20 02:30:00.000,C,Brasil - Haití,4.0,0.0,true,false,false,9,31
-Carlos Soler Duffo,2026-06-20 05:00:00.000,D,Turquia - Paraguay,1.0,1.0,false,false,true,0,32
+Carlos Soler Duffo,2026-06-20 05:00:00.000,D,Turquia - Paraguai,1.0,1.0,false,false,true,0,32
 Carlos Soler Duffo,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,2.0,1.0,true,false,false,7,33
 Carlos Soler Duffo,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,2.0,0.0,true,false,false,9,34
 Carlos Soler Duffo,2026-06-21 02:00:00.000,E,Equador - Curaçao,2.0,0.0,true,false,false,0,35
@@ -3453,5 +3453,5 @@ Carlos Soler Duffo,2026-06-27 23:00:00.000,L,Croàcia - Ghana,2.0,1.0,true,false
 Carlos Soler Duffo,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,0.0,3.0,false,true,false,9,68
 Carlos Soler Duffo,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,1.0,2.0,false,true,false,0,69
 Carlos Soler Duffo,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,1.0,1.0,false,false,true,0,70
-Carlos Soler Duffo,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,,71
-Carlos Soler Duffo,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,,72
+Carlos Soler Duffo,2026-06-28 04:00:00.000,J,Algèria - Austria,1.0,1.0,false,false,true,6,71
+Carlos Soler Duffo,2026-06-28 04:00:00.000,J,Jordània - Argentina,0.0,3.0,false,true,false,9,72
