@@ -37,7 +37,6 @@
     <li class="nav-item"><button class="nav-link active" data-bs-toggle="pill" data-bs-target="#tab-standings">Classificació</button></li>
     <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-daily">Avui</button></li>
     <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-filter">Filtre</button></li>
-    <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-clavats">Clavats</button></li>
     <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-match">Per Partit</button></li>
     <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-results">Resultats</button></li>
   </ul>
@@ -98,22 +97,18 @@
                 <option value="3">Jornada 3</option>
               </select>
             </div>
+            <div class="col-auto">
+              <label class="form-label fw-semibold">Selecció</label>
+              <select id="filterSeleccio" class="form-select form-select-sm">
+                <option value="">Totes</option>
+                {% for t in teams %}
+                <option value="{{ t }}">{{ t }}</option>
+                {% endfor %}
+              </select>
+            </div>
           </div>
           <table id="tbl-filter" class="table table-hover table-sm w-100">
-            <thead><tr><th>#</th><th>Nom</th><th>Punts</th></tr></thead>
-            <tbody></tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-
-    <!-- Clavats -->
-    <div class="tab-pane fade" id="tab-clavats">
-      <div class="card shadow-sm">
-        <div class="card-header bg-success text-white fw-bold">Rànquing Clavats (15 pts)</div>
-        <div class="card-body">
-          <table id="tbl-clavats" class="table table-hover table-sm w-100">
-            <thead><tr><th>#</th><th>Nom</th><th>Clavats</th><th>Primer</th><th>Últim</th></tr></thead>
+            <thead><tr><th>#</th><th>Nom</th><th>Punts</th><th title="Pronòstics exactes (15 pts)">Clavats</th></tr></thead>
             <tbody></tbody>
           </table>
         </div>
@@ -223,6 +218,7 @@ const dtFilter = $('#tbl-filter').DataTable({
     { data: 'posicio', width: '3rem' },
     { data: 'nom' },
     { data: 'puntuacio' },
+    { data: 'clavats', render: (d) => d > 0 ? `<span class="badge badge-clavat">${d}</span>` : d },
   ],
   order: [[0, 'asc']],
   pageLength: 25,
@@ -232,9 +228,11 @@ const dtFilter = $('#tbl-filter').DataTable({
 function loadFilter() {
   const grup = document.getElementById('filterGrup').value;
   const jornada = document.getElementById('filterJornada').value;
+  const seleccio = document.getElementById('filterSeleccio').value;
   const params = new URLSearchParams();
   if (grup) params.set('grup', grup);
   if (jornada) params.set('jornada', jornada);
+  if (seleccio) params.set('seleccio', seleccio);
   fetch('/api/ranking?' + params)
     .then(r => r.json())
     .then(data => { dtFilter.clear(); dtFilter.rows.add(data); dtFilter.draw(); });
@@ -242,20 +240,8 @@ function loadFilter() {
 
 document.getElementById('filterGrup').addEventListener('change', loadFilter);
 document.getElementById('filterJornada').addEventListener('change', loadFilter);
+document.getElementById('filterSeleccio').addEventListener('change', loadFilter);
 
-// ── Clavats ───────────────────────────────────────────────────────────────────
-const dtClavats = $('#tbl-clavats').DataTable({
-  columns: [
-    { data: null, render: (d, t, r, m) => m.row + 1, orderable: false, width: '3rem' },
-    { data: 'nom' },
-    { data: 'clavats' },
-    { data: 'primer', render: (d) => d ? fmt.format(new Date(d)) : '—' },
-    { data: 'ultim', render: (d) => d ? fmt.format(new Date(d)) : '—' },
-  ],
-  order: [[2, 'desc']],
-  pageLength: 25,
-  language: { search: 'Cerca:', lengthMenu: 'Mostra _MENU_', info: 'Mostrant _START_-_END_ de _TOTAL_', paginate: { next: 'Seg', previous: 'Ant' } },
-});
 
 // ── Per Partit ────────────────────────────────────────────────────────────────
 const dtMatch = $('#tbl-match').DataTable({
@@ -323,9 +309,6 @@ function loadAll() {
   });
   fetch('/api/daily').then(r => r.json()).then(data => {
     dtDaily.clear(); dtDaily.rows.add(data); dtDaily.draw();
-  });
-  fetch('/api/clavats').then(r => r.json()).then(data => {
-    dtClavats.clear(); dtClavats.rows.add(data); dtClavats.draw();
   });
   fetch('/api/matches').then(r => r.json()).then(data => {
     dtResults.clear(); dtResults.rows.add(data); dtResults.draw();

@@ -197,15 +197,25 @@ def api_ranking():
         valid = partits[(partits["n_partit"] >= lo) & (partits["n_partit"] <= hi)]["partit"].tolist()
         df = df[df["partit"].isin(valid)]
 
+    seleccio = request.args.get("seleccio")
+    if seleccio:
+        df = df[
+            df["partit"].str.startswith(seleccio + " - ") |
+            df["partit"].str.endswith(" - " + seleccio)
+        ]
+
     scored = df.dropna(subset=["punts"])
     if scored.empty:
         return jsonify([])
 
+    pts = scored.groupby("nom")["punts"].sum().rename("puntuacio")
+    clavats = (scored[scored["punts"] == 15].groupby("nom")["punts"].count().rename("clavats"))
     result = (
-        scored.groupby("nom")["punts"]
-        .sum()
+        pts.to_frame()
+        .join(clavats, how="left")
+        .fillna({"clavats": 0})
+        .astype({"clavats": int})
         .reset_index()
-        .rename(columns={"punts": "puntuacio"})
         .sort_values(["puntuacio", "nom"], ascending=[False, True])
         .assign(posicio=lambda x: range(1, len(x) + 1))
     )
@@ -305,7 +315,8 @@ def api_admin_delete_result(n_partit):
 def index():
     partits = _load_partits()
     grups = sorted(partits["grup"].unique())
-    return render_template("index.html", grups=grups, partits=partits.to_dict(orient="records"))
+    teams = sorted({t for p in partits["partit"] for t in p.split(" - ")})
+    return render_template("index.html", grups=grups, partits=partits.to_dict(orient="records"), teams=teams)
 
 
 if __name__ == "__main__":
