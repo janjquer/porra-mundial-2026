@@ -3,7 +3,7 @@ import os
 
 from dotenv import load_dotenv
 load_dotenv()
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 
 import pandas as pd
 from flask import Flask, jsonify, redirect, render_template, request, session, url_for
@@ -25,8 +25,23 @@ def _load_partits() -> pd.DataFrame:
     return pd.read_csv(os.path.join(DATA_DIR, "partits.csv"), parse_dates=["dia"])
 
 
-def _standings_at(df: pd.DataFrame, before: datetime) -> pd.DataFrame:
-    subset = df[df["dia"] < before].dropna(subset=["punts"])
+def _game_day(dt: datetime) -> date:
+    """A game day runs 19:00–18:59 CEST, so subtract 7h and take the date."""
+    return (dt - timedelta(hours=7)).date()
+
+
+def _last_played_game_day(df: pd.DataFrame) -> date:
+    """Game day of the most recent match with a score."""
+    scored = df.dropna(subset=["punts"])
+    if scored.empty:
+        return _game_day(datetime.now(timezone.utc).replace(tzinfo=None))
+    return scored["dia"].apply(_game_day).max()
+
+
+def _standings_up_to(df: pd.DataFrame, max_game_day: date) -> pd.DataFrame:
+    scored = df.dropna(subset=["punts"]).copy()
+    scored["game_day"] = scored["dia"].apply(_game_day)
+    subset = scored[scored["game_day"] <= max_game_day]
     return (
         subset.groupby("nom")["punts"]
         .sum()
@@ -51,11 +66,11 @@ def login_required(f):
 @app.route("/api/standings")
 def api_standings():
     df = _load_gent()
-    now = datetime.now(timezone.utc).replace(tzinfo=None)
-    yesterday = now - timedelta(hours=24)
+    today = _last_played_game_day(df)
+    yesterday = today - timedelta(days=1)
 
-    current = _standings_at(df, now + timedelta(days=1))
-    old = _standings_at(df, yesterday)
+    current = _standings_up_to(df, today)
+    old = _standings_up_to(df, yesterday)
 
     merged = current.merge(old[["nom", "posicio", "puntuacio"]], on="nom", suffixes=("", "_ahir"), how="left")
     merged["dif_pos"] = (merged["posicio_ahir"].fillna(merged["posicio"]) - merged["posicio"]).astype(int)
@@ -67,9 +82,12 @@ def api_standings():
 @app.route("/api/daily")
 def api_daily():
     df = _load_gent()
-    now = datetime.now(timezone.utc).replace(tzinfo=None)
-    cutoff = now - timedelta(hours=24)
-    recent = df[df["dia"] > cutoff].dropna(subset=["punts"])
+    today = _last_played_game_day(df)
+
+    scored = df.dropna(subset=["punts"]).copy()
+    scored["game_day"] = scored["dia"].apply(_game_day)
+    recent = scored[scored["game_day"] == today]
+
     if recent.empty:
         return jsonify([])
     result = (
