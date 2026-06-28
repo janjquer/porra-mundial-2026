@@ -332,9 +332,7 @@ function loadAll() {
   });
   fetch('/api/last-update').then(r => r.json()).then(data => {
     const el = document.getElementById('lastUpdate');
-    if (data.last_update) {
-      el.textContent = `Actualitzat: ${fmt.format(new Date(data.last_update))} · ${data.n_matches} partits`;
-    }
+    el.textContent = data.text || '';
   });
 }
 

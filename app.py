@@ -215,7 +215,17 @@ def api_ranking():
 @app.route("/api/last-update")
 def api_last_update():
     real = load_real()
-    return jsonify({"n_matches": len(real)})
+    if not real:
+        return jsonify({"text": None})
+    partits = _load_partits()
+    played = partits[partits["partit"].isin(real.keys())]
+    if played.empty:
+        return jsonify({"text": None})
+    last = played.sort_values("dia").iloc[-1]
+    r = real[last["partit"]]
+    home, away = last["partit"].split(" - ", 1)
+    hour = last["dia"].strftime("%H:%M")
+    return jsonify({"text": f"{hour} {home} {r['home_score']} - {r['away_score']} {away}"})
 
 
 # ── Admin ─────────────────────────────────────────────────────────────────────
