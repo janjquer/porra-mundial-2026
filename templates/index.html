@@ -154,11 +154,17 @@
       <div class="card shadow-sm">
         <div class="card-header bg-success text-white fw-bold">Resultats dels Partits</div>
         <div class="card-body">
-          <div class="mb-2">
+          <div class="d-flex gap-2 mb-2">
             <select id="grupResultFilter" class="form-select form-select-sm" style="max-width:200px">
               <option value="">Tots els grups</option>
               {% for g in grups %}
               <option value="{{ g }}">Grup {{ g }}</option>
+              {% endfor %}
+            </select>
+            <select id="seleccioResultFilter" class="form-select form-select-sm" style="max-width:200px">
+              <option value="">Totes les seleccions</option>
+              {% for t in teams %}
+              <option value="{{ t }}">{{ t }}</option>
               {% endfor %}
             </select>
           </div>
@@ -300,6 +306,9 @@ const dtResults = $('#tbl-results').DataTable({
 
 document.getElementById('grupResultFilter').addEventListener('change', function() {
   dtResults.column(1).search(this.value).draw();
+});
+document.getElementById('seleccioResultFilter').addEventListener('change', function() {
+  dtResults.column(2).search(this.value ? this.value : '', true, false).draw();
 });
 
 // ── Load all data ────────────────────────────────────────────────────────────
