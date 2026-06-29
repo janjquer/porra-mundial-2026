@@ -1,5 +1,6 @@
 import functools
 import os
+import shutil
 
 from dotenv import load_dotenv
 load_dotenv()
@@ -15,6 +16,13 @@ app.secret_key = os.environ.get("SECRET_KEY", "porra2026-secret")
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
 ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "")
+
+# Always sync partits.csv from project root to data/ so disk never has a stale version
+_partits_src = os.path.join(os.path.dirname(__file__), "partits.csv")
+_partits_dst = os.path.join(DATA_DIR, "partits.csv")
+if os.path.exists(_partits_src):
+    os.makedirs(DATA_DIR, exist_ok=True)
+    shutil.copy2(_partits_src, _partits_dst)
 
 
 def _load_gent() -> pd.DataFrame:
