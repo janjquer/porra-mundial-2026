@@ -3,7 +3,7 @@ services:
     name: porra-mundial-2026
     runtime: python
     buildCommand: pip install -r requirements.txt
-    startCommand: cp partits.csv data/partits.csv; gunicorn app:app
+    startCommand: mkdir -p data && cp partits.csv data/partits.csv && gunicorn app:app
     envVars:
       - key: REFRESH_TOKEN
         generateValue: true
