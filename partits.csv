@@ -1,89 +1,89 @@
-n_partit,dia,grup,fase,partit
-1,2026-06-11 21:00:00.000,A,Grups,Mèxic - Sud-Àfrica
-2,2026-06-12 04:00:00.000,A,Grups,Corea Sud - Txèquia
-3,2026-06-12 21:00:00.000,B,Grups,Canadà - Bosnia
-4,2026-06-13 03:00:00.000,D,Grups,EUA - Paraguai
-5,2026-06-13 21:00:00.000,B,Grups,Qatar - Suïssa
-6,2026-06-14 00:00:00.000,C,Grups,Brasil - Marroc
-7,2026-06-14 03:00:00.000,C,Grups,Haití - Escòcia
-8,2026-06-14 06:00:00.000,D,Grups,Australia - Turquia
-9,2026-06-14 19:00:00.000,E,Grups,Alemanya - Curaçao
-10,2026-06-14 22:00:00.000,F,Grups,Països Baixos - Japó
-11,2026-06-15 01:00:00.000,E,Grups,Costa d'Ivori - Equador
-12,2026-06-15 04:00:00.000,F,Grups,Suècia - Tunísia
-13,2026-06-15 18:00:00.000,H,Grups,Espanya - Cabo Verde
-14,2026-06-15 21:00:00.000,G,Grups,Bèlgica - Egipte
-15,2026-06-16 00:00:00.000,H,Grups,Aràbia Saudí - Uruguai
-16,2026-06-16 03:00:00.000,G,Grups,Iran - Nova Zelanda
-17,2026-06-16 21:00:00.000,I,Grups,França - Senegal
-18,2026-06-17 00:00:00.000,I,Grups,Iraq - Noruega
-19,2026-06-17 03:00:00.000,J,Grups,Argentina - Algèria
-20,2026-06-17 06:00:00.000,J,Grups,Austria - Jordània
-21,2026-06-17 19:00:00.000,K,Grups,Portugal - RD Congo
-22,2026-06-17 22:00:00.000,L,Grups,Anglaterra - Croàcia
-23,2026-06-18 01:00:00.000,L,Grups,Ghana - Panamà
-24,2026-06-18 04:00:00.000,K,Grups,Uzbekistan - Colòmbia
-25,2026-06-18 18:00:00.000,A,Grups,Txèquia - Sud-Àfrica
-26,2026-06-18 21:00:00.000,B,Grups,Suïssa - Bosnia
-27,2026-06-19 00:00:00.000,B,Grups,Canadà - Qatar
-28,2026-06-19 03:00:00.000,A,Grups,Mèxic - Corea Sud
-29,2026-06-19 21:00:00.000,D,Grups,EUA - Australia
-30,2026-06-20 00:00:00.000,C,Grups,Escòcia - Marroc
-31,2026-06-20 02:30:00.000,C,Grups,Brasil - Haití
-32,2026-06-20 05:00:00.000,D,Grups,Turquia - Paraguai
-33,2026-06-20 19:00:00.000,F,Grups,Països Baixos - Suècia
-34,2026-06-20 22:00:00.000,E,Grups,Alemanya - Costa d'Ivori
-35,2026-06-21 02:00:00.000,E,Grups,Equador - Curaçao
-36,2026-06-21 06:00:00.000,F,Grups,Tunísia - Japó
-37,2026-06-21 18:00:00.000,H,Grups,Espanya - Aràbia Saudí
-38,2026-06-21 21:00:00.000,G,Grups,Bèlgica - Iran
-39,2026-06-22 00:00:00.000,H,Grups,Uruguai - Cabo Verde
-40,2026-06-22 03:00:00.000,G,Grups,Nova Zelanda - Egipte
-41,2026-06-22 19:00:00.000,J,Grups,Argentina - Austria
-42,2026-06-22 23:00:00.000,I,Grups,França - Iraq
-43,2026-06-23 02:00:00.000,I,Grups,Noruega - Senegal
-44,2026-06-23 05:00:00.000,J,Grups,Jordània - Algèria
-45,2026-06-23 19:00:00.000,K,Grups,Portugal - Uzbekistan
-46,2026-06-23 22:00:00.000,L,Grups,Anglaterra - Ghana
-47,2026-06-24 01:00:00.000,L,Grups,Panamà - Croàcia
-48,2026-06-24 04:00:00.000,K,Grups,Colòmbia - RD Congo
-49,2026-06-24 21:00:00.000,B,Grups,Bosnia - Qatar
-50,2026-06-24 21:00:00.000,B,Grups,Suïssa - Canadà
-51,2026-06-25 00:00:00.000,C,Grups,Marroc - Haití
-52,2026-06-25 00:00:00.000,C,Grups,Escòcia - Brasil
-53,2026-06-25 03:00:00.000,A,Grups,Txèquia - Mèxic
-54,2026-06-25 03:00:00.000,A,Grups,Sud-Àfrica - Corea Sud
-55,2026-06-25 22:00:00.000,E,Grups,Curaçao - Costa d'Ivori
-56,2026-06-25 22:00:00.000,E,Grups,Equador - Alemanya
-57,2026-06-26 01:00:00.000,F,Grups,Japó - Suècia
-58,2026-06-26 01:00:00.000,F,Grups,Tunísia - Països Baixos
-59,2026-06-26 04:00:00.000,D,Grups,Paraguai - Austràlia
-60,2026-06-26 04:00:00.000,D,Grups,Turquia - EUA
-61,2026-06-26 21:00:00.000,I,Grups,Noruega - França
-62,2026-06-26 21:00:00.000,I,Grups,Senegal - Iraq
-63,2026-06-27 02:00:00.000,H,Grups,Cabo Verde - Aràbia Saudí
-64,2026-06-27 02:00:00.000,H,Grups,Uruguai - Espanya
-65,2026-06-27 05:00:00.000,G,Grups,Egipte - Iran
-66,2026-06-27 05:00:00.000,G,Grups,Nova Zelanda - Bèlgica
-67,2026-06-27 23:00:00.000,L,Grups,Croàcia - Ghana
-68,2026-06-27 23:00:00.000,L,Grups,Panamà - Anglaterra
-69,2026-06-28 01:30:00.000,K,Grups,Colòmbia - Portugal
-70,2026-06-28 01:30:00.000,K,Grups,RD Congo - Uzbekistan
-71,2026-06-28 04:00:00.000,J,Grups,Algèria - Austria
-72,2026-06-28 04:00:00.000,J,Grups,Jordània - Argentina
-73,2026-06-28 21:00:00.000,,1/16,Sud-Àfrica - Canadà
-74,2026-06-29 19:00:00.000,,1/16,Brasil - Japó
-75,2026-06-29 22:30:00.000,,1/16,Alemanya - Paraguai
-76,2026-06-30 03:00:00.000,,1/16,Països Baixos - Marroc
-77,2026-06-30 19:00:00.000,,1/16,Costa d'Ivori - Noruega
-78,2026-06-30 23:00:00.000,,1/16,França - Suècia
-79,2026-07-01 03:00:00.000,,1/16,Mèxic - Equador
-80,2026-07-01 18:00:00.000,,1/16,Anglaterra - RD Congo
-81,2026-07-01 22:00:00.000,,1/16,Bèlgica - Senegal
-82,2026-07-02 02:00:00.000,,1/16,EUA - Bosnia
-83,2026-07-02 21:00:00.000,,1/16,Espanya - Austria
-84,2026-07-03 01:00:00.000,,1/16,Portugal - Croàcia
-85,2026-07-03 05:00:00.000,,1/16,Suïssa - Algèria
-86,2026-07-03 20:00:00.000,,1/16,Austràlia - Egipte
-87,2026-07-04 00:00:00.000,,1/16,Argentina - Cabo Verde
-88,2026-07-04 03:30:00.000,,1/16,Colòmbia - Ghana
+"n_partit","dia","grup","partit","fase"
+1,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,Grups
+2,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,Grups
+3,2026-06-12 21:00:00.000,B,Canadà - Bosnia,Grups
+4,2026-06-13 03:00:00.000,D,EUA - Paraguai,Grups
+5,2026-06-13 21:00:00.000,B,Qatar - Suïssa,Grups
+6,2026-06-14 00:00:00.000,C,Brasil - Marroc,Grups
+7,2026-06-14 03:00:00.000,C,Haití - Escòcia,Grups
+8,2026-06-14 06:00:00.000,D,Australia - Turquia,Grups
+9,2026-06-14 19:00:00.000,E,Alemanya - Curaçao,Grups
+10,2026-06-14 22:00:00.000,F,Països Baixos - Japó,Grups
+11,2026-06-15 01:00:00.000,E,Costa d’Ivori - Equador,Grups
+12,2026-06-15 04:00:00.000,F,Suècia - Tunísia,Grups
+13,2026-06-15 18:00:00.000,H,Espanya - Cabo Verde,Grups
+14,2026-06-15 21:00:00.000,G,Bèlgica - Egipte,Grups
+15,2026-06-16 00:00:00.000,H,Aràbia Saudí - Uruguai,Grups
+16,2026-06-16 03:00:00.000,G,Iran - Nova Zelanda,Grups
+17,2026-06-16 21:00:00.000,I,França - Senegal,Grups
+18,2026-06-17 00:00:00.000,I,Iraq - Noruega,Grups
+19,2026-06-17 03:00:00.000,J,Argentina - Algèria,Grups
+20,2026-06-17 06:00:00.000,J,Austria - Jordània,Grups
+21,2026-06-17 19:00:00.000,K,Portugal - RD Congo,Grups
+22,2026-06-17 22:00:00.000,L,Anglaterra - Croàcia,Grups
+23,2026-06-18 01:00:00.000,L,Ghana - Panamà,Grups
+24,2026-06-18 04:00:00.000,K,Uzbekistan - Colòmbia,Grups
+25,2026-06-18 18:00:00.000,A,Txèquia - Sud-Àfrica,Grups
+26,2026-06-18 21:00:00.000,B,Suïssa - Bosnia,Grups
+27,2026-06-19 00:00:00.000,B,Canadà - Qatar,Grups
+28,2026-06-19 03:00:00.000,A,Mèxic - Corea Sud,Grups
+29,2026-06-19 21:00:00.000,D,EUA - Australia,Grups
+30,2026-06-20 00:00:00.000,C,Escòcia - Marroc,Grups
+31,2026-06-20 02:30:00.000,C,Brasil - Haití,Grups
+32,2026-06-20 05:00:00.000,D,Turquia - Paraguai,Grups
+33,2026-06-20 19:00:00.000,F,Països Baixos - Suècia,Grups
+34,2026-06-20 22:00:00.000,E,Alemanya - Costa d’Ivori,Grups
+35,2026-06-21 02:00:00.000,E,Equador - Curaçao,Grups
+36,2026-06-21 06:00:00.000,F,Tunísia - Japó,Grups
+37,2026-06-21 18:00:00.000,H,Espanya - Aràbia Saudí,Grups
+38,2026-06-21 21:00:00.000,G,Bèlgica - Iran,Grups
+39,2026-06-22 00:00:00.000,H,Uruguai - Cabo Verde,Grups
+40,2026-06-22 03:00:00.000,G,Nova Zelanda - Egipte,Grups
+41,2026-06-22 19:00:00.000,J,Argentina - Austria,Grups
+42,2026-06-22 23:00:00.000,I,França - Iraq,Grups
+43,2026-06-23 02:00:00.000,I,Noruega - Senegal,Grups
+44,2026-06-23 05:00:00.000,J,Jordània - Algèria,Grups
+45,2026-06-23 19:00:00.000,K,Portugal - Uzbekistan,Grups
+46,2026-06-23 22:00:00.000,L,Anglaterra - Ghana,Grups
+47,2026-06-24 01:00:00.000,L,Panamà - Croàcia,Grups
+48,2026-06-24 04:00:00.000,K,Colòmbia - RD Congo,Grups
+49,2026-06-24 21:00:00.000,B,Bosnia - Qatar,Grups
+50,2026-06-24 21:00:00.000,B,Suïssa - Canadà,Grups
+51,2026-06-25 00:00:00.000,C,Marroc - Haití,Grups
+52,2026-06-25 00:00:00.000,C,Escòcia - Brasil,Grups
+54,2026-06-25 03:00:00.000,A,Sud-Àfrica - Corea Sud,Grups
+53,2026-06-25 03:00:00.000,A,Txèquia - Mèxic,Grups
+55,2026-06-25 22:00:00.000,E,Curaçao - Costa d’Ivori,Grups
+56,2026-06-25 22:00:00.000,E,Equador - Alemanya,Grups
+58,2026-06-26 01:00:00.000,F,Tunísia - Països Baixos,Grups
+57,2026-06-26 01:00:00.000,F,Japó - Suècia,Grups
+59,2026-06-26 04:00:00.000,D,Paraguai - Austràlia,Grups
+60,2026-06-26 04:00:00.000,D,Turquia - EUA,Grups
+62,2026-06-26 21:00:00.000,I,Senegal - Iraq,Grups
+61,2026-06-26 21:00:00.000,I,Noruega - França,Grups
+64,2026-06-27 02:00:00.000,H,Uruguai - Espanya,Grups
+63,2026-06-27 02:00:00.000,H,Cabo Verde - Aràbia Saudí,Grups
+65,2026-06-27 05:00:00.000,G,Egipte - Iran,Grups
+66,2026-06-27 05:00:00.000,G,Nova Zelanda - Bèlgica,Grups
+68,2026-06-27 23:00:00.000,L,Panamà - Anglaterra,Grups
+67,2026-06-27 23:00:00.000,L,Croàcia - Ghana,Grups
+70,2026-06-28 01:30:00.000,K,RD Congo - Uzbekistan,Grups
+69,2026-06-28 01:30:00.000,K,Colòmbia - Portugal,Grups
+71,2026-06-28 04:00:00.000,J,Algèria - Austria,Grups
+72,2026-06-28 04:00:00.000,J,Jordània - Argentina,Grups
+73,2026-06-28 21:00:00.000,"1/16",Sud-Àfrica - Canadà,"1/16"
+74,2026-06-29 19:00:00.000,"1/16",Brasil - Japó,"1/16"
+75,2026-06-29 22:30:00.000,"1/16",Alemanya - Paraguai,"1/16"
+76,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,"1/16"
+77,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,"1/16"
+78,2026-06-30 23:00:00.000,"1/16",França - Suècia,"1/16"
+79,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,"1/16"
+80,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,"1/16"
+81,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,"1/16"
+82,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,"1/16"
+83,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,"1/16"
+84,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,"1/16"
+85,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,"1/16"
+86,2026-07-03 20:00:00.000,"1/16",Austràlia - Egipte,"1/16"
+87,2026-07-04 00:00:00.000,"1/16",Argentina - Cabo Verde,"1/16"
+88,2026-07-04 03:30:00.000,"1/16",Colòmbia - Ghana,"1/16"
