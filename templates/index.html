@@ -148,12 +148,21 @@
                 {% endfor %}
               </select>
             </div>
+            <div class="col-auto" id="matchJornadaWrap">
+              <label class="form-label fw-semibold">Jornada</label>
+              <select id="matchJornadaFilter" class="form-select form-select-sm">
+                <option value="">Totes</option>
+                <option value="1">Jornada 1</option>
+                <option value="2">Jornada 2</option>
+                <option value="3">Jornada 3</option>
+              </select>
+            </div>
             <div class="col match-select">
               <label class="form-label fw-semibold">Partit</label>
               <select id="matchSelect" class="form-select form-select-sm">
                 <option value="">Selecciona un partit...</option>
                 {% for p in partits %}
-                <option value="{{ p.n_partit }}" data-grup="{{ p.grup if p.grup else '' }}" data-fase="{{ p.fase if p.fase else '' }}">{{ p.n_partit }}. {{ p.partit }}</option>
+                <option value="{{ p.n_partit }}" data-grup="{{ p.grup if p.grup else '' }}" data-fase="{{ p.fase if p.fase else '' }}" data-jornada="{{ '1' if p.n_partit <= 24 else ('2' if p.n_partit <= 48 else ('3' if p.n_partit <= 72 else '')) }}">{{ p.n_partit }}. {{ p.partit }}</option>
                 {% endfor %}
               </select>
             </div>
@@ -179,11 +188,17 @@
               <option value="{{ f }}">{{ f }}</option>
               {% endfor %}
             </select>
-            <select id="grupResultFilter" class="form-select form-select-sm" style="max-width:160px" id="grupResultWrap">
+            <select id="grupResultFilter" class="form-select form-select-sm" style="max-width:160px">
               <option value="">Tots els grups</option>
               {% for g in grups %}
               <option value="{{ g }}">Grup {{ g }}</option>
               {% endfor %}
+            </select>
+            <select id="jornadaResultFilter" class="form-select form-select-sm" style="max-width:160px">
+              <option value="">Totes les jornades</option>
+              <option value="1">Jornada 1</option>
+              <option value="2">Jornada 2</option>
+              <option value="3">Jornada 3</option>
             </select>
             <select id="seleccioResultFilter" class="form-select form-select-sm" style="max-width:200px">
               <option value="">Totes les seleccions</option>
@@ -193,7 +208,7 @@
             </select>
           </div>
           <table id="tbl-results" class="table table-hover table-sm w-100">
-            <thead><tr><th>Data</th><th>Grup</th><th>Partit</th><th>Resultat</th><th>Clavats</th><th class="d-none">fase_hidden</th></tr></thead>
+            <thead><tr><th>Data</th><th>Grup</th><th>Partit</th><th>Resultat</th><th>Clavats</th><th class="d-none">fase_hidden</th><th class="d-none">jornada_hidden</th></tr></thead>
             <tbody></tbody>
           </table>
         </div>
@@ -309,12 +324,14 @@ const dtMatch = $('#tbl-match').DataTable({
 function filterMatchOptions() {
   const fase = document.getElementById('matchFaseFilter').value;
   const grup = document.getElementById('grupFilter').value;
+  const jornada = document.getElementById('matchJornadaFilter').value;
   const sel = document.getElementById('matchSelect');
   Array.from(sel.options).forEach(o => {
     if (!o.value) { o.hidden = false; return; }
     const faseMatch = !fase || o.dataset.fase === fase;
     const grupMatch = !grup || o.dataset.grup === grup;
-    o.hidden = !(faseMatch && grupMatch);
+    const jornadaMatch = !jornada || o.dataset.jornada === jornada;
+    o.hidden = !(faseMatch && grupMatch && jornadaMatch);
   });
   sel.value = '';
   dtMatch.clear().draw();
@@ -323,16 +340,25 @@ function filterMatchOptions() {
 
 function updateMatchGrupVisibility() {
   const fase = document.getElementById('matchFaseFilter').value;
-  document.getElementById('matchGrupWrap').style.display = fase === 'Grups' ? '' : 'none';
-  if (fase !== 'Grups') document.getElementById('grupFilter').value = '';
+  const isGrups = fase === 'Grups';
+  document.getElementById('matchGrupWrap').style.display = isGrups ? '' : 'none';
+  document.getElementById('matchJornadaWrap').style.display = isGrups ? '' : 'none';
+  if (!isGrups) {
+    document.getElementById('grupFilter').value = '';
+    document.getElementById('matchJornadaFilter').value = '';
+  }
 }
 
 function updateResultGrupVisibility() {
   const fase = document.getElementById('faseResultFilter').value;
-  document.getElementById('grupResultFilter').style.display = fase === 'Grups' ? '' : 'none';
-  if (fase !== 'Grups') {
+  const isGrups = fase === 'Grups';
+  document.getElementById('grupResultFilter').style.display = isGrups ? '' : 'none';
+  document.getElementById('jornadaResultFilter').style.display = isGrups ? '' : 'none';
+  if (!isGrups) {
     document.getElementById('grupResultFilter').value = '';
+    document.getElementById('jornadaResultFilter').value = '';
     dtResults.column(1).search('').draw();
+    dtResults.column(6).search('').draw();
   }
 }
 
@@ -340,8 +366,8 @@ document.getElementById('matchFaseFilter').addEventListener('change', () => {
   updateMatchGrupVisibility();
   filterMatchOptions();
 });
-
 document.getElementById('grupFilter').addEventListener('change', filterMatchOptions);
+document.getElementById('matchJornadaFilter').addEventListener('change', filterMatchOptions);
 
 function loadMatch(nPartit) {
   if (!nPartit) return;
@@ -369,6 +395,7 @@ const dtResults = $('#tbl-results').DataTable({
     { data: 'resultat', render: (d) => d ? `<strong>${d}</strong>` : '<span class="text-muted">pendent</span>' },
     { data: 'clavats', render: (d) => d > 0 ? `<span class="badge badge-clavat">${d}</span>` : d },
     { data: 'fase', visible: false },
+    { data: 'jornada', visible: false },
   ],
   order: [[0, 'asc']],
   pageLength: 25,
@@ -381,6 +408,9 @@ document.getElementById('faseResultFilter').addEventListener('change', function(
 });
 document.getElementById('grupResultFilter').addEventListener('change', function() {
   dtResults.column(1).search(this.value ? '^' + this.value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '$' : '', true, false).draw();
+});
+document.getElementById('jornadaResultFilter').addEventListener('change', function() {
+  dtResults.column(6).search(this.value).draw();
 });
 document.getElementById('seleccioResultFilter').addEventListener('change', function() {
   dtResults.column(2).search(this.value ? this.value : '', true, false).draw();
@@ -412,8 +442,8 @@ document.querySelectorAll('#mainTabs button[data-bs-toggle="pill"]').forEach(btn
   });
 });
 
-updateMatchGrupVisibility();
-updateResultGrupVisibility();
+updateMatchGrupVisibility();  // also hides matchJornadaWrap
+updateResultGrupVisibility();  // also hides jornadaResultFilter
 loadAll();
 loadFilter();
 setInterval(loadAll, 5 * 60 * 1000);

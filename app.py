@@ -149,13 +149,16 @@ def api_matches():
         result = real.get(row["partit"])
         match_gent = gent[gent["partit"] == row["partit"]]
         clavats = int((match_gent["clavat"] == True).sum())
+        n = int(row["n_partit"])
         grup_val = row["grup"] if pd.notna(row.get("grup")) else None
         fase_val = row["fase"] if ("fase" in row.index and pd.notna(row.get("fase"))) else None
+        jornada_val = "1" if n <= 24 else ("2" if n <= 48 else ("3" if n <= 72 else ""))
         rows.append({
-            "n_partit": int(row["n_partit"]),
+            "n_partit": n,
             "dia": row["dia"].isoformat() if hasattr(row["dia"], "isoformat") else str(row["dia"]),
             "grup": grup_val,
             "fase": fase_val,
+            "jornada": jornada_val,
             "partit": row["partit"],
             "resultat": f"{result['home_score']}-{result['away_score']}" if result else None,
             "clavats": clavats,
