@@ -138,10 +138,13 @@ def api_matches():
         result = real.get(row["partit"])
         match_gent = gent[gent["partit"] == row["partit"]]
         clavats = int((match_gent["punts"] == 15).sum())
+        grup_val = row["grup"] if pd.notna(row.get("grup")) else None
+        fase_val = row["fase"] if pd.notna(row.get("fase")) else None
         rows.append({
             "n_partit": int(row["n_partit"]),
             "dia": row["dia"].isoformat() if hasattr(row["dia"], "isoformat") else str(row["dia"]),
-            "grup": row["grup"],
+            "grup": grup_val,
+            "fase": fase_val,
             "partit": row["partit"],
             "resultat": f"{result['home_score']}-{result['away_score']}" if result else None,
             "clavats": clavats,
@@ -183,21 +186,27 @@ JORNADA_RANGES = {1: (1, 24), 2: (25, 48), 3: (49, 72)}
 
 @app.route("/api/ranking")
 def api_ranking():
+    fase = request.args.get("fase")
     grup = request.args.get("grup")
     jornada = request.args.get("jornada", type=int)
+    seleccio = request.args.get("seleccio")
 
     df = _load_gent()
+    partits = _load_partits()
+
+    if fase:
+        valid_partits = partits[partits["fase"] == fase]["partit"].tolist()
+        df = df[df["partit"].isin(valid_partits)]
 
     if grup:
-        df = df[df["grup"] == grup]
+        valid_partits = partits[partits["grup"] == grup]["partit"].tolist()
+        df = df[df["partit"].isin(valid_partits)]
 
     if jornada and jornada in JORNADA_RANGES:
         lo, hi = JORNADA_RANGES[jornada]
-        partits = _load_partits()
         valid = partits[(partits["n_partit"] >= lo) & (partits["n_partit"] <= hi)]["partit"].tolist()
         df = df[df["partit"].isin(valid)]
 
-    seleccio = request.args.get("seleccio")
     if seleccio:
         df = df[
             df["partit"].str.startswith(seleccio + " - ") |
@@ -314,9 +323,10 @@ def api_admin_delete_result(n_partit):
 @app.route("/")
 def index():
     partits = _load_partits()
-    grups = sorted(partits["grup"].unique())
+    grups = sorted(partits["grup"].dropna().unique())
+    fases = partits["fase"].dropna().unique().tolist()
     teams = sorted({t for p in partits["partit"] for t in p.split(" - ")})
-    return render_template("index.html", grups=grups, partits=partits.to_dict(orient="records"), teams=teams)
+    return render_template("index.html", grups=grups, fases=fases, partits=partits.to_dict(orient="records"), teams=teams)
 
 
 if __name__ == "__main__":
