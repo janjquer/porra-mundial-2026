@@ -139,7 +139,7 @@ def api_matches():
         match_gent = gent[gent["partit"] == row["partit"]]
         clavats = int((match_gent["punts"] == 15).sum())
         grup_val = row["grup"] if pd.notna(row.get("grup")) else None
-        fase_val = row["fase"] if pd.notna(row.get("fase")) else None
+        fase_val = row["fase"] if ("fase" in row.index and pd.notna(row.get("fase"))) else None
         rows.append({
             "n_partit": int(row["n_partit"]),
             "dia": row["dia"].isoformat() if hasattr(row["dia"], "isoformat") else str(row["dia"]),
@@ -194,7 +194,7 @@ def api_ranking():
     df = _load_gent()
     partits = _load_partits()
 
-    if fase:
+    if fase and "fase" in partits.columns:
         valid_partits = partits[partits["fase"] == fase]["partit"].tolist()
         df = df[df["partit"].isin(valid_partits)]
 
@@ -324,7 +324,7 @@ def api_admin_delete_result(n_partit):
 def index():
     partits = _load_partits()
     grups = sorted(partits["grup"].dropna().unique())
-    fases = partits["fase"].dropna().unique().tolist()
+    fases = partits["fase"].dropna().unique().tolist() if "fase" in partits.columns else []
     teams = sorted({t for p in partits["partit"] for t in p.split(" - ")})
     return render_template("index.html", grups=grups, fases=fases, partits=partits.to_dict(orient="records"), teams=teams)
 
