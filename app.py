@@ -26,7 +26,10 @@ if os.path.exists(_partits_src):
 
 
 def _load_gent() -> pd.DataFrame:
-    return pd.read_csv(os.path.join(DATA_DIR, "gent.csv"), parse_dates=["dia"])
+    df = pd.read_csv(os.path.join(DATA_DIR, "gent.csv"), parse_dates=["dia"])
+    if "clavat" not in df.columns:
+        df["clavat"] = df["punts"] == 15
+    return df
 
 
 def _load_partits() -> pd.DataFrame:
@@ -145,7 +148,7 @@ def api_matches():
     for _, row in partits.iterrows():
         result = real.get(row["partit"])
         match_gent = gent[gent["partit"] == row["partit"]]
-        clavats = int((match_gent["punts"] == 15).sum())
+        clavats = int((match_gent["clavat"] == True).sum())
         grup_val = row["grup"] if pd.notna(row.get("grup")) else None
         fase_val = row["fase"] if ("fase" in row.index and pd.notna(row.get("fase"))) else None
         rows.append({
@@ -164,9 +167,9 @@ def api_matches():
 def api_clavats():
     df = _load_gent()
     clavats = (
-        df[df["punts"] == 15]
+        df[df["clavat"] == True]
         .groupby("nom")
-        .agg(clavats=("punts", "count"), primer=("dia", "min"), ultim=("dia", "max"))
+        .agg(clavats=("clavat", "count"), primer=("dia", "min"), ultim=("dia", "max"))
         .reset_index()
         .sort_values("clavats", ascending=False)
     )
@@ -179,9 +182,9 @@ def api_clavats():
 def api_match_clavats():
     df = _load_gent()
     mc = (
-        df[df["punts"] == 15]
+        df[df["clavat"] == True]
         .groupby("partit")
-        .agg(clavats=("punts", "count"), dia=("dia", "min"))
+        .agg(clavats=("clavat", "count"), dia=("dia", "min"))
         .reset_index()
         .sort_values("clavats", ascending=False)
     )
@@ -226,7 +229,7 @@ def api_ranking():
         return jsonify([])
 
     pts = scored.groupby("nom")["punts"].sum().rename("puntuacio")
-    clavats = (scored[scored["punts"] == 15].groupby("nom")["punts"].count().rename("clavats"))
+    clavats = (scored[scored["clavat"] == True].groupby("nom")["clavat"].count().rename("clavats"))
     result = (
         pts.to_frame()
         .join(clavats, how="left")
