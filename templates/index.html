@@ -323,9 +323,16 @@ function filterMatchOptions() {
 
 function updateMatchGrupVisibility() {
   const fase = document.getElementById('matchFaseFilter').value;
-  document.getElementById('matchGrupWrap').style.display = (fase === 'Grups' || fase === '') ? '' : 'none';
-  if (fase !== 'Grups' && fase !== '') {
-    document.getElementById('grupFilter').value = '';
+  document.getElementById('matchGrupWrap').style.display = fase === 'Grups' ? '' : 'none';
+  if (fase !== 'Grups') document.getElementById('grupFilter').value = '';
+}
+
+function updateResultGrupVisibility() {
+  const fase = document.getElementById('faseResultFilter').value;
+  document.getElementById('grupResultFilter').style.display = fase === 'Grups' ? '' : 'none';
+  if (fase !== 'Grups') {
+    document.getElementById('grupResultFilter').value = '';
+    dtResults.column(1).search('').draw();
   }
 }
 
@@ -369,6 +376,7 @@ const dtResults = $('#tbl-results').DataTable({
 });
 
 document.getElementById('faseResultFilter').addEventListener('change', function() {
+  updateResultGrupVisibility();
   dtResults.column(5).search(this.value).draw();
 });
 document.getElementById('grupResultFilter').addEventListener('change', function() {
@@ -404,6 +412,8 @@ document.querySelectorAll('#mainTabs button[data-bs-toggle="pill"]').forEach(btn
   });
 });
 
+updateMatchGrupVisibility();
+updateResultGrupVisibility();
 loadAll();
 loadFilter();
 setInterval(loadAll, 5 * 60 * 1000);
