@@ -13,12 +13,12 @@ Costa d’Ivori - Equador,1.0,0.0,true,false,false
 Suècia - Tunísia,5.0,1.0,true,false,false
 Espanya - Cabo Verde,0.0,0.0,false,false,true
 Bèlgica - Egipte,1.0,1.0,false,false,true
-Aràbia Saudí - Uruguay,1.0,1.0,false,false,true
+Aràbia Saudí - Uruguai,1.0,1.0,false,false,true
 Iran - Nova Zelanda,2.0,2.0,false,false,true
 França - Senegal,3.0,1.0,true,false,false
 Iraq - Noruega,1.0,4.0,false,true,false
 Argentina - Algèria,3.0,0.0,true,false,false
-Austria - Jordania,3.0,1.0,true,false,false
+Austria - Jordània,3.0,1.0,true,false,false
 Portugal - RD Congo,1.0,1.0,false,false,true
 Anglaterra - Croàcia,4.0,2.0,true,false,false
 Ghana - Panamà,1.0,0.0,true,false,false
@@ -37,12 +37,12 @@ Equador - Curaçao,0.0,0.0,false,false,true
 Tunísia - Japó,0.0,4.0,false,true,false
 Espanya - Aràbia Saudí,4.0,0.0,true,false,false
 Bèlgica - Iran,0.0,0.0,false,false,true
-Uruguay - Cabo Verde,2.0,2.0,false,false,true
+Uruguai - Cabo Verde,2.0,2.0,false,false,true
 Nova Zelanda - Egipte,1.0,3.0,false,true,false
 Argentina - Austria,2.0,0.0,true,false,false
 França - Iraq,3.0,0.0,true,false,false
 Noruega - Senegal,3.0,2.0,true,false,false
-Jordania - Algèria,1.0,2.0,false,true,false
+Jordània - Algèria,1.0,2.0,false,true,false
 Portugal - Uzbekistan,5.0,0.0,true,false,false
 Anglaterra - Ghana,0.0,0.0,false,false,true
 Panamà - Croàcia,0.0,1.0,false,true,false
@@ -71,3 +71,4 @@ RD Congo - Uzbekistan,3.0,1.0,true,false,false
 Colòmbia - Portugal,0.0,0.0,false,false,true
 Algèria - Austria,3.0,3.0,false,false,true
 Jordània - Argentina,1.0,3.0,false,true,false
+Sud-Àfrica - Canadà,0.0,1.0,false,true,false
