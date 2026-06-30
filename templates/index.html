@@ -39,6 +39,7 @@
     <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-filter">Filtre</button></li>
     <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-match">Per Partit</button></li>
     <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-results">Resultats</button></li>
+    <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-transp">Transparència</button></li>
   </ul>
 
   <div class="tab-content">
@@ -209,6 +210,71 @@
           </div>
           <table id="tbl-results" class="table table-hover table-sm w-100">
             <thead><tr><th>Data</th><th>Grup</th><th>Partit</th><th>Resultat</th><th>Clavats</th><th class="d-none">fase_hidden</th><th class="d-none">jornada_hidden</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Transparència -->
+    <div class="tab-pane fade" id="tab-transp">
+      <div class="card shadow-sm">
+        <div class="card-header bg-success text-white fw-bold">Transparència de Pronòstics</div>
+        <div class="card-body">
+          <div class="row g-2 mb-3 align-items-end">
+            <div class="col-auto">
+              <label class="form-label fw-semibold">Participant</label>
+              <select id="transpNom" class="form-select form-select-sm">
+                <option value="">Tots</option>
+              </select>
+            </div>
+            <div class="col-auto">
+              <label class="form-label fw-semibold">Fase</label>
+              <select id="transpFase" class="form-select form-select-sm">
+                <option value="">Totes</option>
+                {% for f in fases %}
+                <option value="{{ f }}">{{ f }}</option>
+                {% endfor %}
+              </select>
+            </div>
+            <div class="col-auto" id="transpGrupWrap">
+              <label class="form-label fw-semibold">Grup</label>
+              <select id="transpGrup" class="form-select form-select-sm">
+                <option value="">Tots</option>
+                {% for g in grups %}
+                <option value="{{ g }}">Grup {{ g }}</option>
+                {% endfor %}
+              </select>
+            </div>
+            <div class="col-auto" id="transpJornadaWrap">
+              <label class="form-label fw-semibold">Jornada</label>
+              <select id="transpJornada" class="form-select form-select-sm">
+                <option value="">Totes</option>
+                <option value="1">Jornada 1</option>
+                <option value="2">Jornada 2</option>
+                <option value="3">Jornada 3</option>
+              </select>
+            </div>
+            <div class="col-auto">
+              <label class="form-label fw-semibold">Gols local</label>
+              <input type="number" id="transpLocal" class="form-control form-control-sm" min="0" max="20" style="width:80px" placeholder="—">
+            </div>
+            <div class="col-auto">
+              <label class="form-label fw-semibold">Gols visitant</label>
+              <input type="number" id="transpVisitant" class="form-control form-control-sm" min="0" max="20" style="width:80px" placeholder="—">
+            </div>
+            <div class="col-auto">
+              <label class="form-label fw-semibold">Partit</label>
+              <select id="transpPartit" class="form-select form-select-sm" style="max-width:260px">
+                <option value="">Tots</option>
+                {% for p in partits %}
+                <option value="{{ p.partit }}">{{ p.n_partit }}. {{ p.partit }}</option>
+                {% endfor %}
+              </select>
+            </div>
+          </div>
+          <table id="tbl-transp" class="table table-hover table-sm w-100">
+            <thead><tr><th>Participant</th><th>Data</th><th>Fase</th><th>Partit</th><th>Pronòstic</th><th>Punts</th></tr></thead>
             <tbody></tbody>
           </table>
         </div>
@@ -416,10 +482,75 @@ document.getElementById('seleccioResultFilter').addEventListener('change', funct
   dtResults.column(2).search(this.value ? this.value : '', true, false).draw();
 });
 
+// ── Transparència ─────────────────────────────────────────────────────────────
+const dtTransp = $('#tbl-transp').DataTable({
+  columns: [
+    { data: 'nom' },
+    { data: 'dia', render: (d) => d ? fmt.format(new Date(d)) : '—', type: 'date' },
+    { data: 'fase_display' },
+    { data: 'partit' },
+    { data: 'resultat' },
+    { data: 'punts', render: (d) => d !== null && d !== undefined ? d : '<span class="text-muted">—</span>' },
+  ],
+  order: [[1, 'asc'], [0, 'asc']],
+  pageLength: 25,
+  language: { search: 'Cerca:', info: 'Mostrant _START_-_END_ de _TOTAL_', paginate: { next: 'Seg', previous: 'Ant' } },
+});
+
+let transpLoaded = false;
+
+function updateTranspGrupVisibility() {
+  const fase = document.getElementById('transpFase').value;
+  const isGrups = fase === 'Grups';
+  document.getElementById('transpGrupWrap').style.display = isGrups ? '' : 'none';
+  document.getElementById('transpJornadaWrap').style.display = isGrups ? '' : 'none';
+  if (!isGrups) {
+    document.getElementById('transpGrup').value = '';
+    document.getElementById('transpJornada').value = '';
+  }
+}
+
+function loadTransp() {
+  const nom = document.getElementById('transpNom').value;
+  const partit = document.getElementById('transpPartit').value;
+  const fase = document.getElementById('transpFase').value;
+  const grup = document.getElementById('transpGrup').value;
+  const jornada = document.getElementById('transpJornada').value;
+  const local = document.getElementById('transpLocal').value;
+  const visitant = document.getElementById('transpVisitant').value;
+  const params = new URLSearchParams();
+  if (nom) params.set('nom', nom);
+  if (partit) params.set('partit', partit);
+  if (fase) params.set('fase', fase);
+  if (grup) params.set('grup', grup);
+  if (jornada) params.set('jornada', jornada);
+  if (local !== '') params.set('local', local);
+  if (visitant !== '') params.set('visitant', visitant);
+  fetch('/api/predictions?' + params)
+    .then(r => r.json())
+    .then(data => { dtTransp.clear(); dtTransp.rows.add(data); dtTransp.draw(); })
+    .catch(() => {});
+}
+
+document.getElementById('transpFase').addEventListener('change', () => { updateTranspGrupVisibility(); loadTransp(); });
+document.getElementById('transpGrup').addEventListener('change', loadTransp);
+document.getElementById('transpJornada').addEventListener('change', loadTransp);
+document.getElementById('transpNom').addEventListener('change', loadTransp);
+document.getElementById('transpPartit').addEventListener('change', loadTransp);
+document.getElementById('transpLocal').addEventListener('change', loadTransp);
+document.getElementById('transpVisitant').addEventListener('change', loadTransp);
+updateTranspGrupVisibility();
+
 // ── Load all data ────────────────────────────────────────────────────────────
 function loadAll() {
   fetch('/api/standings').then(r => r.json()).then(data => {
     dtStandings.clear(); dtStandings.rows.add(data); dtStandings.draw();
+    const sel = document.getElementById('transpNom');
+    [...data].sort((a, b) => a.nom.localeCompare(b.nom)).forEach(p => {
+      const o = document.createElement('option');
+      o.value = p.nom; o.textContent = p.nom;
+      sel.appendChild(o);
+    });
   }).catch(() => {});
   fetch('/api/daily').then(r => r.json()).then(data => {
     dtDaily.clear(); dtDaily.rows.add(data); dtDaily.draw();
@@ -435,10 +566,15 @@ function loadAll() {
 
 // Fix DataTables in hidden tabs
 document.querySelectorAll('#mainTabs button[data-bs-toggle="pill"]').forEach(btn => {
-  btn.addEventListener('shown.bs.tab', () => {
+  btn.addEventListener('shown.bs.tab', (e) => {
     dtDaily.columns.adjust().draw();
     dtFilter.columns.adjust().draw();
     dtResults.columns.adjust().draw();
+    dtTransp.columns.adjust().draw();
+    if (e.target.getAttribute('data-bs-target') === '#tab-transp' && !transpLoaded) {
+      transpLoaded = true;
+      loadTransp();
+    }
   });
 });
 

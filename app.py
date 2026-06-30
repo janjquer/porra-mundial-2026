@@ -245,6 +245,57 @@ def api_ranking():
     return jsonify(result.to_dict(orient="records"))
 
 
+@app.route("/api/predictions")
+def api_predictions():
+    nom = request.args.get("nom")
+    partit = request.args.get("partit")
+    fase = request.args.get("fase")
+    grup = request.args.get("grup")
+    jornada = request.args.get("jornada", type=int)
+    local_filter = request.args.get("local", type=int)
+    visitant_filter = request.args.get("visitant", type=int)
+
+    df = _load_gent()
+    partits = _load_partits()
+    partits_info = partits[["partit", "fase", "n_partit"]].copy()
+    df = df.merge(partits_info, on="partit", how="left")
+
+    if nom:
+        df = df[df["nom"] == nom]
+    if partit:
+        df = df[df["partit"] == partit]
+    if fase and "fase" in df.columns:
+        df = df[df["fase"] == fase]
+    if grup:
+        df = df[df["grup"] == grup]
+    if jornada and jornada in JORNADA_RANGES:
+        lo, hi = JORNADA_RANGES[jornada]
+        df = df[(df["n_partit"] >= lo) & (df["n_partit"] <= hi)]
+    if local_filter is not None:
+        df = df[df["local"] == local_filter]
+    if visitant_filter is not None:
+        df = df[df["visitant"] == visitant_filter]
+
+    rows = []
+    for _, row in df.iterrows():
+        fase_val = row["fase"] if "fase" in df.columns else None
+        grup_val = row["grup"]
+        fase_display = (
+            f"Grup {grup_val}"
+            if fase_val == "Grups" and pd.notna(grup_val)
+            else (fase_val if pd.notna(fase_val) else "—")
+        )
+        rows.append({
+            "nom": row["nom"],
+            "dia": row["dia"].isoformat() if hasattr(row["dia"], "isoformat") else str(row["dia"]),
+            "fase_display": fase_display,
+            "partit": row["partit"],
+            "resultat": f"{int(row['local'])}-{int(row['visitant'])}",
+            "punts": None if pd.isna(row["punts"]) else int(row["punts"]),
+        })
+    return jsonify(rows)
+
+
 @app.route("/api/last-update")
 def api_last_update():
     real = load_real()
