@@ -6,7 +6,7 @@ EUA - Paraguai,4.0,1.0,true,false,false
 Qatar - Suïssa,1.0,1.0,false,false,true
 Brasil - Marroc,1.0,1.0,false,false,true
 Haití - Escòcia,0.0,1.0,false,true,false
-Australia - Turquia,2.0,0.0,true,false,false
+Austràlia - Turquia,2.0,0.0,true,false,false
 Alemanya - Curaçao,7.0,1.0,true,false,false
 Països Baixos - Japó,2.0,2.0,false,false,true
 Costa d’Ivori - Equador,1.0,0.0,true,false,false
@@ -27,7 +27,7 @@ Txèquia - Sud-Àfrica,1.0,1.0,false,false,true
 Suïssa - Bosnia,4.0,1.0,true,false,false
 Canadà - Qatar,6.0,0.0,true,false,false
 Mèxic - Corea Sud,1.0,0.0,true,false,false
-EUA - Australia,2.0,0.0,true,false,false
+EUA - Austràlia,2.0,0.0,true,false,false
 Escòcia - Marroc,0.0,1.0,false,true,false
 Brasil - Haití,3.0,0.0,true,false,false
 Turquia - Paraguai,0.0,1.0,false,true,false
@@ -72,3 +72,5 @@ Colòmbia - Portugal,0.0,0.0,false,false,true
 Algèria - Austria,3.0,3.0,false,false,true
 Jordània - Argentina,1.0,3.0,false,true,false
 Sud-Àfrica - Canadà,0.0,1.0,false,true,false
+Brasil - Japó,2.0,1.0,true,false,false
+Alemanya - Paraguai,1.0,1.0,false,false,true
