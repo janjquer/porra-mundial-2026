@@ -268,7 +268,7 @@
               <select id="transpPartit" class="form-select form-select-sm" style="max-width:260px">
                 <option value="">Tots</option>
                 {% for p in partits|sort(attribute='n_partit', reverse=True) %}
-                <option value="{{ p.partit }}">{{ p.n_partit }}. {{ p.partit }}</option>
+                <option value="{{ p.partit }}" data-grup="{{ p.grup if p.grup else '' }}" data-fase="{{ p.fase if p.fase else '' }}" data-jornada="{{ '1' if p.n_partit <= 24 else ('2' if p.n_partit <= 48 else ('3' if p.n_partit <= 72 else '')) }}">{{ p.n_partit }}. {{ p.partit }}</option>
                 {% endfor %}
               </select>
             </div>
@@ -300,6 +300,31 @@ function deltaHtml(n) {
   if (n > 0) return `<span class="delta-up">▲${n}</span>`;
   if (n < 0) return `<span class="delta-down">▼${Math.abs(n)}</span>`;
   return `<span class="delta-zero">—</span>`;
+}
+
+const partitsData = {{ partits|tojson }};
+
+function teamMatchesFilters(team, fase, grup, jornada) {
+  return partitsData.some(p => {
+    const teams = p.partit.split(' - ');
+    if (!teams.includes(team)) return false;
+    if (fase && p.fase !== fase) return false;
+    if (grup && p.grup !== grup) return false;
+    if (jornada) {
+      const n = p.n_partit;
+      const j = n <= 24 ? '1' : n <= 48 ? '2' : n <= 72 ? '3' : '';
+      if (j !== String(jornada)) return false;
+    }
+    return true;
+  });
+}
+
+function filterSelectOptions(allOpts, sel, keep) {
+  const curr = sel.value;
+  while (sel.options.length > 1) sel.remove(1);
+  let valid = false;
+  allOpts.forEach(o => { if (keep(o)) { sel.appendChild(o); if (o.value === curr) valid = true; } });
+  if (!valid) sel.value = '';
 }
 
 // ── Standings ────────────────────────────────────────────────────────────────
@@ -371,9 +396,18 @@ function loadFilter() {
     .catch(() => {});
 }
 
-document.getElementById('filterFase').addEventListener('change', () => { updateFilterVisibility(); loadFilter(); });
-document.getElementById('filterGrup').addEventListener('change', loadFilter);
-document.getElementById('filterJornada').addEventListener('change', loadFilter);
+const allFilterTeamOpts = Array.from(document.getElementById('filterSeleccio').options).filter(o => o.value);
+function filterFilterTeams() {
+  const fase = document.getElementById('filterFase').value;
+  const grup = document.getElementById('filterGrup').value;
+  const jornada = document.getElementById('filterJornada').value;
+  filterSelectOptions(allFilterTeamOpts, document.getElementById('filterSeleccio'),
+    o => teamMatchesFilters(o.value, fase, grup, jornada));
+}
+
+document.getElementById('filterFase').addEventListener('change', () => { updateFilterVisibility(); filterFilterTeams(); loadFilter(); });
+document.getElementById('filterGrup').addEventListener('change', () => { filterFilterTeams(); loadFilter(); });
+document.getElementById('filterJornada').addEventListener('change', () => { filterFilterTeams(); loadFilter(); });
 document.getElementById('filterSeleccio').addEventListener('change', loadFilter);
 updateFilterVisibility();
 
@@ -392,17 +426,19 @@ const dtMatch = $('#tbl-match').DataTable({
   language: { emptyTable: 'Selecciona un partit per veure els pronòstics.' },
 });
 
+const allMatchOptions = Array.from(document.getElementById('matchSelect').options).filter(o => o.value);
+
 function filterMatchOptions() {
   const fase = document.getElementById('matchFaseFilter').value;
   const grup = document.getElementById('grupFilter').value;
   const jornada = document.getElementById('matchJornadaFilter').value;
   const sel = document.getElementById('matchSelect');
-  Array.from(sel.options).forEach(o => {
-    if (!o.value) { o.hidden = false; return; }
+  while (sel.options.length > 1) sel.remove(1);
+  allMatchOptions.forEach(o => {
     const faseMatch = !fase || o.dataset.fase === fase;
     const grupMatch = !grup || o.dataset.grup === grup;
     const jornadaMatch = !jornada || o.dataset.jornada === jornada;
-    o.hidden = !(faseMatch && grupMatch && jornadaMatch);
+    if (faseMatch && grupMatch && jornadaMatch) sel.appendChild(o);
   });
   sel.value = '';
   dtMatch.clear().draw();
@@ -473,14 +509,27 @@ const dtResults = $('#tbl-results').DataTable({
   language: { search: 'Cerca:', lengthMenu: 'Mostra _MENU_', info: 'Mostrant _START_-_END_ de _TOTAL_', paginate: { next: 'Seg', previous: 'Ant' } },
 });
 
+const allResultTeamOpts = Array.from(document.getElementById('seleccioResultFilter').options).filter(o => o.value);
+function filterResultTeams() {
+  const fase = document.getElementById('faseResultFilter').value;
+  const grup = document.getElementById('grupResultFilter').value;
+  const jornada = document.getElementById('jornadaResultFilter').value;
+  const sel = document.getElementById('seleccioResultFilter');
+  const prev = sel.value;
+  filterSelectOptions(allResultTeamOpts, sel, o => teamMatchesFilters(o.value, fase, grup, jornada));
+  if (prev && !sel.value) dtResults.column(2).search('', true, false);
+}
+
 document.getElementById('faseResultFilter').addEventListener('change', function() {
-  updateResultGrupVisibility();
+  updateResultGrupVisibility(); filterResultTeams();
   dtResults.column(5).search(this.value).draw();
 });
 document.getElementById('grupResultFilter').addEventListener('change', function() {
+  filterResultTeams();
   dtResults.column(1).search(this.value ? '^' + this.value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '$' : '', true, false).draw();
 });
 document.getElementById('jornadaResultFilter').addEventListener('change', function() {
+  filterResultTeams();
   dtResults.column(6).search(this.value).draw();
 });
 document.getElementById('seleccioResultFilter').addEventListener('change', function() {
@@ -547,9 +596,22 @@ function loadTransp() {
     .catch(() => {});
 }
 
-document.getElementById('transpFase').addEventListener('change', () => { updateTranspGrupVisibility(); loadTransp(); });
-document.getElementById('transpGrup').addEventListener('change', loadTransp);
-document.getElementById('transpJornada').addEventListener('change', loadTransp);
+const allTranspPartitOpts = Array.from(document.getElementById('transpPartit').options).filter(o => o.value);
+function filterTranspPartit() {
+  const fase = document.getElementById('transpFase').value;
+  const grup = document.getElementById('transpGrup').value;
+  const jornada = document.getElementById('transpJornada').value;
+  filterSelectOptions(allTranspPartitOpts, document.getElementById('transpPartit'), o => {
+    const fm = !fase || o.dataset.fase === fase;
+    const gm = !grup || o.dataset.grup === grup;
+    const jm = !jornada || o.dataset.jornada === jornada;
+    return fm && gm && jm;
+  });
+}
+
+document.getElementById('transpFase').addEventListener('change', () => { updateTranspGrupVisibility(); filterTranspPartit(); loadTransp(); });
+document.getElementById('transpGrup').addEventListener('change', () => { filterTranspPartit(); loadTransp(); });
+document.getElementById('transpJornada').addEventListener('change', () => { filterTranspPartit(); loadTransp(); });
 document.getElementById('transpNom').addEventListener('change', loadTransp);
 document.getElementById('transpPartit').addEventListener('change', loadTransp);
 document.getElementById('transpLocal').addEventListener('change', loadTransp);
