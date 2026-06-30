@@ -273,25 +273,10 @@
               </select>
             </div>
           </div>
-          <div class="d-flex gap-3 mb-3">
-            <div class="card text-center flex-fill border-success">
-              <div class="card-body py-2">
-                <div class="fw-bold text-success fs-4" id="transp-vl">—</div>
-                <div class="small text-muted">Victòria local</div>
-              </div>
-            </div>
-            <div class="card text-center flex-fill border-secondary">
-              <div class="card-body py-2">
-                <div class="fw-bold text-secondary fs-4" id="transp-emp">—</div>
-                <div class="small text-muted">Empat</div>
-              </div>
-            </div>
-            <div class="card text-center flex-fill border-danger">
-              <div class="card-body py-2">
-                <div class="fw-bold text-danger fs-4" id="transp-vv">—</div>
-                <div class="small text-muted">Victòria visitant</div>
-              </div>
-            </div>
+          <div class="d-flex gap-2 mb-3">
+            <button type="button" id="transp-vl" class="btn btn-outline-success" onclick="toggleTipus('local')">Victòria local</button>
+            <button type="button" id="transp-emp" class="btn btn-outline-secondary" onclick="toggleTipus('empat')">Empat</button>
+            <button type="button" id="transp-vv" class="btn btn-outline-danger" onclick="toggleTipus('visitant')">Victòria visitant</button>
           </div>
           <table id="tbl-transp" class="table table-hover table-sm w-100">
             <thead><tr><th>Participant</th><th>Data</th><th>Fase</th><th>Partit</th><th>Pronòstic</th><th>Punts</th></tr></thead>
@@ -518,6 +503,15 @@ const dtTransp = $('#tbl-transp').DataTable({
 });
 
 let transpLoaded = false;
+let transpTipus = '';
+
+function toggleTipus(t) {
+  transpTipus = transpTipus === t ? '' : t;
+  document.getElementById('transp-vl').classList.toggle('active', transpTipus === 'local');
+  document.getElementById('transp-emp').classList.toggle('active', transpTipus === 'empat');
+  document.getElementById('transp-vv').classList.toggle('active', transpTipus === 'visitant');
+  if (transpLoaded) loadTransp();
+}
 
 function updateTranspGrupVisibility() {
   const fase = document.getElementById('transpFase').value;
@@ -546,19 +540,10 @@ function loadTransp() {
   if (jornada) params.set('jornada', jornada);
   if (local !== '') params.set('local', local);
   if (visitant !== '') params.set('visitant', visitant);
+  if (transpTipus) params.set('tipus', transpTipus);
   fetch('/api/predictions?' + params)
     .then(r => r.json())
-    .then(data => {
-      dtTransp.clear(); dtTransp.rows.add(data); dtTransp.draw();
-      let vl = 0, emp = 0, vv = 0;
-      data.forEach(r => {
-        const [l, v] = r.resultat.split('-').map(Number);
-        if (l > v) vl++; else if (l === v) emp++; else vv++;
-      });
-      document.getElementById('transp-vl').textContent = vl;
-      document.getElementById('transp-emp').textContent = emp;
-      document.getElementById('transp-vv').textContent = vv;
-    })
+    .then(data => { dtTransp.clear(); dtTransp.rows.add(data); dtTransp.draw(); })
     .catch(() => {});
 }
 

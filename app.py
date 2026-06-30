@@ -254,6 +254,7 @@ def api_predictions():
     jornada = request.args.get("jornada", type=int)
     local_filter = request.args.get("local", type=int)
     visitant_filter = request.args.get("visitant", type=int)
+    tipus = request.args.get("tipus")
 
     df = _load_gent()
     partits = _load_partits()
@@ -275,6 +276,12 @@ def api_predictions():
         df = df[df["local"] == local_filter]
     if visitant_filter is not None:
         df = df[df["visitant"] == visitant_filter]
+    if tipus == "local":
+        df = df[df["local"] > df["visitant"]]
+    elif tipus == "empat":
+        df = df[df["local"] == df["visitant"]]
+    elif tipus == "visitant":
+        df = df[df["visitant"] > df["local"]]
 
     rows = []
     for _, row in df.iterrows():
