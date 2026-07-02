@@ -78,9 +78,9 @@ Aleix Moreno Gimeno,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,2.0,3
 Aleix Moreno Gimeno,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,3.0,false,true,false,12,77
 Aleix Moreno Gimeno,2026-06-30 23:00:00.000,"1/16",França - Suècia,4.0,1.0,true,false,false,11,78
 Aleix Moreno Gimeno,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,2.0,1.0,true,false,false,12,79
-Aleix Moreno Gimeno,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,0.0,true,false,false,,80
-Aleix Moreno Gimeno,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,,81
-Aleix Moreno Gimeno,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,3.0,0.0,true,false,false,,82
+Aleix Moreno Gimeno,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,0.0,true,false,false,11,80
+Aleix Moreno Gimeno,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,0,81
+Aleix Moreno Gimeno,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,3.0,0.0,true,false,false,12,82
 Aleix Moreno Gimeno,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,3.0,0.0,true,false,false,,83
 Aleix Moreno Gimeno,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,3.0,1.0,true,false,false,,84
 Aleix Moreno Gimeno,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,3.0,1.0,true,false,false,,85
@@ -166,9 +166,9 @@ Alex Espelt,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,2.0,1.0,true,
 Alex Espelt,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,2.0,false,true,false,18,77
 Alex Espelt,2026-06-30 23:00:00.000,"1/16",França - Suècia,4.0,0.0,true,false,false,12,78
 Alex Espelt,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,1.0,1.0,false,false,true,0,79
-Alex Espelt,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,,80
-Alex Espelt,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,3.0,false,true,false,,81
-Alex Espelt,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,3.0,1.0,true,false,false,,82
+Alex Espelt,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,12,80
+Alex Espelt,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,3.0,false,true,false,0,81
+Alex Espelt,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,3.0,1.0,true,false,false,11,82
 Alex Espelt,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,3.0,0.0,true,false,false,,83
 Alex Espelt,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,2.0,0.0,true,false,false,,84
 Alex Espelt,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,2.0,1.0,true,false,false,,85
@@ -254,9 +254,9 @@ Alex Soler,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,2.0,2.0,false,
 Alex Soler,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,3.0,false,true,false,12,77
 Alex Soler,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,0.0,true,false,false,18,78
 Alex Soler,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,1.0,1.0,false,false,true,0,79
-Alex Soler,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,,80
-Alex Soler,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,,81
-Alex Soler,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,3.0,1.0,true,false,false,,82
+Alex Soler,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,12,80
+Alex Soler,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,0,81
+Alex Soler,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,3.0,1.0,true,false,false,11,82
 Alex Soler,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,2.0,0.0,true,false,false,,83
 Alex Soler,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,3.0,1.0,true,false,false,,84
 Alex Soler,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,3.0,1.0,true,false,false,,85
@@ -342,9 +342,9 @@ Anna Jaile,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,1.0,2.0,false,
 Anna Jaile,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,2.0,0.0,true,false,false,0,77
 Anna Jaile,2026-06-30 23:00:00.000,"1/16",França - Suècia,2.0,1.0,true,false,false,11,78
 Anna Jaile,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,1.0,0.0,true,false,false,12,79
-Anna Jaile,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,,80
-Anna Jaile,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,1.0,false,false,true,,81
-Anna Jaile,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,,82
+Anna Jaile,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,12,80
+Anna Jaile,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,1.0,false,false,true,0,81
+Anna Jaile,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,18,82
 Anna Jaile,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,2.0,0.0,true,false,false,,83
 Anna Jaile,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,1.0,0.0,true,false,false,,84
 Anna Jaile,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,1.0,0.0,true,false,false,,85
@@ -430,9 +430,9 @@ Arnau Pérez,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,3.0,2.0,true
 Arnau Pérez,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,2.0,false,true,false,18,77
 Arnau Pérez,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,1.0,true,false,false,12,78
 Arnau Pérez,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,3.0,2.0,true,false,false,10,79
-Arnau Pérez,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,1.0,true,false,false,,80
-Arnau Pérez,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,2.0,1.0,true,false,false,,81
-Arnau Pérez,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,1.0,true,false,false,,82
+Arnau Pérez,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,1.0,true,false,false,12,80
+Arnau Pérez,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,2.0,1.0,true,false,false,11,81
+Arnau Pérez,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,1.0,true,false,false,12,82
 Arnau Pérez,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,3.0,0.0,true,false,false,,83
 Arnau Pérez,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,3.0,2.0,true,false,false,,84
 Arnau Pérez,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,2.0,1.0,true,false,false,,85
@@ -518,9 +518,9 @@ Bruno Ferrero,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,1.0,2.0,fal
 Bruno Ferrero,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,0.0,2.0,false,true,false,12,77
 Bruno Ferrero,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,1.0,true,false,false,12,78
 Bruno Ferrero,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,0.0,1.0,false,true,false,0,79
-Bruno Ferrero,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,,80
-Bruno Ferrero,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,0.0,1.0,false,true,false,,81
-Bruno Ferrero,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,1.0,0.0,true,false,false,,82
+Bruno Ferrero,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,12,80
+Bruno Ferrero,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,0.0,1.0,false,true,false,0,81
+Bruno Ferrero,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,1.0,0.0,true,false,false,12,82
 Bruno Ferrero,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,3.0,0.0,true,false,false,,83
 Bruno Ferrero,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,1.0,0.0,true,false,false,,84
 Bruno Ferrero,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,2.0,0.0,true,false,false,,85
@@ -606,9 +606,9 @@ Carlos Soler Duffo,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,2.0,1.
 Carlos Soler Duffo,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,1.0,false,false,true,0,77
 Carlos Soler Duffo,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,1.0,true,false,false,12,78
 Carlos Soler Duffo,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,2.0,2.0,false,false,true,0,79
-Carlos Soler Duffo,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,,80
-Carlos Soler Duffo,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,2.0,2.0,false,false,true,,81
-Carlos Soler Duffo,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,,82
+Carlos Soler Duffo,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,12,80
+Carlos Soler Duffo,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,2.0,2.0,false,false,true,0,81
+Carlos Soler Duffo,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,18,82
 Carlos Soler Duffo,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,3.0,2.0,true,false,false,,83
 Carlos Soler Duffo,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,3.0,1.0,true,false,false,,84
 Carlos Soler Duffo,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,1.0,0.0,true,false,false,,85
@@ -694,9 +694,9 @@ Daniel Rodriguez,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,1.0,2.0,
 Daniel Rodriguez,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,0.0,2.0,false,true,false,12,77
 Daniel Rodriguez,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,0.0,true,false,false,18,78
 Daniel Rodriguez,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,0.0,1.0,false,true,false,0,79
-Daniel Rodriguez,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,4.0,0.0,true,false,false,,80
-Daniel Rodriguez,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,0.0,true,false,false,,81
-Daniel Rodriguez,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,,82
+Daniel Rodriguez,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,4.0,0.0,true,false,false,10,80
+Daniel Rodriguez,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,0.0,true,false,false,9,81
+Daniel Rodriguez,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,18,82
 Daniel Rodriguez,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,3.0,0.0,true,false,false,,83
 Daniel Rodriguez,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,0.0,0.0,false,false,true,,84
 Daniel Rodriguez,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,1.0,0.0,true,false,false,,85
@@ -782,9 +782,9 @@ David Gallofré,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,2.0,2.0,f
 David Gallofré,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,3.0,false,true,false,12,77
 David Gallofré,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,0.0,true,false,false,18,78
 David Gallofré,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,1.0,2.0,false,true,false,0,79
-David Gallofré,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,0.0,true,false,false,,80
-David Gallofré,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,,81
-David Gallofré,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,,82
+David Gallofré,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,0.0,true,false,false,11,80
+David Gallofré,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,0,81
+David Gallofré,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,18,82
 David Gallofré,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,2.0,0.0,true,false,false,,83
 David Gallofré,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,2.0,1.0,true,false,false,,84
 David Gallofré,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,1.0,2.0,false,true,false,,85
@@ -870,9 +870,9 @@ Enric Vilalta,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,2.0,2.0,fal
 Enric Vilalta,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,2.0,1.0,true,false,false,0,77
 Enric Vilalta,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,0.0,true,false,false,18,78
 Enric Vilalta,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,1.0,1.0,false,false,true,0,79
-Enric Vilalta,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,1.0,true,false,false,,80
-Enric Vilalta,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,2.0,2.0,false,false,true,,81
-Enric Vilalta,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,,82
+Enric Vilalta,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,1.0,true,false,false,18,80
+Enric Vilalta,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,2.0,2.0,false,false,true,0,81
+Enric Vilalta,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,18,82
 Enric Vilalta,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,2.0,0.0,true,false,false,,83
 Enric Vilalta,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,2.0,2.0,false,false,true,,84
 Enric Vilalta,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,2.0,1.0,true,false,false,,85
@@ -958,9 +958,9 @@ Eric Llensa,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,2.0,1.0,true,
 Eric Llensa,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,3.0,false,true,false,12,77
 Eric Llensa,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,1.0,true,false,false,12,78
 Eric Llensa,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,1.0,1.0,false,false,true,0,79
-Eric Llensa,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,,80
-Eric Llensa,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,,81
-Eric Llensa,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,3.0,0.0,true,false,false,,82
+Eric Llensa,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,12,80
+Eric Llensa,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,0,81
+Eric Llensa,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,3.0,0.0,true,false,false,12,82
 Eric Llensa,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,2.0,0.0,true,false,false,,83
 Eric Llensa,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,2.0,1.0,true,false,false,,84
 Eric Llensa,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,2.0,1.0,true,false,false,,85
@@ -1046,9 +1046,9 @@ Ferran,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,2.0,1.0,true,false
 Ferran,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,3.0,false,true,false,12,77
 Ferran,2026-06-30 23:00:00.000,"1/16",França - Suècia,4.0,1.0,true,false,false,11,78
 Ferran,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,2.0,1.0,true,false,false,12,79
-Ferran,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,1.0,true,false,false,,80
-Ferran,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,3.0,false,true,false,,81
-Ferran,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,,82
+Ferran,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,1.0,true,false,false,12,80
+Ferran,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,3.0,false,true,false,0,81
+Ferran,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,18,82
 Ferran,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,2.0,1.0,true,false,false,,83
 Ferran,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,2.0,1.0,true,false,false,,84
 Ferran,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,1.0,3.0,false,true,false,,85
@@ -1134,9 +1134,9 @@ Gombit6,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,3.0,1.0,true,fals
 Gombit6,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,3.0,false,true,false,12,77
 Gombit6,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,1.0,true,false,false,12,78
 Gombit6,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,1.0,0.0,true,false,false,12,79
-Gombit6,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,,80
-Gombit6,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,2.0,1.0,true,false,false,,81
-Gombit6,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,1.0,true,false,false,,82
+Gombit6,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,12,80
+Gombit6,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,2.0,1.0,true,false,false,11,81
+Gombit6,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,1.0,true,false,false,12,82
 Gombit6,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,2.0,0.0,true,false,false,,83
 Gombit6,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,2.0,1.0,true,false,false,,84
 Gombit6,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,2.0,1.0,true,false,false,,85
@@ -1222,9 +1222,9 @@ Ignacio Giménez,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,2.0,1.0,
 Ignacio Giménez,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,2.0,false,true,false,18,77
 Ignacio Giménez,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,1.0,true,false,false,12,78
 Ignacio Giménez,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,1.0,2.0,false,true,false,0,79
-Ignacio Giménez,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,4.0,0.0,true,false,false,,80
-Ignacio Giménez,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,,81
-Ignacio Giménez,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,,82
+Ignacio Giménez,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,4.0,0.0,true,false,false,10,80
+Ignacio Giménez,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,0,81
+Ignacio Giménez,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,18,82
 Ignacio Giménez,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,3.0,1.0,true,false,false,,83
 Ignacio Giménez,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,2.0,1.0,true,false,false,,84
 Ignacio Giménez,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,2.0,1.0,true,false,false,,85
@@ -1310,9 +1310,9 @@ Ignacio Pons Echevarria,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,2
 Ignacio Pons Echevarria,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,2.0,false,true,false,18,77
 Ignacio Pons Echevarria,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,0.0,true,false,false,18,78
 Ignacio Pons Echevarria,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,2.0,1.0,true,false,false,12,79
-Ignacio Pons Echevarria,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,,80
-Ignacio Pons Echevarria,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,,81
-Ignacio Pons Echevarria,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,3.0,1.0,true,false,false,,82
+Ignacio Pons Echevarria,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,12,80
+Ignacio Pons Echevarria,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,0,81
+Ignacio Pons Echevarria,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,3.0,1.0,true,false,false,11,82
 Ignacio Pons Echevarria,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,3.0,1.0,true,false,false,,83
 Ignacio Pons Echevarria,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,2.0,1.0,true,false,false,,84
 Ignacio Pons Echevarria,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,2.0,1.0,true,false,false,,85
@@ -1398,9 +1398,9 @@ Ignacio Teixeira Izuzquiza,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marro
 Ignacio Teixeira Izuzquiza,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,2.0,false,true,false,18,77
 Ignacio Teixeira Izuzquiza,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,0.0,true,false,false,18,78
 Ignacio Teixeira Izuzquiza,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,2.0,0.0,true,false,false,18,79
-Ignacio Teixeira Izuzquiza,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,,80
-Ignacio Teixeira Izuzquiza,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,2.0,1.0,true,false,false,,81
-Ignacio Teixeira Izuzquiza,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,,82
+Ignacio Teixeira Izuzquiza,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,12,80
+Ignacio Teixeira Izuzquiza,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,2.0,1.0,true,false,false,11,81
+Ignacio Teixeira Izuzquiza,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,18,82
 Ignacio Teixeira Izuzquiza,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,2.0,1.0,true,false,false,,83
 Ignacio Teixeira Izuzquiza,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,1.0,1.0,false,false,true,,84
 Ignacio Teixeira Izuzquiza,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,2.0,1.0,true,false,false,,85
@@ -1486,9 +1486,9 @@ Ignasi Sanz,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,2.0,2.0,false
 Ignasi Sanz,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,3.0,false,true,false,12,77
 Ignasi Sanz,2026-06-30 23:00:00.000,"1/16",França - Suècia,4.0,1.0,true,false,false,11,78
 Ignasi Sanz,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,0.0,1.0,false,true,false,0,79
-Ignasi Sanz,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,1.0,0.0,true,false,false,,80
-Ignasi Sanz,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,,81
-Ignasi Sanz,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,1.0,true,false,false,,82
+Ignasi Sanz,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,1.0,0.0,true,false,false,11,80
+Ignasi Sanz,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,0,81
+Ignasi Sanz,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,1.0,true,false,false,12,82
 Ignasi Sanz,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,3.0,0.0,true,false,false,,83
 Ignasi Sanz,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,2.0,1.0,true,false,false,,84
 Ignasi Sanz,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,2.0,1.0,true,false,false,,85
@@ -1574,9 +1574,9 @@ Jan Galiot Pérez,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,2.0,2.0
 Jan Galiot Pérez,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,2.0,false,true,false,18,77
 Jan Galiot Pérez,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,1.0,true,false,false,12,78
 Jan Galiot Pérez,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,1.0,2.0,false,true,false,0,79
-Jan Galiot Pérez,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,,80
-Jan Galiot Pérez,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,,81
-Jan Galiot Pérez,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,1.0,true,false,false,,82
+Jan Galiot Pérez,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,12,80
+Jan Galiot Pérez,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,0,81
+Jan Galiot Pérez,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,1.0,true,false,false,12,82
 Jan Galiot Pérez,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,2.0,0.0,true,false,false,,83
 Jan Galiot Pérez,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,2.0,0.0,true,false,false,,84
 Jan Galiot Pérez,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,1.0,2.0,false,true,false,,85
@@ -1662,9 +1662,9 @@ Jan Quer,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,2.0,1.0,true,fal
 Jan Quer,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,2.0,false,true,false,18,77
 Jan Quer,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,1.0,true,false,false,12,78
 Jan Quer,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,1.0,0.0,true,false,false,12,79
-Jan Quer,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,,80
-Jan Quer,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,2.0,1.0,true,false,false,,81
-Jan Quer,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,,82
+Jan Quer,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,12,80
+Jan Quer,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,2.0,1.0,true,false,false,11,81
+Jan Quer,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,18,82
 Jan Quer,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,2.0,0.0,true,false,false,,83
 Jan Quer,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,2.0,1.0,true,false,false,,84
 Jan Quer,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,1.0,1.0,false,false,true,,85
@@ -1750,9 +1750,9 @@ Jesus Echevarria,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,1.0,2.0,
 Jesus Echevarria,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,2.0,1.0,true,false,false,0,77
 Jesus Echevarria,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,1.0,true,false,false,12,78
 Jesus Echevarria,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,3.0,1.0,true,false,false,11,79
-Jesus Echevarria,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,,80
-Jesus Echevarria,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,2.0,0.0,true,false,false,,81
-Jesus Echevarria,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,3.0,1.0,true,false,false,,82
+Jesus Echevarria,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,12,80
+Jesus Echevarria,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,2.0,0.0,true,false,false,10,81
+Jesus Echevarria,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,3.0,1.0,true,false,false,11,82
 Jesus Echevarria,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,3.0,0.0,true,false,false,,83
 Jesus Echevarria,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,2.0,1.0,true,false,false,,84
 Jesus Echevarria,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,3.0,0.0,true,false,false,,85
@@ -1838,9 +1838,9 @@ Johan,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,3.0,2.0,true,false,
 Johan,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,2.0,1.0,true,false,false,0,77
 Johan,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,0.0,true,false,false,18,78
 Johan,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,1.0,2.0,false,true,false,0,79
-Johan,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,2.0,true,false,false,,80
-Johan,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,2.0,1.0,true,false,false,,81
-Johan,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,,82
+Johan,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,2.0,true,false,false,11,80
+Johan,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,2.0,1.0,true,false,false,11,81
+Johan,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,18,82
 Johan,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,3.0,1.0,true,false,false,,83
 Johan,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,1.0,2.0,false,true,false,,84
 Johan,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,2.0,2.0,false,false,true,,85
@@ -1926,9 +1926,9 @@ Jordi Amigó Salvatella,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,1
 Jordi Amigó Salvatella,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,0.0,2.0,false,true,false,12,77
 Jordi Amigó Salvatella,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,1.0,true,false,false,12,78
 Jordi Amigó Salvatella,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,3.0,1.0,true,false,false,11,79
-Jordi Amigó Salvatella,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,,80
-Jordi Amigó Salvatella,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,,81
-Jordi Amigó Salvatella,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,4.0,0.0,true,false,false,,82
+Jordi Amigó Salvatella,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,12,80
+Jordi Amigó Salvatella,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,0,81
+Jordi Amigó Salvatella,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,4.0,0.0,true,false,false,11,82
 Jordi Amigó Salvatella,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,3.0,1.0,true,false,false,,83
 Jordi Amigó Salvatella,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,2.0,1.0,true,false,false,,84
 Jordi Amigó Salvatella,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,1.0,2.0,false,true,false,,85
@@ -2014,9 +2014,9 @@ Jordi Barbal Camats,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,2.0,2
 Jordi Barbal Camats,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,2.0,false,true,false,18,77
 Jordi Barbal Camats,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,0.0,true,false,false,18,78
 Jordi Barbal Camats,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,1.0,2.0,false,true,false,0,79
-Jordi Barbal Camats,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,1.0,true,false,false,,80
-Jordi Barbal Camats,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,2.0,1.0,true,false,false,,81
-Jordi Barbal Camats,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,1.0,0.0,true,false,false,,82
+Jordi Barbal Camats,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,1.0,true,false,false,18,80
+Jordi Barbal Camats,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,2.0,1.0,true,false,false,11,81
+Jordi Barbal Camats,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,1.0,0.0,true,false,false,12,82
 Jordi Barbal Camats,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,3.0,1.0,true,false,false,,83
 Jordi Barbal Camats,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,1.0,2.0,false,true,false,,84
 Jordi Barbal Camats,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,2.0,1.0,true,false,false,,85
@@ -2102,9 +2102,9 @@ Josep Coll Sanchez,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,2.0,3.
 Josep Coll Sanchez,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,3.0,false,true,false,12,77
 Josep Coll Sanchez,2026-06-30 23:00:00.000,"1/16",França - Suècia,4.0,1.0,true,false,false,11,78
 Josep Coll Sanchez,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,1.0,1.0,false,false,true,0,79
-Josep Coll Sanchez,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,0.0,true,false,false,,80
-Josep Coll Sanchez,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,,81
-Josep Coll Sanchez,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,1.0,0.0,true,false,false,,82
+Josep Coll Sanchez,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,0.0,true,false,false,11,80
+Josep Coll Sanchez,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,0,81
+Josep Coll Sanchez,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,1.0,0.0,true,false,false,12,82
 Josep Coll Sanchez,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,3.0,1.0,true,false,false,,83
 Josep Coll Sanchez,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,2.0,1.0,true,false,false,,84
 Josep Coll Sanchez,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,2.0,1.0,true,false,false,,85
@@ -2190,9 +2190,9 @@ Lluc Farrés I Lansac,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,1.0
 Lluc Farrés I Lansac,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,3.0,false,true,false,12,77
 Lluc Farrés I Lansac,2026-06-30 23:00:00.000,"1/16",França - Suècia,2.0,0.0,true,false,false,12,78
 Lluc Farrés I Lansac,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,1.0,0.0,true,false,false,12,79
-Lluc Farrés I Lansac,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,,80
-Lluc Farrés I Lansac,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,1.0,false,false,true,,81
-Lluc Farrés I Lansac,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,1.0,true,false,false,,82
+Lluc Farrés I Lansac,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,12,80
+Lluc Farrés I Lansac,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,1.0,false,false,true,0,81
+Lluc Farrés I Lansac,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,1.0,true,false,false,12,82
 Lluc Farrés I Lansac,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,3.0,0.0,true,false,false,,83
 Lluc Farrés I Lansac,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,2.0,1.0,true,false,false,,84
 Lluc Farrés I Lansac,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,1.0,0.0,true,false,false,,85
@@ -2278,9 +2278,9 @@ Lucas,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,2.0,0.0,true,false,
 Lucas,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,0.0,1.0,false,true,false,11,77
 Lucas,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,1.0,true,false,false,12,78
 Lucas,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,1.0,2.0,false,true,false,0,79
-Lucas,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,,80
-Lucas,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,,81
-Lucas,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,,82
+Lucas,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,12,80
+Lucas,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,0,81
+Lucas,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,18,82
 Lucas,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,2.0,1.0,true,false,false,,83
 Lucas,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,2.0,0.0,true,false,false,,84
 Lucas,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,1.0,0.0,true,false,false,,85
@@ -2366,9 +2366,9 @@ Manuel De Vega,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,2.0,1.0,tr
 Manuel De Vega,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,2.0,false,true,false,18,77
 Manuel De Vega,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,0.0,true,false,false,18,78
 Manuel De Vega,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,1.0,0.0,true,false,false,12,79
-Manuel De Vega,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,1.0,true,false,false,,80
-Manuel De Vega,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,,81
-Manuel De Vega,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,3.0,2.0,true,false,false,,82
+Manuel De Vega,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,1.0,true,false,false,18,80
+Manuel De Vega,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,0,81
+Manuel De Vega,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,3.0,2.0,true,false,false,10,82
 Manuel De Vega,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,2.0,1.0,true,false,false,,83
 Manuel De Vega,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,3.0,1.0,true,false,false,,84
 Manuel De Vega,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,2.0,1.0,true,false,false,,85
@@ -2454,9 +2454,9 @@ Marc Janer Ferrer,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,2.0,1.0
 Marc Janer Ferrer,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,2.0,false,true,false,18,77
 Marc Janer Ferrer,2026-06-30 23:00:00.000,"1/16",França - Suècia,2.0,0.0,true,false,false,12,78
 Marc Janer Ferrer,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,1.0,0.0,true,false,false,12,79
-Marc Janer Ferrer,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,,80
-Marc Janer Ferrer,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,2.0,1.0,true,false,false,,81
-Marc Janer Ferrer,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,1.0,true,false,false,,82
+Marc Janer Ferrer,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,12,80
+Marc Janer Ferrer,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,2.0,1.0,true,false,false,11,81
+Marc Janer Ferrer,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,1.0,true,false,false,12,82
 Marc Janer Ferrer,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,2.0,0.0,true,false,false,,83
 Marc Janer Ferrer,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,2.0,1.0,true,false,false,,84
 Marc Janer Ferrer,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,1.0,0.0,true,false,false,,85
@@ -2542,9 +2542,9 @@ Mercè Jaile,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,3.0,2.0,true
 Mercè Jaile,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,3.0,false,true,false,12,77
 Mercè Jaile,2026-06-30 23:00:00.000,"1/16",França - Suècia,4.0,1.0,true,false,false,11,78
 Mercè Jaile,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,3.0,1.0,true,false,false,11,79
-Mercè Jaile,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,1.0,true,false,false,,80
-Mercè Jaile,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,2.0,0.0,true,false,false,,81
-Mercè Jaile,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,3.0,1.0,true,false,false,,82
+Mercè Jaile,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,1.0,true,false,false,12,80
+Mercè Jaile,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,2.0,0.0,true,false,false,10,81
+Mercè Jaile,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,3.0,1.0,true,false,false,11,82
 Mercè Jaile,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,3.0,1.0,true,false,false,,83
 Mercè Jaile,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,1.0,2.0,false,true,false,,84
 Mercè Jaile,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,1.0,2.0,false,true,false,,85
@@ -2630,9 +2630,9 @@ Mª Àngels Amigó,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,1.0,2.
 Mª Àngels Amigó,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,0.0,1.0,false,true,false,11,77
 Mª Àngels Amigó,2026-06-30 23:00:00.000,"1/16",França - Suècia,1.0,0.0,true,false,false,11,78
 Mª Àngels Amigó,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,1.0,1.0,false,false,true,0,79
-Mª Àngels Amigó,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,1.0,true,false,false,,80
-Mª Àngels Amigó,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,,81
-Mª Àngels Amigó,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,0.0,0.0,false,false,true,,82
+Mª Àngels Amigó,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,1.0,true,false,false,12,80
+Mª Àngels Amigó,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,0,81
+Mª Àngels Amigó,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,0.0,0.0,false,false,true,0,82
 Mª Àngels Amigó,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,2.0,0.0,true,false,false,,83
 Mª Àngels Amigó,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,1.0,1.0,false,false,true,,84
 Mª Àngels Amigó,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,0.0,1.0,false,true,false,,85
@@ -2718,9 +2718,9 @@ Nacho Gris,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,1.0,2.0,false,
 Nacho Gris,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,2.0,false,true,false,18,77
 Nacho Gris,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,0.0,true,false,false,18,78
 Nacho Gris,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,2.0,0.0,true,false,false,18,79
-Nacho Gris,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,,80
-Nacho Gris,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,,81
-Nacho Gris,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,,82
+Nacho Gris,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,12,80
+Nacho Gris,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,0,81
+Nacho Gris,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,18,82
 Nacho Gris,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,3.0,1.0,true,false,false,,83
 Nacho Gris,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,1.0,1.0,false,false,true,,84
 Nacho Gris,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,1.0,0.0,true,false,false,,85
@@ -2806,9 +2806,9 @@ Nicola Costa,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,1.0,1.0,fals
 Nicola Costa,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,2.0,false,true,false,18,77
 Nicola Costa,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,1.0,true,false,false,12,78
 Nicola Costa,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,2.0,1.0,true,false,false,12,79
-Nicola Costa,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,0.0,true,false,false,,80
-Nicola Costa,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,0.0,true,false,false,,81
-Nicola Costa,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,1.0,true,false,false,,82
+Nicola Costa,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,0.0,true,false,false,11,80
+Nicola Costa,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,0.0,true,false,false,9,81
+Nicola Costa,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,1.0,true,false,false,12,82
 Nicola Costa,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,3.0,2.0,true,false,false,,83
 Nicola Costa,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,2.0,2.0,false,false,true,,84
 Nicola Costa,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,2.0,1.0,true,false,false,,85
@@ -2894,9 +2894,9 @@ Oscar Bernal Rosa,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,2.0,1.0
 Oscar Bernal Rosa,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,0.0,3.0,false,true,false,11,77
 Oscar Bernal Rosa,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,1.0,true,false,false,12,78
 Oscar Bernal Rosa,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,1.0,0.0,true,false,false,12,79
-Oscar Bernal Rosa,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,2.0,true,false,false,,80
-Oscar Bernal Rosa,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,3.0,2.0,true,false,false,,81
-Oscar Bernal Rosa,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,,82
+Oscar Bernal Rosa,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,2.0,true,false,false,11,80
+Oscar Bernal Rosa,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,3.0,2.0,true,false,false,18,81
+Oscar Bernal Rosa,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,18,82
 Oscar Bernal Rosa,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,3.0,0.0,true,false,false,,83
 Oscar Bernal Rosa,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,2.0,1.0,true,false,false,,84
 Oscar Bernal Rosa,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,2.0,1.0,true,false,false,,85
@@ -2982,9 +2982,9 @@ Pablo Ayo De Diego,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,2.0,2.
 Pablo Ayo De Diego,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,3.0,false,true,false,12,77
 Pablo Ayo De Diego,2026-06-30 23:00:00.000,"1/16",França - Suècia,4.0,1.0,true,false,false,11,78
 Pablo Ayo De Diego,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,1.0,1.0,false,false,true,0,79
-Pablo Ayo De Diego,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,,80
-Pablo Ayo De Diego,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,,81
-Pablo Ayo De Diego,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,3.0,1.0,true,false,false,,82
+Pablo Ayo De Diego,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,12,80
+Pablo Ayo De Diego,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,0,81
+Pablo Ayo De Diego,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,3.0,1.0,true,false,false,11,82
 Pablo Ayo De Diego,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,1.0,0.0,true,false,false,,83
 Pablo Ayo De Diego,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,1.0,1.0,false,false,true,,84
 Pablo Ayo De Diego,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,2.0,1.0,true,false,false,,85
@@ -3070,9 +3070,9 @@ Patricia Miró Bruna,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,3.0,
 Patricia Miró Bruna,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,2.0,3.0,false,true,false,11,77
 Patricia Miró Bruna,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,1.0,true,false,false,12,78
 Patricia Miró Bruna,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,2.0,1.0,true,false,false,12,79
-Patricia Miró Bruna,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,,80
-Patricia Miró Bruna,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,0.0,true,false,false,,81
-Patricia Miró Bruna,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,1.0,0.0,true,false,false,,82
+Patricia Miró Bruna,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,12,80
+Patricia Miró Bruna,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,0.0,true,false,false,9,81
+Patricia Miró Bruna,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,1.0,0.0,true,false,false,12,82
 Patricia Miró Bruna,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,2.0,1.0,true,false,false,,83
 Patricia Miró Bruna,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,2.0,1.0,true,false,false,,84
 Patricia Miró Bruna,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,1.0,0.0,true,false,false,,85
@@ -3158,9 +3158,9 @@ Pau Serracanta Perarnau,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,1
 Pau Serracanta Perarnau,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,2.0,false,true,false,18,77
 Pau Serracanta Perarnau,2026-06-30 23:00:00.000,"1/16",França - Suècia,2.0,0.0,true,false,false,12,78
 Pau Serracanta Perarnau,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,1.0,0.0,true,false,false,12,79
-Pau Serracanta Perarnau,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,,80
-Pau Serracanta Perarnau,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,1.0,false,false,true,,81
-Pau Serracanta Perarnau,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,,82
+Pau Serracanta Perarnau,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,12,80
+Pau Serracanta Perarnau,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,1.0,false,false,true,0,81
+Pau Serracanta Perarnau,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,18,82
 Pau Serracanta Perarnau,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,2.0,1.0,true,false,false,,83
 Pau Serracanta Perarnau,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,1.0,1.0,false,false,true,,84
 Pau Serracanta Perarnau,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,1.0,0.0,true,false,false,,85
@@ -3246,9 +3246,9 @@ Pepe Andres Gil,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,2.0,2.0,f
 Pepe Andres Gil,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,2.0,false,true,false,18,77
 Pepe Andres Gil,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,0.0,true,false,false,18,78
 Pepe Andres Gil,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,1.0,2.0,false,true,false,0,79
-Pepe Andres Gil,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,0.0,true,false,false,,80
-Pepe Andres Gil,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,,81
-Pepe Andres Gil,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,,82
+Pepe Andres Gil,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,0.0,true,false,false,11,80
+Pepe Andres Gil,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,0,81
+Pepe Andres Gil,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,18,82
 Pepe Andres Gil,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,2.0,1.0,true,false,false,,83
 Pepe Andres Gil,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,3.0,1.0,true,false,false,,84
 Pepe Andres Gil,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,1.0,1.0,false,false,true,,85
@@ -3334,9 +3334,9 @@ Quico,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,2.0,2.0,false,false
 Quico,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,3.0,false,true,false,12,77
 Quico,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,0.0,true,false,false,18,78
 Quico,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,2.0,1.0,true,false,false,12,79
-Quico,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,1.0,true,false,false,,80
-Quico,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,1.0,false,false,true,,81
-Quico,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,1.0,true,false,false,,82
+Quico,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,1.0,true,false,false,18,80
+Quico,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,1.0,false,false,true,0,81
+Quico,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,1.0,true,false,false,12,82
 Quico,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,3.0,1.0,true,false,false,,83
 Quico,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,1.0,2.0,false,true,false,,84
 Quico,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,1.0,2.0,false,true,false,,85
@@ -3422,9 +3422,9 @@ Quimi,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,3.0,2.0,true,false,
 Quimi,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,2.0,false,true,false,18,77
 Quimi,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,1.0,true,false,false,12,78
 Quimi,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,3.0,1.0,true,false,false,11,79
-Quimi,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,0.0,true,false,false,,80
-Quimi,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,,81
-Quimi,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,,82
+Quimi,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,0.0,true,false,false,11,80
+Quimi,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,0,81
+Quimi,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,18,82
 Quimi,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,2.0,1.0,true,false,false,,83
 Quimi,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,2.0,1.0,true,false,false,,84
 Quimi,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,2.0,0.0,true,false,false,,85
@@ -3510,9 +3510,9 @@ Ricard Segura Trias,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,2.0,2
 Ricard Segura Trias,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,0.0,2.0,false,true,false,12,77
 Ricard Segura Trias,2026-06-30 23:00:00.000,"1/16",França - Suècia,2.0,1.0,true,false,false,11,78
 Ricard Segura Trias,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,1.0,1.0,false,false,true,0,79
-Ricard Segura Trias,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,1.0,true,false,false,,80
-Ricard Segura Trias,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,1.0,false,false,true,,81
-Ricard Segura Trias,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,,82
+Ricard Segura Trias,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,1.0,true,false,false,18,80
+Ricard Segura Trias,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,1.0,false,false,true,0,81
+Ricard Segura Trias,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,18,82
 Ricard Segura Trias,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,3.0,1.0,true,false,false,,83
 Ricard Segura Trias,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,2.0,2.0,false,false,true,,84
 Ricard Segura Trias,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,1.0,2.0,false,true,false,,85
@@ -3598,9 +3598,9 @@ Ricardo Luque Echevarria,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,
 Ricardo Luque Echevarria,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,3.0,false,true,false,12,77
 Ricardo Luque Echevarria,2026-06-30 23:00:00.000,"1/16",França - Suècia,2.0,0.0,true,false,false,12,78
 Ricardo Luque Echevarria,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,1.0,1.0,false,false,true,0,79
-Ricardo Luque Echevarria,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,0.0,true,false,false,,80
-Ricardo Luque Echevarria,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,2.0,1.0,true,false,false,,81
-Ricardo Luque Echevarria,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,,82
+Ricardo Luque Echevarria,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,0.0,true,false,false,11,80
+Ricardo Luque Echevarria,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,2.0,1.0,true,false,false,11,81
+Ricardo Luque Echevarria,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,18,82
 Ricardo Luque Echevarria,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,2.0,0.0,true,false,false,,83
 Ricardo Luque Echevarria,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,3.0,2.0,true,false,false,,84
 Ricardo Luque Echevarria,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,1.0,0.0,true,false,false,,85
@@ -3686,9 +3686,9 @@ Roger Calabuig,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,1.0,1.0,fa
 Roger Calabuig,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,2.0,false,true,false,18,77
 Roger Calabuig,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,1.0,true,false,false,12,78
 Roger Calabuig,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,2.0,0.0,true,false,false,18,79
-Roger Calabuig,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,0.0,true,false,false,,80
-Roger Calabuig,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,2.0,1.0,true,false,false,,81
-Roger Calabuig,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,1.0,true,false,false,,82
+Roger Calabuig,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,0.0,true,false,false,11,80
+Roger Calabuig,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,2.0,1.0,true,false,false,11,81
+Roger Calabuig,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,1.0,true,false,false,12,82
 Roger Calabuig,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,2.0,0.0,true,false,false,,83
 Roger Calabuig,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,2.0,1.0,true,false,false,,84
 Roger Calabuig,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,2.0,1.0,true,false,false,,85
@@ -3774,9 +3774,9 @@ Ruth Hoya,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,1.0,2.0,false,t
 Ruth Hoya,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,2.0,2.0,false,false,true,0,77
 Ruth Hoya,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,1.0,true,false,false,12,78
 Ruth Hoya,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,2.0,0.0,true,false,false,18,79
-Ruth Hoya,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,0.0,true,false,false,,80
-Ruth Hoya,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,1.0,false,false,true,,81
-Ruth Hoya,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,1.0,true,false,false,,82
+Ruth Hoya,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,0.0,true,false,false,11,80
+Ruth Hoya,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,1.0,false,false,true,0,81
+Ruth Hoya,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,1.0,true,false,false,12,82
 Ruth Hoya,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,2.0,1.0,true,false,false,,83
 Ruth Hoya,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,2.0,2.0,false,false,true,,84
 Ruth Hoya,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,2.0,0.0,true,false,false,,85
@@ -3862,9 +3862,9 @@ Sergio Mérida Ceballos,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,2
 Sergio Mérida Ceballos,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,3.0,false,true,false,12,77
 Sergio Mérida Ceballos,2026-06-30 23:00:00.000,"1/16",França - Suècia,2.0,0.0,true,false,false,12,78
 Sergio Mérida Ceballos,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,1.0,0.0,true,false,false,12,79
-Sergio Mérida Ceballos,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,0.0,true,false,false,,80
-Sergio Mérida Ceballos,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,,81
-Sergio Mérida Ceballos,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,,82
+Sergio Mérida Ceballos,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,0.0,true,false,false,11,80
+Sergio Mérida Ceballos,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,0,81
+Sergio Mérida Ceballos,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,18,82
 Sergio Mérida Ceballos,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,3.0,0.0,true,false,false,,83
 Sergio Mérida Ceballos,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,3.0,1.0,true,false,false,,84
 Sergio Mérida Ceballos,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,1.0,2.0,false,true,false,,85
@@ -3950,9 +3950,9 @@ Tommy Bridges,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,3.0,2.0,tru
 Tommy Bridges,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,2.0,false,true,false,18,77
 Tommy Bridges,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,1.0,true,false,false,12,78
 Tommy Bridges,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,1.0,2.0,false,true,false,0,79
-Tommy Bridges,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,,80
-Tommy Bridges,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,,81
-Tommy Bridges,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,3.0,1.0,true,false,false,,82
+Tommy Bridges,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,12,80
+Tommy Bridges,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,0,81
+Tommy Bridges,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,3.0,1.0,true,false,false,11,82
 Tommy Bridges,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,2.0,1.0,true,false,false,,83
 Tommy Bridges,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,2.0,1.0,true,false,false,,84
 Tommy Bridges,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,2.0,1.0,true,false,false,,85
@@ -4038,9 +4038,9 @@ Txell Pujol,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,1.0,1.0,false
 Txell Pujol,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,0.0,2.0,false,true,false,12,77
 Txell Pujol,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,1.0,true,false,false,12,78
 Txell Pujol,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,3.0,0.0,true,false,false,12,79
-Txell Pujol,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,,80
-Txell Pujol,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,,81
-Txell Pujol,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,,82
+Txell Pujol,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,2.0,0.0,true,false,false,12,80
+Txell Pujol,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,0,81
+Txell Pujol,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,0.0,true,false,false,18,82
 Txell Pujol,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,4.0,1.0,true,false,false,,83
 Txell Pujol,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,2.0,1.0,true,false,false,,84
 Txell Pujol,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,1.0,0.0,true,false,false,,85
@@ -4126,9 +4126,9 @@ Xavi,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,1.0,1.0,false,false,
 Xavi,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,2.0,false,true,false,18,77
 Xavi,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,1.0,true,false,false,12,78
 Xavi,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,2.0,1.0,true,false,false,12,79
-Xavi,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,0.0,true,false,false,,80
-Xavi,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,,81
-Xavi,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,1.0,true,false,false,,82
+Xavi,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,0.0,true,false,false,11,80
+Xavi,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,1.0,2.0,false,true,false,0,81
+Xavi,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,2.0,1.0,true,false,false,12,82
 Xavi,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,3.0,1.0,true,false,false,,83
 Xavi,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,1.0,1.0,false,false,true,,84
 Xavi,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,1.0,0.0,true,false,false,,85
@@ -4214,9 +4214,9 @@ Xavi González,2026-06-30 03:00:00.000,"1/16",Països Baixos - Marroc,1.0,2.0,fa
 Xavi González,2026-06-30 19:00:00.000,"1/16",Costa d’Ivori - Noruega,1.0,2.0,false,true,false,18,77
 Xavi González,2026-06-30 23:00:00.000,"1/16",França - Suècia,3.0,1.0,true,false,false,12,78
 Xavi González,2026-07-01 03:00:00.000,"1/16",Mèxic - Equador,1.0,2.0,false,true,false,0,79
-Xavi González,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,0.0,true,false,false,,80
-Xavi González,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,0.0,2.0,false,true,false,,81
-Xavi González,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,3.0,1.0,true,false,false,,82
+Xavi González,2026-07-01 18:00:00.000,"1/16",Anglaterra - RD Congo,3.0,0.0,true,false,false,11,80
+Xavi González,2026-07-01 22:00:00.000,"1/16",Bèlgica - Senegal,0.0,2.0,false,true,false,0,81
+Xavi González,2026-07-02 02:00:00.000,"1/16",EUA - Bosnia,3.0,1.0,true,false,false,11,82
 Xavi González,2026-07-02 21:00:00.000,"1/16",Espanya - Austria,2.0,1.0,true,false,false,,83
 Xavi González,2026-07-03 01:00:00.000,"1/16",Portugal - Croàcia,1.0,2.0,false,true,false,,84
 Xavi González,2026-07-03 05:00:00.000,"1/16",Suïssa - Algèria,2.0,0.0,true,false,false,,85
