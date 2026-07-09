@@ -28,7 +28,15 @@ if os.path.exists(_partits_src):
 def _load_gent() -> pd.DataFrame:
     df = pd.read_csv(os.path.join(DATA_DIR, "gent.csv"), parse_dates=["dia"])
     if "clavat" not in df.columns:
-        df["clavat"] = df["punts"] == 15
+        real = load_real()
+        df["clavat"] = df.apply(
+            lambda r: (
+                r["partit"] in real
+                and int(r["local"]) == real[r["partit"]]["home_score"]
+                and int(r["visitant"]) == real[r["partit"]]["away_score"]
+            ),
+            axis=1,
+        )
     return df
 
 
