@@ -424,6 +424,15 @@ const dtMatch = $('#tbl-match').DataTable({
   searching: false,
   info: false,
   language: { emptyTable: 'Selecciona un partit per veure els pronòstics.' },
+  createdRow(row, data) {
+    if (data.noms && data.noms.length) {
+      $(row).attr('title', data.noms.join(', '))
+            .attr('data-bs-toggle', 'tooltip')
+            .attr('data-bs-placement', 'left')
+            .css('cursor', 'default');
+      new bootstrap.Tooltip(row, { trigger: 'hover focus' });
+    }
+  },
 });
 
 const allMatchOptions = Array.from(document.getElementById('matchSelect').options).filter(o => o.value);

@@ -134,9 +134,8 @@ def api_match(n_partit):
     preds["resultat"] = preds["local"].astype(str) + "-" + preds["visitant"].astype(str)
 
     agg = (
-        preds.groupby("resultat")
-        .agg(n=("nom", "count"), punts=("punts", "first"))
-        .reset_index()
+        preds.groupby("resultat", as_index=False)
+        .agg(n=("nom", "count"), punts=("punts", "first"), noms=("nom", list))
         .sort_values("n", ascending=False)
     )
     agg["punts"] = agg["punts"].apply(lambda x: None if pd.isna(x) else int(x))
