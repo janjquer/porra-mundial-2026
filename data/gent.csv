@@ -97,7 +97,7 @@ Aleix Moreno Gimeno,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,2.0,0.0,tr
 Aleix Moreno Gimeno,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,1.0,1.0,false,false,true,14,96
 Aleix Moreno Gimeno,2026-07-09 22:00:00.000,"1/4",França - Marroc,2.0,1.0,true,false,false,18,97
 Aleix Moreno Gimeno,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,2.0,0.0,true,false,false,18,98
-Aleix Moreno Gimeno,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,1.0,false,false,true,,99
+Aleix Moreno Gimeno,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,1.0,false,false,true,0,99
 Aleix Moreno Gimeno,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,2.0,1.0,true,false,false,,100
 Alex Espelt,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,3.0,1.0,true,false,false,8,1
 Alex Espelt,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
@@ -197,7 +197,7 @@ Alex Espelt,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,3.0,1.0,true,false
 Alex Espelt,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,1.0,2.0,false,true,false,0,96
 Alex Espelt,2026-07-09 22:00:00.000,"1/4",França - Marroc,3.0,1.0,true,false,false,17,97
 Alex Espelt,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,2.0,0.0,true,false,false,18,98
-Alex Espelt,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,2.0,false,false,true,,99
+Alex Espelt,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,2.0,false,false,true,0,99
 Alex Espelt,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,2.0,1.0,true,false,false,,100
 Alex Soler,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Alex Soler,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,2.0,1.0,true,false,false,15,2
@@ -297,7 +297,7 @@ Alex Soler,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,3.0,1.0,true,false,
 Alex Soler,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,1.0,0.0,true,false,false,0,96
 Alex Soler,2026-07-09 22:00:00.000,"1/4",França - Marroc,2.0,2.0,false,false,true,0,97
 Alex Soler,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,1.0,2.0,false,true,false,0,98
-Alex Soler,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,1.0,true,false,false,,99
+Alex Soler,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,1.0,true,false,false,0,99
 Alex Soler,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,1.0,1.0,false,false,true,,100
 Anna Jaile,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Anna Jaile,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,0.0,2.0,false,true,false,0,2
@@ -397,7 +397,7 @@ Anna Jaile,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,3.0,0.0,true,false,
 Anna Jaile,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,2.0,1.0,true,false,false,0,96
 Anna Jaile,2026-07-09 22:00:00.000,"1/4",França - Marroc,2.0,1.0,true,false,false,18,97
 Anna Jaile,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,2.0,1.0,true,false,false,24,98
-Anna Jaile,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,0.0,2.0,false,true,false,,99
+Anna Jaile,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,0.0,2.0,false,true,false,18,99
 Anna Jaile,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,2.0,0.0,true,false,false,,100
 Arnau Pérez,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Arnau Pérez,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
@@ -497,7 +497,7 @@ Arnau Pérez,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,3.0,0.0,true,fals
 Arnau Pérez,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,1.0,2.0,false,true,false,0,96
 Arnau Pérez,2026-07-09 22:00:00.000,"1/4",França - Marroc,3.0,2.0,true,false,false,16,97
 Arnau Pérez,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,2.0,1.0,true,false,false,24,98
-Arnau Pérez,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,1.0,true,false,false,,99
+Arnau Pérez,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,1.0,true,false,false,0,99
 Arnau Pérez,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,2.0,1.0,true,false,false,,100
 Bruno Ferrero,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Bruno Ferrero,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
@@ -597,7 +597,7 @@ Bruno Ferrero,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,2.0,1.0,true,fal
 Bruno Ferrero,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,1.0,2.0,false,true,false,0,96
 Bruno Ferrero,2026-07-09 22:00:00.000,"1/4",França - Marroc,1.0,1.0,false,false,true,0,97
 Bruno Ferrero,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,2.0,0.0,true,false,false,18,98
-Bruno Ferrero,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,1.0,true,false,false,,99
+Bruno Ferrero,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,1.0,true,false,false,0,99
 Bruno Ferrero,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,2.0,0.0,true,false,false,,100
 Carlos Soler Duffo,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Carlos Soler Duffo,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
@@ -697,7 +697,7 @@ Carlos Soler Duffo,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,2.0,0.0,tru
 Carlos Soler Duffo,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,1.0,0.0,true,false,false,0,96
 Carlos Soler Duffo,2026-07-09 22:00:00.000,"1/4",França - Marroc,2.0,2.0,false,false,true,0,97
 Carlos Soler Duffo,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,2.0,1.0,true,false,false,24,98
-Carlos Soler Duffo,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,1.0,false,false,true,,99
+Carlos Soler Duffo,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,1.0,false,false,true,0,99
 Carlos Soler Duffo,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,1.0,0.0,true,false,false,,100
 Daniel Rodriguez,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,1.0,1.0,false,false,true,0,1
 Daniel Rodriguez,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,3.0,false,true,false,0,2
@@ -797,7 +797,7 @@ Daniel Rodriguez,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,2.0,1.0,true,
 Daniel Rodriguez,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,1.0,1.0,false,false,true,14,96
 Daniel Rodriguez,2026-07-09 22:00:00.000,"1/4",França - Marroc,2.0,2.0,false,false,true,0,97
 Daniel Rodriguez,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,3.0,2.0,true,false,false,17,98
-Daniel Rodriguez,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,2.0,false,false,true,,99
+Daniel Rodriguez,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,2.0,false,false,true,0,99
 Daniel Rodriguez,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,2.0,0.0,true,false,false,,100
 David Gallofré,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,1.0,1.0,false,false,true,0,1
 David Gallofré,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
@@ -897,7 +897,7 @@ David Gallofré,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,2.0,0.0,true,f
 David Gallofré,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,1.0,2.0,false,true,false,0,96
 David Gallofré,2026-07-09 22:00:00.000,"1/4",França - Marroc,2.0,1.0,true,false,false,18,97
 David Gallofré,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,2.0,0.0,true,false,false,18,98
-David Gallofré,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,2.0,false,false,true,,99
+David Gallofré,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,2.0,false,false,true,0,99
 David Gallofré,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,2.0,1.0,true,false,false,,100
 Enric Vilalta,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,3.0,1.0,true,false,false,8,1
 Enric Vilalta,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,0.0,2.0,false,true,false,0,2
@@ -997,7 +997,7 @@ Enric Vilalta,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,2.0,0.0,true,fal
 Enric Vilalta,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,1.0,2.0,false,true,false,0,96
 Enric Vilalta,2026-07-09 22:00:00.000,"1/4",França - Marroc,2.0,1.0,true,false,false,18,97
 Enric Vilalta,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,2.0,0.0,true,false,false,18,98
-Enric Vilalta,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,2.0,false,true,false,,99
+Enric Vilalta,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,2.0,false,true,false,24,99
 Enric Vilalta,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,1.0,0.0,true,false,false,,100
 Eric Llensa,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Eric Llensa,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,2.0,false,true,false,0,2
@@ -1097,7 +1097,7 @@ Eric Llensa,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,3.0,0.0,true,false
 Eric Llensa,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,1.0,2.0,false,true,false,0,96
 Eric Llensa,2026-07-09 22:00:00.000,"1/4",França - Marroc,2.0,1.0,true,false,false,18,97
 Eric Llensa,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,2.0,0.0,true,false,false,18,98
-Eric Llensa,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,3.0,false,true,false,,99
+Eric Llensa,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,3.0,false,true,false,17,99
 Eric Llensa,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,2.0,0.0,true,false,false,,100
 Ferran,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Ferran,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
@@ -1197,7 +1197,7 @@ Ferran,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,2.0,1.0,true,false,fals
 Ferran,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,0.0,2.0,false,true,false,0,96
 Ferran,2026-07-09 22:00:00.000,"1/4",França - Marroc,2.0,1.0,true,false,false,18,97
 Ferran,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,3.0,0.0,true,false,false,17,98
-Ferran,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,3.0,false,true,false,,99
+Ferran,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,3.0,false,true,false,18,99
 Ferran,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,2.0,0.0,true,false,false,,100
 Gombit6,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Gombit6,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
@@ -1297,7 +1297,7 @@ Gombit6,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,2.0,0.0,true,false,fal
 Gombit6,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,1.0,2.0,false,true,false,0,96
 Gombit6,2026-07-09 22:00:00.000,"1/4",França - Marroc,2.0,1.0,true,false,false,18,97
 Gombit6,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,1.0,1.0,false,false,true,0,98
-Gombit6,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,3.0,false,true,false,,99
+Gombit6,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,3.0,false,true,false,17,99
 Gombit6,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,1.0,1.0,false,false,true,,100
 Ignacio Giménez,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Ignacio Giménez,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
@@ -1397,7 +1397,7 @@ Ignacio Giménez,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,3.0,1.0,true,
 Ignacio Giménez,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,1.0,2.0,false,true,false,0,96
 Ignacio Giménez,2026-07-09 22:00:00.000,"1/4",França - Marroc,2.0,1.0,true,false,false,18,97
 Ignacio Giménez,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,3.0,0.0,true,false,false,17,98
-Ignacio Giménez,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,2.0,false,true,false,,99
+Ignacio Giménez,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,2.0,false,true,false,24,99
 Ignacio Giménez,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,2.0,0.0,true,false,false,,100
 Ignacio Pons Echevarria,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,3.0,1.0,true,false,false,8,1
 Ignacio Pons Echevarria,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,3.0,false,true,false,0,2
@@ -1497,7 +1497,7 @@ Ignacio Pons Echevarria,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,3.0,1.
 Ignacio Pons Echevarria,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,0.0,2.0,false,true,false,0,96
 Ignacio Pons Echevarria,2026-07-09 22:00:00.000,"1/4",França - Marroc,2.0,1.0,true,false,false,18,97
 Ignacio Pons Echevarria,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,2.0,0.0,true,false,false,18,98
-Ignacio Pons Echevarria,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,2.0,false,true,false,,99
+Ignacio Pons Echevarria,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,2.0,false,true,false,24,99
 Ignacio Pons Echevarria,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,2.0,1.0,true,false,false,,100
 Ignacio Teixeira Izuzquiza,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Ignacio Teixeira Izuzquiza,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
@@ -1597,7 +1597,7 @@ Ignacio Teixeira Izuzquiza,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,2.0
 Ignacio Teixeira Izuzquiza,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,1.0,2.0,false,true,false,0,96
 Ignacio Teixeira Izuzquiza,2026-07-09 22:00:00.000,"1/4",França - Marroc,2.0,1.0,true,false,false,18,97
 Ignacio Teixeira Izuzquiza,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,2.0,1.0,true,false,false,24,98
-Ignacio Teixeira Izuzquiza,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,2.0,false,true,false,,99
+Ignacio Teixeira Izuzquiza,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,2.0,false,true,false,24,99
 Ignacio Teixeira Izuzquiza,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,2.0,0.0,true,false,false,,100
 Ignasi Sanz,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Ignasi Sanz,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
@@ -1697,7 +1697,7 @@ Ignasi Sanz,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,3.0,0.0,true,false
 Ignasi Sanz,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,1.0,2.0,false,true,false,0,96
 Ignasi Sanz,2026-07-09 22:00:00.000,"1/4",França - Marroc,3.0,1.0,true,false,false,17,97
 Ignasi Sanz,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,2.0,0.0,true,false,false,18,98
-Ignasi Sanz,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,3.0,false,true,false,,99
+Ignasi Sanz,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,3.0,false,true,false,17,99
 Ignasi Sanz,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,2.0,2.0,false,false,true,,100
 Jan Galiot Pérez,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Jan Galiot Pérez,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
@@ -1797,7 +1797,7 @@ Jan Galiot Pérez,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,2.0,1.0,true
 Jan Galiot Pérez,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,0.0,2.0,false,true,false,0,96
 Jan Galiot Pérez,2026-07-09 22:00:00.000,"1/4",França - Marroc,2.0,1.0,true,false,false,18,97
 Jan Galiot Pérez,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,3.0,1.0,true,false,false,18,98
-Jan Galiot Pérez,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,2.0,false,true,false,,99
+Jan Galiot Pérez,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,2.0,false,true,false,24,99
 Jan Galiot Pérez,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,2.0,0.0,true,false,false,,100
 Jan Quer,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,1.0,0.0,true,false,false,9,1
 Jan Quer,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
@@ -1897,7 +1897,7 @@ Jan Quer,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,3.0,0.0,true,false,fa
 Jan Quer,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,1.0,2.0,false,true,false,0,96
 Jan Quer,2026-07-09 22:00:00.000,"1/4",França - Marroc,2.0,1.0,true,false,false,18,97
 Jan Quer,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,2.0,0.0,true,false,false,18,98
-Jan Quer,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,2.0,false,true,false,,99
+Jan Quer,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,2.0,false,true,false,24,99
 Jan Quer,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,1.0,1.0,false,false,true,,100
 Jesus Echevarria,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Jesus Echevarria,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,2.0,1.0,true,false,false,15,2
@@ -1997,7 +1997,7 @@ Jesus Echevarria,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,2.0,1.0,true,
 Jesus Echevarria,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,2.0,0.0,true,false,false,0,96
 Jesus Echevarria,2026-07-09 22:00:00.000,"1/4",França - Marroc,3.0,1.0,true,false,false,17,97
 Jesus Echevarria,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,2.0,0.0,true,false,false,18,98
-Jesus Echevarria,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,3.0,1.0,true,false,false,,99
+Jesus Echevarria,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,3.0,1.0,true,false,false,0,99
 Jesus Echevarria,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,2.0,0.0,true,false,false,,100
 Johan,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Johan,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,2.0,false,true,false,0,2
@@ -2097,7 +2097,7 @@ Johan,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,3.0,2.0,true,false,false
 Johan,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,0.0,2.0,false,true,false,0,96
 Johan,2026-07-09 22:00:00.000,"1/4",França - Marroc,3.0,2.0,true,false,false,16,97
 Johan,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,3.0,2.0,true,false,false,17,98
-Johan,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,3.0,false,true,false,,99
+Johan,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,3.0,false,true,false,18,99
 Johan,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,2.0,2.0,false,false,true,,100
 Jordi Amigó Salvatella,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Jordi Amigó Salvatella,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
@@ -2197,7 +2197,7 @@ Jordi Amigó Salvatella,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,2.0,0.
 Jordi Amigó Salvatella,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,1.0,1.0,false,false,true,14,96
 Jordi Amigó Salvatella,2026-07-09 22:00:00.000,"1/4",França - Marroc,2.0,1.0,true,false,false,18,97
 Jordi Amigó Salvatella,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,3.0,1.0,true,false,false,18,98
-Jordi Amigó Salvatella,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,2.0,false,true,false,,99
+Jordi Amigó Salvatella,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,2.0,false,true,false,24,99
 Jordi Amigó Salvatella,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,3.0,0.0,true,false,false,,100
 Jordi Barbal Camats,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Jordi Barbal Camats,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,2.0,2.0,false,false,true,0,2
@@ -2297,7 +2297,7 @@ Jordi Barbal Camats,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,3.0,1.0,tr
 Jordi Barbal Camats,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,1.0,2.0,false,true,false,0,96
 Jordi Barbal Camats,2026-07-09 22:00:00.000,"1/4",França - Marroc,2.0,1.0,true,false,false,18,97
 Jordi Barbal Camats,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,3.0,1.0,true,false,false,18,98
-Jordi Barbal Camats,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,2.0,false,false,true,,99
+Jordi Barbal Camats,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,2.0,false,false,true,0,99
 Jordi Barbal Camats,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,2.0,1.0,true,false,false,,100
 Josep Coll Sanchez,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Josep Coll Sanchez,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
@@ -2397,7 +2397,7 @@ Josep Coll Sanchez,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,2.0,0.0,tru
 Josep Coll Sanchez,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,2.0,1.0,true,false,false,0,96
 Josep Coll Sanchez,2026-07-09 22:00:00.000,"1/4",França - Marroc,2.0,0.0,true,false,false,24,97
 Josep Coll Sanchez,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,1.0,0.0,true,false,false,17,98
-Josep Coll Sanchez,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,2.0,false,true,false,,99
+Josep Coll Sanchez,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,2.0,false,true,false,24,99
 Josep Coll Sanchez,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,2.0,0.0,true,false,false,,100
 Lluc Farrés I Lansac,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Lluc Farrés I Lansac,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
@@ -2497,7 +2497,7 @@ Lluc Farrés I Lansac,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,2.0,0.0,
 Lluc Farrés I Lansac,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,0.0,2.0,false,true,false,0,96
 Lluc Farrés I Lansac,2026-07-09 22:00:00.000,"1/4",França - Marroc,1.0,0.0,true,false,false,18,97
 Lluc Farrés I Lansac,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,2.0,0.0,true,false,false,18,98
-Lluc Farrés I Lansac,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,1.0,false,false,true,,99
+Lluc Farrés I Lansac,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,1.0,false,false,true,0,99
 Lluc Farrés I Lansac,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,2.0,1.0,true,false,false,,100
 Lucas,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Lucas,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
@@ -2597,7 +2597,7 @@ Lucas,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,3.0,1.0,true,false,false
 Lucas,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,0.0,1.0,false,true,false,0,96
 Lucas,2026-07-09 22:00:00.000,"1/4",França - Marroc,2.0,1.0,true,false,false,18,97
 Lucas,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,1.0,0.0,true,false,false,17,98
-Lucas,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,1.0,true,false,false,,99
+Lucas,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,1.0,true,false,false,0,99
 Lucas,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,3.0,1.0,true,false,false,,100
 Manuel De Vega,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Manuel De Vega,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
@@ -2697,7 +2697,7 @@ Manuel De Vega,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,1.0,0.0,true,fa
 Manuel De Vega,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,0.0,2.0,false,true,false,0,96
 Manuel De Vega,2026-07-09 22:00:00.000,"1/4",França - Marroc,1.0,2.0,false,true,false,0,97
 Manuel De Vega,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,1.0,2.0,false,true,false,0,98
-Manuel De Vega,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,1.0,true,false,false,,99
+Manuel De Vega,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,1.0,true,false,false,0,99
 Manuel De Vega,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,1.0,0.0,true,false,false,,100
 Marc Janer Ferrer,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Marc Janer Ferrer,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
@@ -2797,7 +2797,7 @@ Marc Janer Ferrer,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,2.0,0.0,true
 Marc Janer Ferrer,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,1.0,2.0,false,true,false,0,96
 Marc Janer Ferrer,2026-07-09 22:00:00.000,"1/4",França - Marroc,1.0,0.0,true,false,false,18,97
 Marc Janer Ferrer,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,2.0,1.0,true,false,false,24,98
-Marc Janer Ferrer,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,2.0,false,true,false,,99
+Marc Janer Ferrer,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,2.0,false,true,false,24,99
 Marc Janer Ferrer,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,2.0,0.0,true,false,false,,100
 Mercè Jaile,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,3.0,1.0,true,false,false,8,1
 Mercè Jaile,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,3.0,false,true,false,0,2
@@ -2897,7 +2897,7 @@ Mercè Jaile,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,2.0,1.0,true,fals
 Mercè Jaile,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,1.0,3.0,false,true,false,0,96
 Mercè Jaile,2026-07-09 22:00:00.000,"1/4",França - Marroc,1.0,0.0,true,false,false,18,97
 Mercè Jaile,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,2.0,0.0,true,false,false,18,98
-Mercè Jaile,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,2.0,false,true,false,,99
+Mercè Jaile,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,2.0,false,true,false,24,99
 Mercè Jaile,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,3.0,1.0,true,false,false,,100
 Mª Àngels Amigó,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Mª Àngels Amigó,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,0.0,3.0,false,true,false,0,2
@@ -2997,7 +2997,7 @@ Mª Àngels Amigó,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,3.0,0.0,tru
 Mª Àngels Amigó,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,1.0,2.0,false,true,false,0,96
 Mª Àngels Amigó,2026-07-09 22:00:00.000,"1/4",França - Marroc,2.0,1.0,true,false,false,18,97
 Mª Àngels Amigó,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,2.0,2.0,false,false,true,0,98
-Mª Àngels Amigó,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,0.0,true,false,false,,99
+Mª Àngels Amigó,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,0.0,true,false,false,0,99
 Mª Àngels Amigó,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,2.0,0.0,true,false,false,,100
 Nacho Gris,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,3.0,0.0,true,false,false,9,1
 Nacho Gris,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
@@ -3097,7 +3097,7 @@ Nacho Gris,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,4.0,1.0,true,false,
 Nacho Gris,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,1.0,2.0,false,true,false,0,96
 Nacho Gris,2026-07-09 22:00:00.000,"1/4",França - Marroc,2.0,1.0,true,false,false,18,97
 Nacho Gris,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,3.0,0.0,true,false,false,17,98
-Nacho Gris,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,2.0,false,false,true,,99
+Nacho Gris,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,2.0,false,false,true,0,99
 Nacho Gris,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,3.0,1.0,true,false,false,,100
 Nicola Costa,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Nicola Costa,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
@@ -3197,7 +3197,7 @@ Nicola Costa,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,3.0,1.0,true,fals
 Nicola Costa,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,0.0,1.0,false,true,false,0,96
 Nicola Costa,2026-07-09 22:00:00.000,"1/4",França - Marroc,2.0,1.0,true,false,false,18,97
 Nicola Costa,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,2.0,1.0,true,false,false,24,98
-Nicola Costa,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,3.0,false,true,false,,99
+Nicola Costa,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,3.0,false,true,false,17,99
 Nicola Costa,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,3.0,1.0,true,false,false,,100
 Oscar Bernal Rosa,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Oscar Bernal Rosa,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
@@ -3297,7 +3297,7 @@ Oscar Bernal Rosa,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,3.0,0.0,true
 Oscar Bernal Rosa,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,1.0,1.0,false,false,true,14,96
 Oscar Bernal Rosa,2026-07-09 22:00:00.000,"1/4",França - Marroc,1.0,1.0,false,false,true,0,97
 Oscar Bernal Rosa,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,3.0,1.0,true,false,false,18,98
-Oscar Bernal Rosa,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,1.0,true,false,false,,99
+Oscar Bernal Rosa,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,1.0,true,false,false,0,99
 Oscar Bernal Rosa,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,2.0,0.0,true,false,false,,100
 Pablo Ayo De Diego,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Pablo Ayo De Diego,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
@@ -3397,7 +3397,7 @@ Pablo Ayo De Diego,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,1.0,1.0,fal
 Pablo Ayo De Diego,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,0.0,1.0,false,true,false,0,96
 Pablo Ayo De Diego,2026-07-09 22:00:00.000,"1/4",França - Marroc,1.0,2.0,false,true,false,0,97
 Pablo Ayo De Diego,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,2.0,1.0,true,false,false,24,98
-Pablo Ayo De Diego,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,3.0,2.0,true,false,false,,99
+Pablo Ayo De Diego,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,3.0,2.0,true,false,false,0,99
 Pablo Ayo De Diego,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,1.0,1.0,false,false,true,,100
 Patricia Miró Bruna,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,1.0,2.0,false,true,false,0,1
 Patricia Miró Bruna,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,2.0,2.0,false,false,true,0,2
@@ -3497,7 +3497,7 @@ Patricia Miró Bruna,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,3.0,0.0,t
 Patricia Miró Bruna,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,1.0,2.0,false,true,false,0,96
 Patricia Miró Bruna,2026-07-09 22:00:00.000,"1/4",França - Marroc,2.0,2.0,false,false,true,0,97
 Patricia Miró Bruna,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,2.0,1.0,true,false,false,24,98
-Patricia Miró Bruna,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,2.0,false,false,true,,99
+Patricia Miró Bruna,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,2.0,false,false,true,0,99
 Patricia Miró Bruna,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,2.0,1.0,true,false,false,,100
 Pau Serracanta Perarnau,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Pau Serracanta Perarnau,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
@@ -3597,7 +3597,7 @@ Pau Serracanta Perarnau,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,2.0,0.
 Pau Serracanta Perarnau,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,1.0,1.0,false,false,true,14,96
 Pau Serracanta Perarnau,2026-07-09 22:00:00.000,"1/4",França - Marroc,1.0,0.0,true,false,false,18,97
 Pau Serracanta Perarnau,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,2.0,0.0,true,false,false,18,98
-Pau Serracanta Perarnau,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,1.0,false,false,true,,99
+Pau Serracanta Perarnau,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,1.0,false,false,true,0,99
 Pau Serracanta Perarnau,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,2.0,0.0,true,false,false,,100
 Pepe Andres Gil,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Pepe Andres Gil,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,0.0,1.0,false,true,false,0,2
@@ -3697,7 +3697,7 @@ Pepe Andres Gil,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,2.0,0.0,true,f
 Pepe Andres Gil,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,0.0,2.0,false,true,false,0,96
 Pepe Andres Gil,2026-07-09 22:00:00.000,"1/4",França - Marroc,2.0,2.0,false,false,true,0,97
 Pepe Andres Gil,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,1.0,0.0,true,false,false,17,98
-Pepe Andres Gil,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,1.0,false,false,true,,99
+Pepe Andres Gil,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,1.0,false,false,true,0,99
 Pepe Andres Gil,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,3.0,0.0,true,false,false,,100
 Quico,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Quico,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
@@ -3797,7 +3797,7 @@ Quico,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,2.0,1.0,true,false,false
 Quico,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,1.0,1.0,false,false,true,14,96
 Quico,2026-07-09 22:00:00.000,"1/4",França - Marroc,2.0,1.0,true,false,false,18,97
 Quico,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,2.0,1.0,true,false,false,24,98
-Quico,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,2.0,false,true,false,,99
+Quico,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,2.0,false,true,false,24,99
 Quico,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,2.0,0.0,true,false,false,,100
 Quimi,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Quimi,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,2.0,1.0,true,false,false,15,2
@@ -3897,7 +3897,7 @@ Quimi,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,3.0,1.0,true,false,false
 Quimi,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,1.0,2.0,false,true,false,0,96
 Quimi,2026-07-09 22:00:00.000,"1/4",França - Marroc,3.0,2.0,true,false,false,16,97
 Quimi,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,2.0,1.0,true,false,false,24,98
-Quimi,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,2.0,false,true,false,,99
+Quimi,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,2.0,false,true,false,24,99
 Quimi,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,2.0,0.0,true,false,false,,100
 Ricard Segura Trias,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Ricard Segura Trias,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
@@ -3997,7 +3997,7 @@ Ricard Segura Trias,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,1.0,2.0,fa
 Ricard Segura Trias,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,1.0,1.0,false,false,true,14,96
 Ricard Segura Trias,2026-07-09 22:00:00.000,"1/4",França - Marroc,1.0,0.0,true,false,false,18,97
 Ricard Segura Trias,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,2.0,1.0,true,false,false,24,98
-Ricard Segura Trias,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,2.0,false,false,true,,99
+Ricard Segura Trias,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,2.0,false,false,true,0,99
 Ricard Segura Trias,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,2.0,0.0,true,false,false,,100
 Ricardo Luque Echevarria,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,3.0,0.0,true,false,false,9,1
 Ricardo Luque Echevarria,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,0.0,1.0,false,true,false,0,2
@@ -4097,7 +4097,7 @@ Ricardo Luque Echevarria,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,4.0,0
 Ricardo Luque Echevarria,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,1.0,2.0,false,true,false,0,96
 Ricardo Luque Echevarria,2026-07-09 22:00:00.000,"1/4",França - Marroc,1.0,2.0,false,true,false,0,97
 Ricardo Luque Echevarria,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,3.0,0.0,true,false,false,17,98
-Ricardo Luque Echevarria,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,3.0,2.0,true,false,false,,99
+Ricardo Luque Echevarria,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,3.0,2.0,true,false,false,0,99
 Ricardo Luque Echevarria,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,2.0,0.0,true,false,false,,100
 Roger Calabuig,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,3.0,1.0,true,false,false,8,1
 Roger Calabuig,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,2.0,1.0,true,false,false,15,2
@@ -4197,7 +4197,7 @@ Roger Calabuig,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,2.0,0.0,true,fa
 Roger Calabuig,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,1.0,2.0,false,true,false,0,96
 Roger Calabuig,2026-07-09 22:00:00.000,"1/4",França - Marroc,2.0,1.0,true,false,false,18,97
 Roger Calabuig,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,2.0,1.0,true,false,false,24,98
-Roger Calabuig,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,3.0,false,true,false,,99
+Roger Calabuig,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,3.0,false,true,false,17,99
 Roger Calabuig,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,2.0,1.0,true,false,false,,100
 Ruth Hoya,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Ruth Hoya,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,2.0,4.0,false,true,false,0,2
@@ -4297,7 +4297,7 @@ Ruth Hoya,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,3.0,0.0,true,false,f
 Ruth Hoya,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,0.0,2.0,false,true,false,0,96
 Ruth Hoya,2026-07-09 22:00:00.000,"1/4",França - Marroc,3.0,2.0,true,false,false,16,97
 Ruth Hoya,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,3.0,1.0,true,false,false,18,98
-Ruth Hoya,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,2.0,false,false,true,,99
+Ruth Hoya,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,2.0,false,false,true,0,99
 Ruth Hoya,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,2.0,0.0,true,false,false,,100
 Sergio Mérida Ceballos,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Sergio Mérida Ceballos,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,2.0,false,true,false,0,2
@@ -4397,7 +4397,7 @@ Sergio Mérida Ceballos,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,2.0,1.
 Sergio Mérida Ceballos,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,1.0,2.0,false,true,false,0,96
 Sergio Mérida Ceballos,2026-07-09 22:00:00.000,"1/4",França - Marroc,2.0,1.0,true,false,false,18,97
 Sergio Mérida Ceballos,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,2.0,0.0,true,false,false,18,98
-Sergio Mérida Ceballos,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,2.0,false,true,false,,99
+Sergio Mérida Ceballos,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,2.0,false,true,false,24,99
 Sergio Mérida Ceballos,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,3.0,1.0,true,false,false,,100
 Tommy Bridges,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Tommy Bridges,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,2.0,false,true,false,0,2
@@ -4497,7 +4497,7 @@ Tommy Bridges,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,2.0,0.0,true,fal
 Tommy Bridges,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,1.0,2.0,false,true,false,0,96
 Tommy Bridges,2026-07-09 22:00:00.000,"1/4",França - Marroc,3.0,1.0,true,false,false,17,97
 Tommy Bridges,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,2.0,0.0,true,false,false,18,98
-Tommy Bridges,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,1.0,true,false,false,,99
+Tommy Bridges,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,2.0,1.0,true,false,false,0,99
 Tommy Bridges,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,2.0,1.0,true,false,false,,100
 Txell Pujol,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Txell Pujol,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,2.0,false,true,false,0,2
@@ -4597,7 +4597,7 @@ Txell Pujol,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,3.0,0.0,true,false
 Txell Pujol,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,2.0,1.0,true,false,false,0,96
 Txell Pujol,2026-07-09 22:00:00.000,"1/4",França - Marroc,2.0,0.0,true,false,false,24,97
 Txell Pujol,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,2.0,0.0,true,false,false,18,98
-Txell Pujol,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,2.0,false,true,false,,99
+Txell Pujol,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,2.0,false,true,false,24,99
 Txell Pujol,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,3.0,1.0,true,false,false,,100
 Xavi,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,0.0,true,false,false,15,1
 Xavi,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,1.0,1.0,false,false,true,0,2
@@ -4697,7 +4697,7 @@ Xavi,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,3.0,0.0,true,false,false,
 Xavi,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,1.0,1.0,false,false,true,14,96
 Xavi,2026-07-09 22:00:00.000,"1/4",França - Marroc,2.0,1.0,true,false,false,18,97
 Xavi,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,2.0,0.0,true,false,false,18,98
-Xavi,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,1.0,false,false,true,,99
+Xavi,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,1.0,1.0,false,false,true,0,99
 Xavi,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,2.0,1.0,true,false,false,,100
 Xavi González,2026-06-11 21:00:00.000,A,Mèxic - Sud-Àfrica,2.0,1.0,true,false,false,9,1
 Xavi González,2026-06-12 04:00:00.000,A,Corea Sud - Txèquia,0.0,1.0,false,true,false,0,2
@@ -4797,5 +4797,5 @@ Xavi González,2026-07-07 18:00:00.000,"1/8",Argentina  - Egipte,3.0,2.0,true,fa
 Xavi González,2026-07-07 22:00:00.000,"1/8",Suïssa - Colòmbia,2.0,3.0,false,true,false,0,96
 Xavi González,2026-07-09 22:00:00.000,"1/4",França - Marroc,3.0,2.0,true,false,false,16,97
 Xavi González,2026-07-10 21:00:00.000,"1/4",Espanya - Bèlgica,2.0,1.0,true,false,false,24,98
-Xavi González,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,3.0,2.0,true,false,false,,99
+Xavi González,2026-07-11 23:00:00.000,"1/4",Noruega - Anglaterra,3.0,2.0,true,false,false,0,99
 Xavi González,2026-07-12 03:00:00.000,"1/4",Argentina - Suïssa,1.0,0.0,true,false,false,,100
